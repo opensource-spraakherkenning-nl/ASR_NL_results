@@ -1,4 +1,6 @@
-<h1>Kaldi_NL vs. Whisper WER results</h1>
+<h1>WER results</h1>
+
+<h2>Twente's Kaldi_NL vs. Whisper evaluation</h2>
 
 Here is a matrix with **WER** results of the baseline model, Kaldi_NL, as well as different versions of zero-shot Whisper tested on various datasets:
 
@@ -30,6 +32,8 @@ And here are results for the same models on bn_nl with the foreign speech lines 
 |Whisper v3 w/ VAD|14.0%|
 
 Something to note about this setup of the dataset is that Whisper v3 was already able to recognize foreign speech and ignore it. The only notable exception was for a German speaker, where I assume that it was still transcribed because German and Dutch are very similar as languages.
+
+<h2>UvA's Whisper evaluation on Jasmin</h2>
 
 The outcomes presented by [@Golesheed](https://github.com/Golesheed) in preparation for her pilot investigation on the performance of Whisper Large v2 across diverse age groups and linguistic backgrounds within the JASMIN CGN corpus are outlined below. The evaluation was conducted on individual subsets of the dataset without introducing additional divisions. Prior to the assessment, a normalization technique was applied to ensure uniformity in the datasets.
 
