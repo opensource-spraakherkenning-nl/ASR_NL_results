@@ -14,7 +14,7 @@ Here is a matrix with **WER** results of the baseline model, Kaldi_NL, as well a
 |Whisper v2|12.9%|25.9%|22.6%|22.2%|
 |Whisper v3|13.8%|28.1%|34.2%|34.4%|
 |**Whisper v2 w/ VAD**|**11.7%**|**25.3%**|**20.1%**|**14.9%**|
-|Whisper v3 w/ VAD|14.2%|26.5%|-|30.2%|
+|Whisper v3 w/ VAD|14.2%|26.5%|34.7%|30.2%|
 
 **bn_nl** = Broadcast News programmes in the Netherlands, from the N-Best 2008 evaluation dataset<br>
 **cts_nl** = Conversational Telephone Speech in the Netherlands, from the N-Best 2008 evaluation dataset<br>
