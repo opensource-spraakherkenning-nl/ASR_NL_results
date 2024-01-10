@@ -11,10 +11,10 @@ Here is a matrix with **WER** results of the baseline model, Kaldi_NL, as well a
 |Model\Dataset|bn_nl|cts_nl|Jasmin_q_1|Jasmin_q_2|Jasmin_q_3|
 |---|---|---|---|---|---|
 |Kaldi_NL|12.6%|38.6%|28.1%|16.2%|43.6%|
-|Whisper v2|12.9%|25.9%|22.6%|18.0%|36.5%|
-|Whisper v3|13.8%|28.1%|34.2%|29.4%|50.4%|
-|**Whisper v2 w/ VAD**|**11.7%**|**25.3%**|**20.1%**|**12.4%**|**30.2%**|
-|Whisper v3 w/ VAD|14.2%|26.5%|34.7%|27.5%|46.7%|
+|Whisper v2|12.7%|25.9%|22.6%|18.0%|36.5%|
+|Whisper v3|13.7%|28.1%|34.2%|29.4%|50.4%|
+|**Whisper v2 w/ VAD**|**11.6%**|**25.3%**|**20.1%**|**12.4%**|**30.2%**|
+|Whisper v3 w/ VAD|14.1%|26.5%|34.7%|27.5%|46.7%|
 
 |Jasmin_q_4|Jasmin_q_5|
 |---|---|
@@ -41,10 +41,10 @@ And here are results for the same models on bn_nl with the foreign speech lines 
 |Model\Dataset|bn_nl|
 |---|---|
 |Kaldi_NL|12.1%|
-|Whisper v2|12.4%|
-|Whisper v3|13.7%|
-|**Whisper v2 w/ VAD**|**11.3%**|
-|Whisper v3 w/ VAD|14.0%|
+|Whisper v2|12.3%|
+|Whisper v3|13.6%|
+|**Whisper v2 w/ VAD**|**11.1%**|
+|Whisper v3 w/ VAD|13.9%|
 
 Something to note about this setup of the dataset is that Whisper v3 was already able to recognize foreign speech and ignore it. The only notable exception was for a German speaker, where I assume that it was still transcribed because German and Dutch are very similar as languages. So, Whisper v3's hypothesis files were mostly unedited.
 
