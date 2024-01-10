@@ -8,18 +8,19 @@
 
 Here is a matrix with **WER** results of the baseline model, Kaldi_NL, as well as different versions of zero-shot Whisper tested on various datasets:
 
-|Model\Dataset|bn_nl|cts_nl|Jasmin_q_1|Jasmin_q_2|Jasmin_q_5|
-|---|---|---|---|---|---|
-|Kaldi_NL|12.6%|38.6%|28.1%|16.2%|20.9%|
-|Whisper v2|12.9%|25.9%|22.6%|18.0%|22.2%|
-|Whisper v3|13.8%|28.1%|34.2%|29.4%|34.4%|
-|**Whisper v2 w/ VAD**|**11.7%**|**25.3%**|**20.1%**|**12.4%**|**14.9%**|
-|Whisper v3 w/ VAD|14.2%|26.5%|34.7%|27.5%|30.2%|
+|Model\Dataset|bn_nl|cts_nl|Jasmin_q_1|Jasmin_q_2|Jasmin_q_3|Jasmin_q_4|Jasmin_q_5|
+|---|---|---|---|---|---|---|---|
+|Kaldi_NL|12.6%|38.6%|28.1%|16.2%|43.6%|45.3%|20.9%|
+|Whisper v2|12.9%|25.9%|22.6%|18.0%|36.5%|37.3%|22.2%|
+|Whisper v3|13.8%|28.1%|34.2%|29.4%|50.4%|58.5%|34.4%|
+|**Whisper v2 w/ VAD**|**11.7%**|**25.3%**|**20.1%**|**12.4%**|**30.2%**|**33.4%**|**14.9%**|
+|Whisper v3 w/ VAD|14.2%|26.5%|34.7%|27.5%|46.7%|53.0%|30.2%|
 
 **bn_nl** = Broadcast News programmes in the Netherlands, from the N-Best 2008 evaluation dataset<br>
 **cts_nl** = Conversational Telephone Speech in the Netherlands, from the N-Best 2008 evaluation dataset<br>
 **Jasmin_q_1** = Read speech (comp_**q**) of category **1** of speakers (***native children***) for the **Jasmin**-CGN corpus<br>
 **Jasmin_q_2** = Read speech (comp_**q**) of category **2** of speakers (***native teenagers***) for the **Jasmin**-CGN corpus<br>
+**Jasmin_q_3** = Read speech (comp_**q**) of category **3** of speakers (***non-native teenagers***) for the **Jasmin**-CGN corpus<br>
 **Jasmin_q_5** = Read speech (comp_**q**) of category **5** of speakers (***native elderly***) for the **Jasmin**-CGN corpus
 
 <!-- \* There is an issue with the alignment of the hypothesis and reference files. The first word of each segment is timestamped by Whisper before the start timestamp of the segment. Thus, it is recognized as an insertion and, in the actual segment, the first word is recognized as deleted by the transcriber, even though Whisper manages to transcribe it correctly. This issue was fixed by changing the start time of the first word of each segment to first word's end time minus 0.1s for the Whisper annotations. Kaldi annotations do not need any additional text preprocessing. -->
