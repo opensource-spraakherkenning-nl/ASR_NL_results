@@ -8,13 +8,21 @@
 
 Here is a matrix with **WER** results of the baseline model, Kaldi_NL, as well as different versions of zero-shot Whisper tested on various datasets:
 
-|Model\Dataset|bn_nl|cts_nl|Jasmin_q_1|Jasmin_q_2|Jasmin_q_3|Jasmin_q_4|Jasmin_q_5|
-|---|---|---|---|---|---|---|---|
-|Kaldi_NL|12.6%|38.6%|28.1%|16.2%|43.6%|45.3%|20.9%|
-|Whisper v2|12.9%|25.9%|22.6%|18.0%|36.5%|37.3%|22.2%|
-|Whisper v3|13.8%|28.1%|34.2%|29.4%|50.4%|58.5%|34.4%|
-|**Whisper v2 w/ VAD**|**11.7%**|**25.3%**|**20.1%**|**12.4%**|**30.2%**|**33.4%**|**14.9%**|
-|Whisper v3 w/ VAD|14.2%|26.5%|34.7%|27.5%|46.7%|53.0%|30.2%|
+|Model\Dataset|bn_nl|cts_nl|Jasmin_q_1|Jasmin_q_2|Jasmin_q_3|
+|---|---|---|---|---|---|
+|Kaldi_NL|12.6%|38.6%|28.1%|16.2%|43.6%|
+|Whisper v2|12.9%|25.9%|22.6%|18.0%|36.5%|
+|Whisper v3|13.8%|28.1%|34.2%|29.4%|50.4%|
+|**Whisper v2 w/ VAD**|**11.7%**|**25.3%**|**20.1%**|**12.4%**|**30.2%**|
+|Whisper v3 w/ VAD|14.2%|26.5%|34.7%|27.5%|46.7%|
+
+|Jasmin_q_4|Jasmin_q_5|
+|---|---|
+|45.3%|20.9%|
+|37.3%|22.2%|
+|58.5%|34.4%|
+|**33.4%**|**14.9%**|
+|53.0%|30.2%|
 
 **bn_nl** = Broadcast News programmes in the Netherlands, from the N-Best 2008 evaluation dataset<br>
 **cts_nl** = Conversational Telephone Speech in the Netherlands, from the N-Best 2008 evaluation dataset<br>
