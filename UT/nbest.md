@@ -32,7 +32,8 @@ And here are results for the same models on bn_nl with the foreign speech lines 
 Something to note about this setup of the dataset is that Whisper v3 was already able to recognize foreign speech and ignore it. The only notable exception was for a German speaker, where I assume that it was still transcribed because German and Dutch are very similar as languages. So, Whisper v3's hypothesis files were mostly unedited.
 
 <br>
-Here is also a matrix with the time spent in total by each model to evaluate the respective subset:
+
+Here is also a matrix with the **time** spent in total by each model **to evaluate** the respective subset:
 
 |Model\Dataset|bn_nl|cts_nl|
 |---|---|---|
