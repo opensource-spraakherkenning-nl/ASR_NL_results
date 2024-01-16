@@ -1,3 +1,5 @@
+[Back to homepage](../index.md)
+
 <h2>Kaldi_NL vs. Whisper - N-Best 2008 Dutch</h2>
 
 The N-Best 2008 Dutch Evaluation corpus is a corpus designed to evaluate Dutch/Flemish Speech Recognition systems in 2008. UT has only evaluated the Dutch subset of the corpus. The Dutch part of the corpus consists of 2 subsets:
@@ -42,3 +44,6 @@ Here is also a matrix with the **time** spent in total by each model **to evalua
 |Whisper v3|1h:07m:01s|0h:39m:21s|
 |Whisper v2 w/ VAD|0h:51m:40s|0h:39m:49s|
 |Whisper v3 w/ VAD|1h:01m:43s|0h:37m:430s|
+
+### Preprocessing, setup, and postprocessing
+For more details, click [here](./nbest_setup.md).
