@@ -1,4 +1,4 @@
-[Back to homepage](../index.md)
+[Back to homepage](../../index.md)
 
 <h2>Kaldi_NL vs. Whisper - Jasmin-CGN</h2>
 
