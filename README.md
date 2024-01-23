@@ -1,6 +1,6 @@
-# NL-ASR-results
+# ASR_NL_results
 
-Welcome to the website created for researchers of Dutch ASR technology to share the results they obtained. It is at the moment accessible at https://greenw0lf.github.io/NL-ASR-results, but there are plans in the future to change its domain.
+Welcome to the website created for researchers of Dutch ASR technology to share the results they obtained. It is at the moment accessible at \<TO BE UPDATED SOON\>.
 
 ## Local setup
 To test changes locally, you can set up the website on your own machine by following the [official Github guide](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
