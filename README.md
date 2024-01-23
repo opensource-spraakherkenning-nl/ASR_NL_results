@@ -1,6 +1,8 @@
 # ASR_NL_results
 
-Welcome to the website created for researchers of Dutch ASR technology to share the results they obtained. It is at the moment accessible at \<TO BE UPDATED SOON\>.
+Welcome to the website created for researchers of Dutch ASR technology to share the results they obtained. 
+
+It is accessible at: https://opensource-spraakherkenning-nl.github.io/ASR_NL_results
 
 ## Local setup
 To test changes locally, you can set up the website on your own machine by following the [official Github guide](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
