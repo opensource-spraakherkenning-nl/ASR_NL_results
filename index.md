@@ -19,3 +19,6 @@ The implementation used to output word-level timestamps from Whisper is [whisper
 
 ## Contributions
 Feel free to click the link at the top that leads you to the GitHub repository of this website. You may add changes if you want by forking the repository, making changes on your fork, then opening a pull request on the source repository.
+
+## FAQ
+**Coming soon**
