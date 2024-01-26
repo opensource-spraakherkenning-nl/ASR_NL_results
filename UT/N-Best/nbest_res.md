@@ -40,10 +40,10 @@ Here is also a matrix with the **time** spent in total by each model **to evalua
 |Model\Dataset|bn_nl|cts_nl|
 |---|---|---|
 |**Kaldi_NL**|**0h:08m:58s**|**0h:14m:47s**|
-|Whisper v2|1h:10m:19s|0h:53m:25s|
-|Whisper v3|1h:07m:01s|0h:39m:21s|
-|Whisper v2 w/ VAD|0h:51m:40s|0h:39m:49s|
-|Whisper v3 w/ VAD|1h:01m:43s|0h:37m:430s|
+|Whisper v2|1h:11m:59s|0h:53m:55s|
+|Whisper v3|1h:09m:00s|0h:40m:20s|
+|Whisper v2 w/ VAD|0h:52m:03s|0h:40m:09s|
+|Whisper v3 w/ VAD|1h:02m:13s|0h:37m:50s|
 
 ### Preprocessing, setup, and postprocessing
 For more details, click [here](./nbest_setup.md).

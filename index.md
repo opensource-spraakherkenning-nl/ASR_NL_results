@@ -17,6 +17,10 @@ For Whisper, a high-performance computing cluster was used. The cluster's hardwa
 
 The implementation used to output word-level timestamps from Whisper is [whisper-timestamped](https://github.com/linto-ai/whisper-timestamped).
 
+It has been observed that Whisper requires on average 7 GB of VRAM per recording, with an initial memory requirement of 9.4 GB. A test has been done on a less-performant GPU, RTX 4070 with 12 GB VRAM, which proved that a GPU with 12 GB VRAM could also be used for the large versions of Whisper.
+
+For Kaldi_NL, the memory it uses for diarization is 355 MB on average, and for NNet3 decoding, 1.6 GB. Keep in mind that RAM is used in this case since it runs on the CPU.
+
 ## Contributions
 Feel free to click the link at the top that leads you to the GitHub repository of this website. You may add changes if you want by forking the repository, making changes on your fork, then opening a pull request on the source repository.
 
