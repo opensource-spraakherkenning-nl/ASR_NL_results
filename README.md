@@ -10,7 +10,7 @@ To test changes locally, you can set up the website on your own machine by follo
 ## File structure
 Each page of the website has its own markdown file. `index.md` corresponds to the main page of the website. The folder `UT` contains the WER results and time performance of the models as reported by University of Twente. Inside the folder, there are 2 markdown files corresponding to the 2 different corpora used during evaluation.
 
-Each researcher/developer should create a new folder with an unique and significant name. The structure inside that folder can vary, according to how the researcher/developer wants to structure it. Some ideas include reporting the WER and time in 2 separate files, for all datasets/corpora, or the same structure as in the `UT` folder, reporting all results for each dataset/corpus used.
+Each researcher/developer should create a new folder with an unique and semnificative name. The structure inside that folder can vary, according to how the researcher/developer wants to structure it. Some ideas include reporting the WER and time in 2 separate files, for all datasets/corpora, or the same structure as in the `UT` folder, reporting all results for each dataset/corpus used.
 
 ## Add your own work!
 We encourage all Dutch ASR researchers and developers to upload the results they obtained on our website. This can be simply done by:
