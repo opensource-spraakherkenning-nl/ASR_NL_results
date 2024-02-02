@@ -8,8 +8,12 @@ Here is a matrix with **WER** results of the baseline model, Kaldi_NL, as well a
 |Kaldi_NL|28.1%|16.2%|43.6%|45.3%|20.9%|
 |Whisper v2|22.6%|18.0%|36.5%|37.3%|22.2%|
 |Whisper v3|34.2%|29.4%|50.4%|58.5%|34.4%|
-|**Whisper v2 w/ VAD**|**20.1%**|**12.4%**|**30.2%**|**33.4%**|**14.9%**|
+|Whisper v2 w/ VAD|20.1%|12.4%|**30.2%**|**33.4%**|**14.9%**|
 |Whisper v3 w/ VAD|34.7%|27.5%|46.7%|53.0%|30.2%|
+|faster-whisper v2|20.3%|11.3%||||
+|faster-whisper v3|28.1%|25.2%||||
+|faster-whisper v2 w/ VAD|**19.1%**|**11.1%**||||
+|faster-whisper v3 w/ VAD|27.5%|22.4%||||
 
 |Model\Dataset|Jasmin_p_1|Jasmin_p_2|Jasmin_p_3|
 |---|---|---|---|
@@ -30,6 +34,10 @@ And its corresponding matrix with the **time** spent in total by each model **to
 |Whisper v3|3h:12m:26s|2h:27m:52s|6h:13m:28s<b>*</b>|3h:04m:32s|3h:09m:49s|
 |Whisper v2 w/ VAD|2h:14m:40s|1h:51m:46s|1h:49m:48s|4h:18m:51s<b>*</b>|2h:08m:02s|
 |Whisper v3 w/ VAD|2h:58m:24s|2h:19m:43s|2h:38m:23s|2h:31m:35s|2h:47m:33s|
+|faster-whisper v2|0h:30m:45s|0h:26m:48s||||
+|faster-whisper v3|0h:41m:58s|0h:38m:13s||||
+|faster-whisper v2 w/ VAD|0h:32m:55s|0h:27m:16s||||
+|faster-whisper v3 w/ VAD|0h:40m:33s|0h:31m:45s||||
 
 |Model\Dataset|Jasmin_p_1|Jasmin_p_2|Jasmin_p_3|
 |---|---|---|---|
