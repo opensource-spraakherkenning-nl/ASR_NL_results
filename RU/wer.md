@@ -1,6 +1,6 @@
 
 # WER results
-This fiel presents the average (avg.) WER scores of the three datasets.
+This file presents the average (avg.) WER scores of the three datasets tested within the [HoMed](https://homed.ruhosting.nl/) project (2021-2024).
 The concrete results (INS, DEL, SUB) of each one of the files of the three datasets are included in the .sys files generated with [SCLITE](https://github.com/usnistgov/SCTK).
 
 
