@@ -4,8 +4,19 @@ For **Kaldi_NL**, evaluation was run on a local machine instead of a cluster. Th
 
 For **Whisper**, a high-performance computing cluster was used. The cluster's hardware consists of 2 x Nvidia A10 with 24 GB VRAM each, using CUDA version 11.6, 256 GB RAM and 56 CPU cores. For more details, check the [wiki](https://jupyter.wiki.utwente.nl/) page of the cluster.
 
-The implementation used to output word-level timestamps from Whisper is [whisper-timestamped](https://github.com/linto-ai/whisper-timestamped). As for Kaldi_NL, the repository can be found [here](https://github.com/opensource-spraakherkenning-nl/Kaldi_NL). The model used for Kaldi_NL is `radboud_OH` and its corresponding script is `decode_OH.sh`.
+The implementation used to output word-level timestamps from Whisper is [whisper-timestamped](https://github.com/linto-ai/whisper-timestamped). In addition, a more optimized implementation of Whisper has been used, namely [faster-whisper](https://github.com/SYSTRAN/faster-whisper). Both of them use the same parameters as the original implementation from [OpenAI](https://github.com/openai/whisper). The parameters are:
+- `beam_size=5`
+- `best_of=5`
+- `temperature=(0.0, 0.2, 0.4, 0.6, 0.8, 1.0)`
+- `language="nl"`
 
-It has been observed that Whisper requires on average 7 GB of VRAM per recording, with an initial memory requirement of 9.4 GB. A test has been done on a less-performant GPU, RTX 4070 with 12 GB VRAM, which proved that a GPU with 12 GB VRAM could also be used for the large versions of Whisper.
+<br>
+
+As for Kaldi_NL, the repository can be found [here](https://github.com/opensource-spraakherkenning-nl/Kaldi_NL). The model used for Kaldi_NL is `radboud_OH` and its corresponding script is `decode_OH.sh`.
+
+<br>
+It has been observed that `whisper-timestamped` (simplified to "Whisper" in the results matrix) requires on average 7 GB of VRAM per recording, with an initial memory requirement of 9.4 GB. A test has been done on a less-performant GPU, RTX 4070 with 12 GB VRAM, which proved that a GPU with 12 GB VRAM could also be used for the large versions of Whisper.
+
+The better-optimized implementation, `faster-whisper`, however, uses on average 3.2 - 3.7 GB of VRAM per recording. Therefore, this implementation can be used on GPUs with smaller video memory capacity.
 
 For Kaldi_NL, the memory it uses for diarization is 355 MB on average, and for NNet3 decoding, 1.6 GB. Keep in mind that RAM is used in this case since it runs on the CPU.
