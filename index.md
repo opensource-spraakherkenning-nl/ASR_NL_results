@@ -16,7 +16,9 @@ The results in **bold** indicate the best performance for the specific subset(s)
 
 *RU = Radboud University*
 
-Three datasets related to the medical domain are used (see mor details in the file RU/wer.md)
+Three datasets related to the medical domain are used (see mor details in the file RU/wer.md).
+
+These results were achieved during the PDI-SSH Homo Medicinalis ([HoMed](https://homed.ruhosting.nl/)) project (2021-2024).
 
 
 ## Contributions
