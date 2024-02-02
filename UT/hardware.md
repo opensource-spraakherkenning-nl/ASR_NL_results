@@ -15,6 +15,7 @@ The implementation used to output word-level timestamps from Whisper is [whisper
 As for Kaldi_NL, the repository can be found [here](https://github.com/opensource-spraakherkenning-nl/Kaldi_NL). The model used for Kaldi_NL is `radboud_OH` and its corresponding script is `decode_OH.sh`.
 
 <br>
+
 It has been observed that `whisper-timestamped` (simplified to "Whisper" in the results matrix) requires on average 7 GB of VRAM per recording, with an initial memory requirement of 9.4 GB. A test has been done on a less-performant GPU, RTX 4070 with 12 GB VRAM, which proved that a GPU with 12 GB VRAM could also be used for the large versions of Whisper.
 
 The better-optimized implementation, `faster-whisper`, however, uses on average 3.2 - 3.7 GB of VRAM per recording. Therefore, this implementation can be used on GPUs with smaller video memory capacity.
