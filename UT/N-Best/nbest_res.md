@@ -6,7 +6,7 @@ The N-Best 2008 Dutch Evaluation corpus is a corpus designed to evaluate Dutch/F
 - `bn_nl`: Broadcast News programmes in the Netherlands,
 - `cts_nl`: Conversational Telephone Speech in the Netherlands.
 
-For more details about the corpus, click [here](https://www.isca-speech.org/archive/pdfs/interspeech_2009/leeuwen09b_interspeech.pdf).
+For more details about the corpus, click [here](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=32b10cb0f4cb99ba934f5be5066638a5ad9b19f2).
 
 <br>
 
