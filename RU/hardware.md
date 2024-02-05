@@ -1,3 +1,4 @@
+[Back to homepage](../index.md)
 
 # Hardware setup
 
