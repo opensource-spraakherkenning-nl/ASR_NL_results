@@ -37,7 +37,7 @@
 *Avg. results:*
 |ASR system|WER (%)|GPUs|
 |---|---|---|
-|Whisper-large-v2|58.1|No|
+|Whisper-large-v2|57.1|No|
 |Wav2vec2.0|-|-|
 |Kaldi-NL (fine-tuned)|68.0|No|
 |Kaldi-NL|71.2|No|
