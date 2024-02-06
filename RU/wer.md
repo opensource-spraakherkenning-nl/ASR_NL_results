@@ -42,14 +42,3 @@
 |Whisper-large-v2|57.1|No|
 |Kaldi-NL (fine-tuned)|68.0|No|
 |Kaldi-NL|71.2|No|
-
-<br>
-
-This is the matrix containing the average results of all models on all 3 datasets, combined into one table:
-
-|ASR system|MJ|MV|Nivel|
-|---|---|---|---|
-|Whisper-large-v2|-|10.9|57.1|
-|Wav2vec2.0|12.8|24.2|-|
-|Kaldi-NL (fine-tuned)|-|-|68.0|
-|Kaldi-NL|16.1|28.4|71.2|
