@@ -9,6 +9,7 @@ Welcome to the page where researchers and developers report performance of vario
 - [Results for N-Best 2008 Dutch Evaluation corpus](./UT/N-Best/nbest_res.md)
 - [Results for Jasmin-CGN corpus](./UT/Jasmin/jasmin.md)
 - [Hardware setup & model configurations](./UT/hardware.md)
+- [Why do the results differ between whisper-timestamped and faster-whisper?](./UT/analysis.md)
 
 The results in **bold** indicate the best performance for the specific subset(s) between all models.
 
