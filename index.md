@@ -17,7 +17,7 @@ The results in **bold** indicate the best performance for the specific subset(s)
 
 *RU = Radboud University*
 
-- [Results on three medical domain datasets](./RU/wer.md)
+- [Results on four medical domain datasets](./RU/wer.md)
 - [Hardware setup](./RU/hardware.md)
 
 
