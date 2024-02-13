@@ -7,7 +7,7 @@
 
 <br>
 
-1.Medicijnjournaal [(**MJ**)](https://github.com/opensource-spraakherkenning-nl/ASR_NL_results/tree/master/RU/1_MJ): 35 files
+1.Medicijnjournaal [(**MJ**)](https://github.com/opensource-spraakherkenning-nl/ASR_NL_results/tree/master/RU/1_MJ/): 35 files
 
 *Ground truth*: [https://doi.org/10.34973/dpjc-0v85](https://doi.org/10.34973/dpjc-0v85)
 
@@ -19,7 +19,7 @@
 <br>
 
 
-2.Medical video material [(**MV**)](https://github.com/opensource-spraakherkenning-nl/ASR_NL_results/tree/master/RU/2_MV): 11 files. 
+2.Medical video material [(**MV**)](https://github.com/opensource-spraakherkenning-nl/ASR_NL_results/tree/master/RU/2_MV/): 11 files. 
 
 *Ground truth*: Ask via email: [cristian.tejedorgarcia@ru.nl](mailto:cristian.tejedorgarcia@ru.nl)
 
@@ -33,7 +33,7 @@
 
  <br>
 			
-3.Patient-provider medical conversations at Nivel originally inteded for testing purposes [(**Nivel**)](https://github.com/opensource-spraakherkenning-nl/ASR_NL_results/tree/master/RU/3_Nivel): 38 files (~10 hours)
+3.Patient-provider medical conversations at Nivel originally inteded for testing purposes [(**Nivel**)](https://github.com/opensource-spraakherkenning-nl/ASR_NL_results/tree/master/RU/3_Nivel/): 38 files (~10 hours)
 
 *Ground truth*: You need permission to access to Nivel files. Ask via email: [cristian.tejedorgarcia@ru.nl](mailto:cristian.tejedorgarcia@ru.nl)
 
@@ -45,7 +45,7 @@
  
  <br>
 
-4.Patient-provider medical conversations at Nivel originally inteded for training purposes [(**Nivel_Train**)](https://github.com/opensource-spraakherkenning-nl/ASR_NL_results/tree/master/RU/4_Nivel_Train): 110 files (~40 hours)
+4.Patient-provider medical conversations at Nivel originally inteded for training purposes [(**Nivel_Train**)](https://github.com/opensource-spraakherkenning-nl/ASR_NL_results/tree/master/RU/4_Nivel_Train/): 110 files (~40 hours)
 
 *Ground truth*: You need permission to access to Nivel files. Ask via email: [cristian.tejedorgarcia@ru.nl](mailto:cristian.tejedorgarcia@ru.nl)
 
