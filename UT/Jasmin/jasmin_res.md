@@ -27,6 +27,8 @@ Here is a matrix with **WER** results of the baseline model, Kaldi_NL, as well a
 |**faster-whisper v2 w/ VAD**|**28.2%**|**22.9%**|**39.2%**|**51.4%**|**26.8%**|
 |faster-whisper v3 w/ VAD|34.4%|28.6%|48.7%|58.2%|33.6%|
 
+**Jasmin_{p,q}_{1,2,3,4,5}** = **p** stands for **comp_p (HMI speech)**, whereas **q** stands for **comp_q (read speech)**. The number that can range from **1-5** represents the corresponding **age group/nativeness** from the corpus (for more details, go back one page).
+
 <br>
 
 And its corresponding matrix with the **time** spent in total by each model **to evaluate** the respective subset:
