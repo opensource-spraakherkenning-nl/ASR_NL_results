@@ -2,7 +2,7 @@
 
 Welcome to the page where researchers and developers report performance of various ASR models on Dutch datasets.
 
-<h2>UT's Kaldi_NL vs. Whisper evaluation</h2>
+<h2>UT's Kaldi_NL vs. Whisper vs. XLS-R evaluation</h2>
 
 *UT = University of Twente*
 
@@ -22,7 +22,6 @@ The results in **bold** indicate the best performance for the specific subset(s)
 
 
 These results were achieved during the PDI-SSH Homo Medicinalis ([HoMed](https://homed.ruhosting.nl/)) project (2021-2024).
-
 
 ## Contributions
 Feel free to click the link at the top that leads you to the GitHub repository of this website. You may add changes if you want by forking the repository, making changes on your fork, then opening a pull request on the source repository.

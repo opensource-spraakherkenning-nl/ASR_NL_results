@@ -23,6 +23,7 @@ Here is a matrix with **WER** results of the baseline model, Kaldi_NL, as well a
 |faster-whisper v3|12.5%|25.5%|
 |**faster-whisper v2 w/ VAD**|**10.0%**|**23.9%**|
 |faster-whisper v3 w/ VAD|12.3%|25.1%|
+|wav2vec2-xls-r-1b-dutch|14.8%|33.5%|
 
 <br>
 And here are results for the same models on bn_nl with the foreign speech lines removed from the dataset:
@@ -43,7 +44,7 @@ Here is also a matrix with the **time** spent in total by each model **to evalua
 
 |Model\Dataset|bn_nl|cts_nl|
 |---|---|---|
-|*Kaldi_NL*|**0h:08m:58s**|0h:14m:47s|
+|Kaldi_NL|0h:08m:58s|0h:14m:47s|
 |Whisper v2|1h:11m:59s|0h:53m:55s|
 |Whisper v3|1h:09m:00s|0h:40m:20s|
 |Whisper v2 w/ VAD|0h:52m:03s|0h:40m:09s|
@@ -51,7 +52,8 @@ Here is also a matrix with the **time** spent in total by each model **to evalua
 |faster-whisper v2|0h:11m:31s|0h:9m:30s|
 |faster-whisper v3|0h:11m:21s|0h:9m:41s|
 |faster-whisper v2 w/ VAD|0h:12m:13s|0h:9m:36s|
-|*faster-whisper v3 w/ VAD*|0h:12m:25s|**0h:9m:13s**|
+|faster-whisper v3 w/ VAD|0h:12m:25s|0h:9m:13s|
+|**wav2vec2-xls-r-1b-dutch**|**0h:07m:36s**|**0h:07m:52s**|
 
 ### Preprocessing, setup, and postprocessing
 For more details, click [here](./nbest_setup.md).
