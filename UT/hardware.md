@@ -18,6 +18,10 @@ As for Kaldi_NL, the repository can be found [here](https://github.com/opensourc
 
 For XLS-R, a version of it fine-tuned on Dutch by Jonatas Grosman has been used which can be found [here](https://huggingface.co/jonatasgrosman/wav2vec2-xls-r-1b-dutch).
 
+For MMS, both versions are the official models released by Meta AI. Links to the models are:
+- [MMS - 102 languages](https://huggingface.co/facebook/mms-1b-fl102)
+- [MMS - 1162 languages](https://huggingface.co/facebook/mms-1b-all)
+
 <br>
 
 It has been observed that `whisper-timestamped` (simplified to "Whisper" in the results matrix) requires on average 7 GB of VRAM per recording, with an initial memory requirement of 9.4 GB. A test has been done on a less-performant GPU, RTX 4070 with 12 GB VRAM, which proved that a GPU with 12 GB VRAM could also be used for the large versions of Whisper.

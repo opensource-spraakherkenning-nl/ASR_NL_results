@@ -1,4 +1,4 @@
-[Back to homepage](../../index.md)
+Back to homepage](../../index.md)
 
 <h2>Kaldi_NL vs. Whisper - N-Best 2008 Dutch</h2>
 
@@ -23,7 +23,9 @@ Here is a matrix with **WER** results of the baseline model, Kaldi_NL, as well a
 |faster-whisper v3|12.5%|25.5%|
 |**faster-whisper v2 w/ VAD**|**10.0%**|**23.9%**|
 |faster-whisper v3 w/ VAD|12.3%|25.1%|
-|wav2vec2-xls-r-1b-dutch|14.8%|33.5%|
+|XLS-R FT on Dutch|14.8%|33.5%|
+|MMS - 102 languages|23.4%|49.0%|
+|MMS - 1162 languages|18.5%|42.7%|
 
 <br>
 And here are results for the same models on bn_nl with the foreign speech lines removed from the dataset:
@@ -53,7 +55,9 @@ Here is also a matrix with the **time** spent in total by each model **to evalua
 |faster-whisper v3|0h:11m:21s|0h:9m:41s|
 |faster-whisper v2 w/ VAD|0h:12m:13s|0h:9m:36s|
 |faster-whisper v3 w/ VAD|0h:12m:25s|0h:9m:13s|
-|**wav2vec2-xls-r-1b-dutch**|**0h:07m:36s**|**0h:07m:52s**|
+|XLS-R FT on Dutch|0h:07m:36s|0h:07m:52s|
+|*MMS - 102 languages*|**0h:04m:33s**|0h:04m:23s|
+|*MMS - 1162 languages*|0h:05m:26s|**0h:04m:14s**|
 
 ### Preprocessing, setup, and postprocessing
 For more details, click [here](./nbest_setup.md).

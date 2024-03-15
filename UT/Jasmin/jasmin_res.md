@@ -14,7 +14,9 @@ Here is a matrix with **WER** results of the baseline model, Kaldi_NL, as well a
 |faster-whisper v3|28.1%|25.2%|50.9%|62.6%|27.6%|
 |**faster-whisper v2 w/ VAD**|**19.1%**|**11.1%**|**29.5%**|**30.0%**|**12.8%**|
 |faster-whisper v3 w/ VAD|27.5%|22.4%|42.6%|49.4%|25.2%|
-|wav2vec2-xls-r-1b-dutch|22.4%|13.3%|33.8%|36.1%|17.2%|
+|XLS-R FT on Dutch|22.4%|13.3%|33.8%|36.1%|17.2%|
+|MMS - 102 languages|31.6%|20.3%|54.2%|55.1%|23.9%|
+|MMS - 1162 languages|28.9%|20.0%|50.1%|54.0%|28.3%|
 
 |Model\Dataset|Jasmin_p_1|Jasmin_p_2|Jasmin_p_3|Jasmin_p_4|Jasmin_p_5|
 |---|---|---|---|---|---|
@@ -27,7 +29,9 @@ Here is a matrix with **WER** results of the baseline model, Kaldi_NL, as well a
 |faster-whisper v3|85.8%|68.3%|84.4%|84.5%|51.4%|
 |**faster-whisper v2 w/ VAD**|**28.2%**|**22.9%**|**39.2%**|**51.4%**|**26.8%**|
 |faster-whisper v3 w/ VAD|34.4%|28.6%|48.7%|58.2%|33.6%|
-|wav2vec2-xls-r-1b-dutch|60.2%|62.2%|70.5%|59.1%|47.0%|
+|XLS-R FT on Dutch|60.2%|62.2%|70.5%|59.1%|47.0%|
+|MMS - 102 languages|79.8%|79.9%|90.7%|80.5%|56.4%|
+|MMS - 1162 languages|82.4%|87.9%|94.5%|83.3%|59.9%|
 
 **Jasmin_{p,q}_{1,2,3,4,5}** = **p** stands for **comp_p (HMI speech)**, whereas **q** stands for **comp_q (read speech)**. The number that can range from **1-5** represents the corresponding **age group/nativeness** from the corpus (for more details, go back one page).
 
@@ -46,7 +50,9 @@ And its corresponding matrix with the **time** spent in total by each model **to
 |faster-whisper v3|0h:41m:58s|0h:38m:13s|0h:48m:28s|0h:55m:48s|0h:44m:12s|
 |faster-whisper v2 w/ VAD|0h:32m:55s|0h:27m:16s|0h:25m:51s|0h:21m:58s|0h:32m:09s|
 |faster-whisper v3 w/ VAD|0h:40m:33s|0h:31m:45s|0h:37m:36s|0h:37m:11s|0h:38m:00s|
-|wav2vec2-xls-r-1b-dutch|0h:35m:18s|0h:27m:33s|0h:32m:39s|0h:31m:49s|0h:39m:05s|
+|XLS-R FT on Dutch|0h:35m:18s|0h:27m:33s|0h:32m:39s|0h:31m:49s|0h:39m:05s|
+|MMS - 102 languages|22.4%|13.3%|33.8%|36.1%|17.2%|
+|MMS - 1162 languages|22.4%|13.3%|33.8%|36.1%|17.2%|
 
 |Model\Dataset|Jasmin_p_1|Jasmin_p_2|Jasmin_p_3|Jasmin_p_4|Jasmin_p_5|
 |---|---|---|---|---|---|
@@ -59,6 +65,8 @@ And its corresponding matrix with the **time** spent in total by each model **to
 |faster-whisper v3|0h:54m:15s|0h:32m:13s|0h:34m:35s|0h:55m:02s|1h:12m:22s|
 |***faster-whisper v2 w/ VAD***|**0h:09m:59s**|0h:07m:37s|**0h:07m:57s**|**0h:13m:32s**|0h:22m:31s|
 |*faster-whisper v3 w/ VAD*|0h:13m:43s|**0h:07m:17s**|0h:09m:57s|0h:22m:45s|0h:25m:52s|
-|wav2vec2-xls-r-1b-dutch|0h:42m:20s|0h:24m:19s|0h:26m:52s|0h:36m:42s|0h:48m:26s|
+|XLS-R FT on Dutch|0h:42m:20s|0h:24m:19s|0h:26m:52s|0h:36m:42s|0h:48m:26s|
+|MMS - 102 languages|22.4%|13.3%|33.8%|36.1%|17.2%|
+|MMS - 1162 languages|22.4%|13.3%|33.8%|36.1%|17.2%|
 
 <b>*</b> Performance might have been impacted by other processes from other users running on the same GPU since the hardware is available via a cluster system. A rerun using different hardware might be done in the near future.

@@ -2,7 +2,7 @@
 
 Welcome to the page where researchers and developers report performance of various ASR models on Dutch datasets.
 
-<h2>UT's Kaldi_NL vs. Whisper vs. XLS-R evaluation</h2>
+<h2>UT's Kaldi_NL vs. Whisper vs. others evaluation</h2>
 
 *UT = University of Twente*
 
@@ -13,6 +13,8 @@ Welcome to the page where researchers and developers report performance of vario
 
 The results in **bold** indicate the best performance for the specific subset(s) between all models.
 
+These results were achieved during the PDI-SSH **O**ral **H**istory - **S**tories at the **M**useum around **Art** ([OH-SMArt](https://www.uva.nl/en/discipline/conservation-and-restoration/research/research-projects/oh-smart/oh-smart.html)) project.
+
 <h2>RU's Kaldi_NL vs. Whisper vs. Wav2vec2.0 evaluation</h2>
 
 *RU = Radboud University*
@@ -21,7 +23,7 @@ The results in **bold** indicate the best performance for the specific subset(s)
 - [Hardware setup](./RU/hardware.md)
 
 
-These results were achieved during the PDI-SSH Homo Medicinalis ([HoMed](https://homed.ruhosting.nl/)) project (2021-2024).
+These results were achieved during the PDI-SSH **Ho**mo **Med**icinalis ([HoMed](https://homed.ruhosting.nl/)) project (2021-2024).
 
 ## Contributions
 Feel free to click the link at the top that leads you to the GitHub repository of this website. You may add changes if you want by forking the repository, making changes on your fork, then opening a pull request on the source repository.
