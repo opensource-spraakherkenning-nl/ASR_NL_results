@@ -51,8 +51,8 @@ And its corresponding matrix with the **time** spent in total by each model **to
 |faster-whisper v2 w/ VAD|0h:32m:55s|0h:27m:16s|0h:25m:51s|0h:21m:58s|0h:32m:09s|
 |faster-whisper v3 w/ VAD|0h:40m:33s|0h:31m:45s|0h:37m:36s|0h:37m:11s|0h:38m:00s|
 |XLS-R FT on Dutch|0h:35m:18s|0h:27m:33s|0h:32m:39s|0h:31m:49s|0h:39m:05s|
-|MMS - 102 languages|22.4%|13.3%|33.8%|36.1%|17.2%|
-|MMS - 1162 languages|22.4%|13.3%|33.8%|36.1%|17.2%|
+|MMS - 102 languages|0h:17m:59s|0h:13m:22s|0h:16m:01s|0h:15m:38s|0h:17m:35s|
+|MMS - 1162 languages|0h:17m:46s|0h:13m:22s|0h:16m:00s|0h:15m:37s|0h:17m:35s|
 
 |Model\Dataset|Jasmin_p_1|Jasmin_p_2|Jasmin_p_3|Jasmin_p_4|Jasmin_p_5|
 |---|---|---|---|---|---|
@@ -66,7 +66,7 @@ And its corresponding matrix with the **time** spent in total by each model **to
 |***faster-whisper v2 w/ VAD***|**0h:09m:59s**|0h:07m:37s|**0h:07m:57s**|**0h:13m:32s**|0h:22m:31s|
 |*faster-whisper v3 w/ VAD*|0h:13m:43s|**0h:07m:17s**|0h:09m:57s|0h:22m:45s|0h:25m:52s|
 |XLS-R FT on Dutch|0h:42m:20s|0h:24m:19s|0h:26m:52s|0h:36m:42s|0h:48m:26s|
-|MMS - 102 languages|22.4%|13.3%|33.8%|36.1%|17.2%|
-|MMS - 1162 languages|22.4%|13.3%|33.8%|36.1%|17.2%|
+|MMS - 102 languages|0h:18m:02s|0h:14m:02s|0h:14m:01s|0h:18m:59s|0h:25m:34s|
+|MMS - 1162 languages|0h:17m:55s|0h:13m:56s|0h:13m:59s|0h:18m:54s|0h:25m:24s|
 
 <b>*</b> Performance might have been impacted by other processes from other users running on the same GPU since the hardware is available via a cluster system. A rerun using different hardware might be done in the near future.
