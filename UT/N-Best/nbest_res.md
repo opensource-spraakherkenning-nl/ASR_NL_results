@@ -1,4 +1,4 @@
-Back to homepage](../../index.md)
+[Back to homepage](../../index.md)
 
 <h2>Kaldi_NL vs. Whisper - N-Best 2008 Dutch</h2>
 
@@ -51,10 +51,10 @@ Here is also a matrix with the **time** spent in total by each model **to evalua
 |Whisper v3|1h:09m:00s|0h:40m:20s|
 |Whisper v2 w/ VAD|0h:52m:03s|0h:40m:09s|
 |Whisper v3 w/ VAD|1h:02m:13s|0h:37m:50s|
-|faster-whisper v2|0h:11m:31s|0h:9m:30s|
-|faster-whisper v3|0h:11m:21s|0h:9m:41s|
-|faster-whisper v2 w/ VAD|0h:12m:13s|0h:9m:36s|
-|faster-whisper v3 w/ VAD|0h:12m:25s|0h:9m:13s|
+|faster-whisper v2|0h:11m:31s|0h:09m:30s|
+|faster-whisper v3|0h:11m:21s|0h:09m:41s|
+|faster-whisper v2 w/ VAD|0h:12m:13s|0h:09m:36s|
+|faster-whisper v3 w/ VAD|0h:12m:25s|0h:09m:13s|
 |XLS-R FT on Dutch|0h:07m:36s|0h:07m:52s|
 |*MMS - 102 languages*|**0h:04m:33s**|0h:04m:23s|
 |*MMS - 1162 languages*|0h:05m:26s|**0h:04m:14s**|
