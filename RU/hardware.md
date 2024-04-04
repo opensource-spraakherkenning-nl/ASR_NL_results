@@ -10,7 +10,7 @@ For Kaldi_NL, the memory it uses for diarization is 370 MB on average, and for N
 
 **Whisper**: [Official github repository](https://github.com/openai/whisper)
 
-For Whisper, no GPUs were used. The computer's hardware consists of 16GB RAM and 4 CPU cores, under a Windows-Docker environment. It has been observed that Whisper requires on average 8 GB of VRAM per recording, with an initial memory requirement of 9.9 GB.
+For Whisper, no GPUs were used. The computer's hardware consists of 16GB RAM and 4 CPU cores, under a Windows-Docker environment. It has been observed that Whisper requires on average 8 GB of RAM per recording, with an initial memory requirement of 9.9 GB.
 
 
 **Wav2vec2.0-large-xlsr-53-dutch**: [Official github repository](https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-dutch)
