@@ -1,7 +1,7 @@
 [Go back](./jasmin.md)
 
-## Jasmin results
-Here is a matrix with **WER** results of the baseline model, Kaldi_NL, as well as different versions of zero-shot Whisper tested on the corpus:
+## Jasmin Dutch results
+Here is a matrix with **WER** results of the baseline model, Kaldi_NL, as well as different models tested on the **Dutch** part of the corpus:
 
 |Model\Dataset|Jasmin_q_1|Jasmin_q_2|Jasmin_q_3|Jasmin_q_4|Jasmin_q_5|
 |---|---|---|---|---|---|
@@ -32,6 +32,7 @@ Here is a matrix with **WER** results of the baseline model, Kaldi_NL, as well a
 |XLS-R FT on Dutch|60.2%|62.2%|70.5%|59.1%|47.0%|
 |MMS - 102 languages|79.8%|79.9%|90.7%|80.5%|56.4%|
 |MMS - 1162 languages|82.4%|87.9%|94.5%|83.3%|59.9%|
+
 
 **Jasmin_{p,q}_{1,2,3,4,5}** = **p** stands for **comp_p (HMI speech)**, whereas **q** stands for **comp_q (read speech)**. The number that can range from **1-5** represents the corresponding **age group/nativeness** from the corpus (for more details, go back one page).
 
@@ -70,3 +71,54 @@ And its corresponding matrix with the **time** spent in total by each model **to
 |MMS - 1162 languages|0h:17m:55s|0h:13m:56s|0h:13m:59s|0h:18m:54s|0h:25m:24s|
 
 <b>*</b> Performance might have been impacted by other processes from other users running on the same GPU since the hardware is available via a cluster system. A rerun using different hardware might be done in the near future.
+
+## Jasmin Flemish results
+
+Matrix with **WER** results for the **Flemish** part of the corpus:
+|Model\Dataset|Jasmin_q_1|Jasmin_q_2|Jasmin_q_3|Jasmin_q_4|Jasmin_q_5|
+|---|---|---|---|---|---|
+|Kaldi_NL|59.2%|33.5%|51.3%|43.3%|24.7%|
+|faster-whisper v2|42.4%|11.7%|19.9%|21.0%|16.7%|
+|faster-whisper v3|57.2%|30.6%|44.4%|41.1%|38.7%|
+|**faster-whisper v2 w/ VAD**|**41.8%**|**11.6%**|**19.4%**|**20.5%**|**14.4%**|
+|faster-whisper v3 w/ VAD|56.2%|26.7%|38.4%|50.7%|33.6%|
+|XLS-R FT on Dutch|47.4%|13.3%|30.1%|26.8%|16.4%|
+|MMS - 102 languages|55.3%|22.4%|43.0%|37.0%|23.0%|
+|MMS - 1162 languages|49.2%|21.8%|34.9%|35.8%|22.3%|
+
+|Model\Dataset|Jasmin_p_1|Jasmin_p_2|Jasmin_p_3|Jasmin_p_4|Jasmin_p_5|
+|---|---|---|---|---|---|
+|Kaldi_NL|66.5%|49.8%|66.2%|64.4%|47.4%|
+|faster-whisper v2|87.6%|51.7%|76.1%|67.3%|45.4%|
+|faster-whisper v3|90.5%|65.2%|100.4%|79.9%|68.3%|
+|**faster-whisper v2 w/ VAD**|**28.7%**|**24.3%**|**38.5%**|**49.3%**|**30.6%**|
+|faster-whisper v3 w/ VAD|46.0%|37.7%|57.9%|57.9%|44.6%|
+|XLS-R FT on Dutch|73.2%|62.2%|68.1%|52.2%|47.8%|
+|MMS - 102 languages|86.7%|52.3%|87.8%|78.2%|56.4%|
+|MMS - 1162 languages|86.1%|68.0%|86.3%|76.7%|60.8%|
+
+<br>
+
+And its corresponding matrix with the **time** spent in total by each model **to evaluate** the respective subset:
+
+|Model\Dataset|Jasmin_q_1|Jasmin_q_2|Jasmin_q_3|Jasmin_q_4|Jasmin_q_5|
+|---|---|---|---|---|---|
+|Kaldi_NL|0h:15m:58s|0h:16m:03s|0h:25m:11s|0h:15m:46s|0h:29m:36s|
+|faster-whisper v2|0h:09m:30s|0h:20m:12s|0h:18m:03s|0h:12m:09s|0h:14m:31s|
+|faster-whisper v3|0h:14m:53s|0h:24m:33s|0h:29m:19s|0h:21m:47s|0h:23m:58s|
+|faster-whisper v2 w/ VAD|0h:21m:27s|0h:27m:16s|0h:19m:09s|0h:13m:24s|0h:15m:29s|
+|faster-whisper v3 w/ VAD|0h:13m:17s|0h:23m:29s|0h:23m:14s|0h:26m:40s|0h:19m:54s|
+|XLS-R FT on Dutch|0h:11m:18s|0h:20m:03s|0h:22m:05s|0h:16m:28s|0h:13m:00s|
+|*MMS - 102 languages*|**0h:05m:47s**|0h:09m:09s|**0h:10m:06s**|**0h:07m:37s**|**0h:08m:04s**|
+|**MMS - 1162 languages**|**0h:05m:47s**|**0h:09m:07s**|**0h:10m:06s**|**0h:07m:37s**|**0h:08m:04s**|
+
+|Model\Dataset|Jasmin_p_1|Jasmin_p_2|Jasmin_p_3|Jasmin_p_4|Jasmin_p_5|
+|---|---|---|---|---|---|
+|Kaldi_NL|0h:07m:09s|0h:07m:36s|0h:08m:37s|0h:10m:51s|0h:14m:45s|
+|faster-whisper v2|0h:12m:48s|0h:10m:45s|0h:14m:34s|0h:11m:58s|0h:34m:06s|
+|faster-whisper v3|0h:24m:08s|0h:26m:42s|0h:28m:56s|0h:27m:12s|0h:31m:16s|
+|**faster-whisper v2 w/ VAD**|**0h:05m:41s**|**0h:07m:03s**|**0h:07m:01s**|**0h:08m:11s**|**0h:09m:45s**|
+|*faster-whisper v3 w/ VAD*|0h:06m:44s|0h:08m:23s|0h:10m:08s|0h:13m:52s|0h:10m:40s|
+|XLS-R FT on Dutch|0h:20m:36s|0h:16m:58s|0h:20m:55s|0h:17m:47s|0h:19m:34s|
+|MMS - 102 languages|0h:10m:55s|0h:09m:10s|0h:11m:00s|0h:09m:43s|0h:10m:33s|
+|MMS - 1162 languages|0h:10m:06s|0h:09m:09s|0h:10m:42s|0h:09m:36s|0h:10m:15s|

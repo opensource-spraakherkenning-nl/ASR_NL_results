@@ -6,11 +6,12 @@
 - [Setup](./jasmin_setup.md)
 
 ### Corpus description
-Jasmin-CGN is a Dutch/Flemish corpus that contains speech from less-represented groups, such as the elderly, children, or non-natives. UT has only evaluated the Dutch part of the corpus.
+Jasmin-CGN is a Dutch/Flemish corpus that contains speech from less-represented groups, such as the elderly, children, or non-natives.
 
 The corpus is split mainly according to 2 criteria:
-1. Read/HMI speech
-2. Speaker groups based on age and native/non-native
+1. Dutch/Flemish
+2. Read/HMI speech
+3. Speaker groups based on age and native/non-native
 
 Thus, we have:
 - `comp_p`: Speech recordings where a human interacts with a machine (HMI) in a Wizard of Oz setup

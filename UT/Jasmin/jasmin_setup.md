@@ -5,6 +5,8 @@
 
 The encoding used in the dataset for the transcriptions is latin_1. In order for the evaluation tool to work, I converted the encoding to UTF-8.
 
+For the Flemish subset, one speaker (`V000055`) does not belong to any of the 5 speaker groups according to the metadata. Therefore, this speaker and their files (`fv160041` and `fv170041`) have been excluded from the evaluation.
+
 ### Postprocessing
 
 A large number of insertions was encountered when evaluating Whisper. This was due to time misalignment at the start of segments. This was addressed by adjusting the `start_time` of the first word of a segment to `end_time - 0.1s`.
