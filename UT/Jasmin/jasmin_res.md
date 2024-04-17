@@ -75,6 +75,7 @@ And its corresponding matrix with the **time** spent in total by each model **to
 ## Jasmin Flemish results
 
 Matrix with **WER** results for the **Flemish** part of the corpus:
+
 |Model\Dataset|Jasmin_q_1|Jasmin_q_2|Jasmin_q_3|Jasmin_q_4|Jasmin_q_5|
 |---|---|---|---|---|---|
 |Kaldi_NL|59.2%|33.5%|51.3%|43.3%|24.7%|
