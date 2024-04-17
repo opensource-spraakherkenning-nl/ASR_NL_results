@@ -42,18 +42,18 @@ And its corresponding matrix with the **time** spent in total by each model **to
 
 |Model\Dataset|Jasmin_q_1|Jasmin_q_2|Jasmin_q_3|Jasmin_q_4|Jasmin_q_5|
 |---|---|---|---|---|---|
-|***Kaldi_NL***|**0h:30m:21s**|**0h:23m:25s**|0h:27m:51s|0h:27m:17s|**0h:29m:36s**|
+|Kaldi_NL|0h:30m:21s|0h:23m:25s|0h:27m:51s|0h:27m:17s|0h:29m:36s|
 |Whisper v2|2h:05m:29s|1h:53m:11s|1h:35m:28s|1h:24m:41s|2h:04m:35s|
 |Whisper v3|3h:12m:26s|2h:27m:52s|6h:13m:28s<b>*</b>|3h:04m:32s|3h:09m:49s|
 |Whisper v2 w/ VAD|2h:14m:40s|1h:51m:46s|1h:49m:48s|4h:18m:51s<b>*</b>|2h:08m:02s|
 |Whisper v3 w/ VAD|2h:58m:24s|2h:19m:43s|2h:38m:23s|2h:31m:35s|2h:47m:33s|
-|*faster-whisper v2*|0h:30m:45s|0h:26m:48s|**0h:23m:48s**|**0h:21m:55s**|0h:30m:02s|
+|faster-whisper v2|0h:30m:45s|0h:26m:48s|0h:23m:48s|0h:21m:55s|0h:30m:02s|
 |faster-whisper v3|0h:41m:58s|0h:38m:13s|0h:48m:28s|0h:55m:48s|0h:44m:12s|
 |faster-whisper v2 w/ VAD|0h:32m:55s|0h:27m:16s|0h:25m:51s|0h:21m:58s|0h:32m:09s|
 |faster-whisper v3 w/ VAD|0h:40m:33s|0h:31m:45s|0h:37m:36s|0h:37m:11s|0h:38m:00s|
 |XLS-R FT on Dutch|0h:35m:18s|0h:27m:33s|0h:32m:39s|0h:31m:49s|0h:39m:05s|
-|MMS - 102 languages|0h:17m:59s|0h:13m:22s|0h:16m:01s|0h:15m:38s|0h:17m:35s|
-|MMS - 1162 languages|0h:17m:46s|0h:13m:22s|0h:16m:00s|0h:15m:37s|0h:17m:35s|
+|*MMS - 102 languages*|0h:17m:59s|**0h:13m:22s**|0h:16m:01s|0h:15m:38s|**0h:17m:35s**|
+|**MMS - 1162 languages**|**0h:17m:46s**|**0h:13m:22s**|**0h:16m:00s**|**0h:15m:37s**|**0h:17m:35s**|
 
 |Model\Dataset|Jasmin_p_1|Jasmin_p_2|Jasmin_p_3|Jasmin_p_4|Jasmin_p_5|
 |---|---|---|---|---|---|
@@ -119,7 +119,7 @@ And its corresponding matrix with the **time** spent in total by each model **to
 |faster-whisper v2|0h:12m:48s|0h:10m:45s|0h:14m:34s|0h:11m:58s|0h:34m:06s|
 |faster-whisper v3|0h:24m:08s|0h:26m:42s|0h:28m:56s|0h:27m:12s|0h:31m:16s|
 |**faster-whisper v2 w/ VAD**|**0h:05m:41s**|**0h:07m:03s**|**0h:07m:01s**|**0h:08m:11s**|**0h:09m:45s**|
-|*faster-whisper v3 w/ VAD*|0h:06m:44s|0h:08m:23s|0h:10m:08s|0h:13m:52s|0h:10m:40s|
+|faster-whisper v3 w/ VAD|0h:06m:44s|0h:08m:23s|0h:10m:08s|0h:13m:52s|0h:10m:40s|
 |XLS-R FT on Dutch|0h:20m:36s|0h:16m:58s|0h:20m:55s|0h:17m:47s|0h:19m:34s|
 |MMS - 102 languages|0h:10m:55s|0h:09m:10s|0h:11m:00s|0h:09m:43s|0h:10m:33s|
 |MMS - 1162 languages|0h:10m:06s|0h:09m:09s|0h:10m:42s|0h:09m:36s|0h:10m:15s|
