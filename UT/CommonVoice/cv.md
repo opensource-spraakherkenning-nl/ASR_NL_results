@@ -10,7 +10,7 @@ Multiple versions of the dataset are available, released by Mozilla every few mo
 
 Here is a matrix with **WER** results and the **time** each model/configuration spent transcribing the dataset:
 
-|Model\Dataset|WER|Time|
+|Model|WER|Time|
 |---|---|---|
 |Kaldi_NL|20.7%|8h:15m:54s*|
 |faster-whisper v2|5.6%|1h:58m:37s|
