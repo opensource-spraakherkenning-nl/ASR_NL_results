@@ -1,13 +1,14 @@
-<h1>Dutch ASR Performance</h1>
+<h1>Dutch Open Speech Recognition Benchmark</h1>
 
-Welcome to the page where researchers and developers report performance of various ASR models on Dutch datasets.
+Welcome to the benchmark page where researchers and developers report performance of various ASR models on Dutch datasets.
 
-<h2>UT's Kaldi_NL vs. Whisper vs. others evaluation</h2>
+<h2>UT's evaluation</h2>
 
 *UT = University of Twente*
 
 - [Results for N-Best 2008 Dutch Evaluation corpus](./UT/N-Best/nbest_res.md)
 - [Results for Jasmin-CGN corpus](./UT/Jasmin/jasmin.md)
+- [Results for Common Voice](./UT/CommonVoice/cv.md)
 - [Hardware setup & model configurations](./UT/hardware.md)
 - [Why do the results differ between whisper-timestamped and faster-whisper?](./UT/analysis.md)
 
