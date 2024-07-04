@@ -1,6 +1,6 @@
 [Back to homepage](../index.md)
 
-# Hardware setup
+# Environment setup
 
 For **Kaldi_NL**, evaluation was run on a local machine instead of a cluster. The local machine used is a Lenovo ThinkPad P15v Gen 3 with AMD Ryzen 7 PRO 6850H CPU and 32 GB of RAM. The reasons are that it is trickier to set up a Docker container on the cluster used for Whisper (see below) since I do not have admin rights and that Kaldi_NL was meant to run on modern local machines rather than requiring to have a powerful GPU/CPU.
 

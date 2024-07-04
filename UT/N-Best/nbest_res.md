@@ -1,6 +1,6 @@
 [Back to homepage](../../index.md)
 
-<h2>Kaldi_NL vs. Whisper - N-Best 2008 Dutch</h2>
+<h2>N-Best 2008 Dutch</h2>
 
 The N-Best 2008 Dutch Evaluation corpus is a corpus designed to evaluate Dutch/Flemish Speech Recognition systems in 2008. The corpus consists of 4 subsets:
 - `bn_nl`: Broadcast News programmes in the Netherlands;

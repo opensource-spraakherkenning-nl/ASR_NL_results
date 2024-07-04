@@ -1,6 +1,6 @@
 [Back to homepage](../../index.md)
 
-<h2>Kaldi_NL vs. Whisper - Jasmin-CGN</h2>
+<h2>Jasmin-CGN</h2>
 
 - [Results](./jasmin_res.md)
 - [Setup](./jasmin_setup.md)
