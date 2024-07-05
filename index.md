@@ -2,7 +2,7 @@
 
 Welcome to the benchmark page where researchers and developers report performance of various ASR models on Dutch datasets.
 
-<h2>UT's evaluation</h2>
+<h2>UT's benchmark</h2>
 
 *UT = University of Twente*
 
@@ -25,7 +25,7 @@ These results were achieved during the PDI-SSH **O**ral **H**istory - **S**torie
 
 These results were achieved during the PDI-SSH **Ho**mo **Med**icinalis ([HoMed](https://homed.ruhosting.nl/)) project (2021-2024).
 
-<h2>NISV's Whisper evaluation</h2>
+<h2>NISV's Whisper benchmark</h2>
 
 *NISV = Netherlands Institute for Sound & Vision*
 
