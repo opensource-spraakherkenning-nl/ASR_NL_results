@@ -14,9 +14,9 @@ Here is a matrix with **WER** results and the **time** each model/configuration 
 |---|---|---|
 |[Kaldi_NL](https://github.com/opensource-spraakherkenning-nl/Kaldi_NL)|20.7%|8h:15m:54s*|
 |[faster-whisper v2](https://github.com/SYSTRAN/faster-whisper/)|5.6%|1h:58m:37s|
-|**faster-whisper v3**|**4.3%**|1h:55m:20s|
-|faster-whisper v2 w/ VAD|5.6%|1h:58m:50s|
-|faster-whisper v3 w/ VAD|4.4%|2h:01m:33s|
+|[**faster-whisper v3**](https://github.com/SYSTRAN/faster-whisper/)|**4.3%**|1h:55m:20s|
+|[faster-whisper v2 w/ VAD](https://github.com/SYSTRAN/faster-whisper/)|5.6%|1h:58m:50s|
+|[faster-whisper v3 w/ VAD](https://github.com/SYSTRAN/faster-whisper/)|4.4%|2h:01m:33s|
 |[XLS-R FT on Dutch](https://huggingface.co/jonatasgrosman/wav2vec2-xls-r-1b-dutch)|6.5%|1h:04m:00s|
 |[**MMS - 102 languages**](https://huggingface.co/facebook/mms-1b-fl102)|13.4%|**0h:37m:50s**|
 |[MMS - 1162 languages](https://huggingface.co/facebook/mms-1b-all)|9.5%|0:53m:56s|

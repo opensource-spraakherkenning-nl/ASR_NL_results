@@ -1,6 +1,6 @@
 [Back to homepage](../index.md)
 
-# Hardware setup
+# Environment setup
 
 
 **Kaldi_NL**: [Official github repository](https://github.com/opensource-spraakherkenning-nl/Kaldi_NL). The model used for Kaldi_NL is `radboud_GN` and its corresponding script is `decode_GN.sh`.

@@ -12,17 +12,16 @@ Welcome to the benchmark page where researchers and developers report performanc
 - [Environment setup](./UT/environment.md)
 - [Why do the results differ between whisper-timestamped and faster-whisper?](./UT/analysis.md)
 
-The results in **bold** indicate the best performance for the specific subset(s) between all models.
+The results in **bold** indicate the best performance for the specific subset(s) between all models. The lower, the better.
 
-These results were achieved during the PDI-SSH **O**ral **H**istory - **S**tories at the **M**useum around **Art** ([OH-SMArt](https://www.uva.nl/en/discipline/conservation-and-restoration/research/research-projects/oh-smart/oh-smart.html)) project.
+These results were achieved during the PDI-SSH **O**ral **H**istory - **S**tories at the **M**useum around **Art** ([OH-SMArt](https://www.uva.nl/en/discipline/conservation-and-restoration/research/research-projects/oh-smart/oh-smart.html)) project (2022-2025).
 
 <h2>RU's Kaldi_NL vs. Whisper vs. Wav2vec2.0 evaluation</h2>
 
 *RU = Radboud University*
 
 - [Results on four medical domain datasets](./RU/wer.md)
-- [Hardware setup](./RU/hardware.md)
-
+- [Environment setup](./RU/environment.md)
 
 These results were achieved during the PDI-SSH **Ho**mo **Med**icinalis ([HoMed](https://homed.ruhosting.nl/)) project (2021-2024).
 
