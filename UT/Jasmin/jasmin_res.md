@@ -1,9 +1,9 @@
 [Go back](./jasmin.md)
 
 ## Jasmin Dutch results
-Here is a matrix with **WER** results of the baseline model, Kaldi_NL, as well as different models tested on the **Dutch** part of the corpus:
+Here is a matrix with **WER** results of the baseline model, Kaldi_NL, as well as different models tested on **Dutch read speech**:
 
-|Model\Dataset|Jasmin_q_1|Jasmin_q_2|Jasmin_q_3|Jasmin_q_4|Jasmin_q_5|
+|Model\Dataset|Native Children|Native Teenagers|Non-native Minors|Non-native Adults|Native Elderly|
 |---|---|---|---|---|---|
 |Kaldi_NL|28.1%|16.2%|43.6%|45.3%|20.9%|
 |Whisper v2|22.6%|18.0%|36.5%|37.3%|22.2%|
@@ -18,7 +18,11 @@ Here is a matrix with **WER** results of the baseline model, Kaldi_NL, as well a
 |MMS - 102 languages|31.6%|20.3%|54.2%|55.1%|23.9%|
 |MMS - 1162 languages|28.9%|20.0%|50.1%|54.0%|28.3%|
 
-|Model\Dataset|Jasmin_p_1|Jasmin_p_2|Jasmin_p_3|Jasmin_p_4|Jasmin_p_5|
+<br>
+
+And for **Dutch conversational speech**:
+
+|Model\Dataset|Native Children|Native Teenagers|Non-native Minors|Non-native Adults|Native Elderly|
 |---|---|---|---|---|---|
 |Kaldi_NL|55.4%|62.4%|69.1%|60.0%|44.0%|
 |Whisper v2|95.8%|107.4%|124.0%|88.1%|61.9%|

@@ -8,20 +8,24 @@ Multiple versions of the dataset are available, released by Mozilla every few mo
 
 <br>
 
-Here is a matrix with **WER** results and the **time** each model/configuration spent transcribing the dataset:
+Here is a matrix with **WER** results and the **time** each model/configuration spent transcribing the test subset:
 
 |Model|WER|Time|
 |---|---|---|
-|Kaldi_NL|20.7%|8h:15m:54s*|
-|faster-whisper v2|5.6%|1h:58m:37s|
-|*faster-whisper v3*|**4.3%**|1h:55m:20s|
+|[Kaldi_NL](https://github.com/opensource-spraakherkenning-nl/Kaldi_NL)|20.7%|8h:15m:54s*|
+|[faster-whisper v2](https://github.com/SYSTRAN/faster-whisper/)|5.6%|1h:58m:37s|
+|**faster-whisper v3**|**4.3%**|1h:55m:20s|
 |faster-whisper v2 w/ VAD|5.6%|1h:58m:50s|
 |faster-whisper v3 w/ VAD|4.4%|2h:01m:33s|
-|XLS-R FT on Dutch|6.5%|1h:04m:00s|
-|*MMS - 102 languages*|13.4%|**0h:37m:50s**|
-|MMS - 1162 languages|9.5%|0:53m:56s|
+|[XLS-R FT on Dutch](https://huggingface.co/jonatasgrosman/wav2vec2-xls-r-1b-dutch)|6.5%|1h:04m:00s|
+|[**MMS - 102 languages**](https://huggingface.co/facebook/mms-1b-fl102)|13.4%|**0h:37m:50s**|
+|[MMS - 1162 languages](https://huggingface.co/facebook/mms-1b-all)|9.5%|0:53m:56s|
 
 \* Most of the time was spent by the configuration running the speaker diarization module.
+
+<br>
+
+There is a clear discrepancy between the WER scores of the newer ASR models and the baseline which is explained by the fact that data from Common Voice has been used to train the newer models, whereas that is not the case for our baseline.
 
 
 ### Normalization
