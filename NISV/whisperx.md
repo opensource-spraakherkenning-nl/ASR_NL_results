@@ -13,18 +13,19 @@ Due to the wav2vec 2.0 based aligner which doesn't support aligning digits and c
 Two variables have been experimented with:
 - The model version: `large-v2` vs. `large-v3` (to confirm the hypothesis from the UT evaluation)
 - The compute type: `float16` vs. `float32` (check [here](./res_labelled.md) for more details about this parameter)
-- The batch size: `64` for `float16` and `16` for `float32`
 
-<br>
+## Labelled data
 
-Here's a matrix with the **time** spent by each component of WhisperX, using the various parameter configurations mentioned in the previous page:
+The batch size used is `64` for `float16` and `16` for `float32`.
 
-|Configuration\Component|Loading|Transcriber|Aligner|Diarizer|
-|---|---|---|---|---|
-|large-v2 with `float16`|7.73s|4m:17s|6m:53s|3m:58s|
-|large-v2 with `float32`|10.51s|8m:07s|7m:36s|4m:01s|
-|large-v3 with `float16`|3.21s|4m:14s|7m:11s|4m:01s|
-|large-v3 with `float32`|6.12s|8m:00s|6m:59s|4m:00s|
+Here's a matrix with the **time** spent by each component of WhisperX, using the various parameter configurations mentioned in the previous page, on the labelled data:
+
+|Configuration\Component|Loading|Transcriber|Aligner|Diarizer|Total|Total+Saving to JSON|
+|---|---|---|---|---|---|---|
+|large-v2 with `float16`|7.73s|4m:17s|6m:53s|3m:58s|15m:16s|15m:45s|
+|large-v2 with `float32`|10.51s|8m:07s|7m:36s|4m:01s|19m:54s|20m:26s|
+|large-v3 with `float16`|3.21s|4m:14s|7m:11s|4m:01s|15m:29s|16m:01s|
+|large-v3 with `float32`|6.12s|8m:00s|6m:59s|4m:00s|19m:05s|19m:36s|
 
 <br>
 
@@ -36,3 +37,27 @@ And also a matrix with the **maximum GPU memory consumption + maximum GPU power 
 |large-v2 with `float32`|13548 MiB / 249 W|14749 MiB / 234 W|16480 MiB / 234 W|
 |large-v3 with `float16`|9417 MiB / 243 W|11918 MiB / 235 W|13605 MiB / 231 W|
 |large-v3 with `float32`|13539 MiB / 247 W|14715 MiB / 232 W|16411 MiB / 228 W|
+
+## Unlabelled data
+
+The batch size used is `48` for `float16` and `16` for `float32`
+
+Here's a matrix with the **time** spent by each component of WhisperX, using the various parameter configurations mentioned in the previous page, on the unlabelled data:
+
+|Configuration\Component|Loading|Transcriber|Aligner|Diarizer|Total|Total+Saving to JSON|
+|---|---|---|---|---|---|---|
+|large-v2 with `float16`|2.35s|15m:23s|11m:34s|12m:18s|39m:17s|39m:25s|
+|large-v2 with `float32`|6.48s|20m:35s|11m:21s|11m:51s|43m:53s|44m:01s|
+|large-v3 with `float16`|4.79s|15m:23s|11m:37s|12m:10s|39m:15s|39m:21s|
+|large-v3 with `float32`|7.27s|20m:22s|11m:21s|11m:55s|43m:45s|43m:52s|
+
+<br>
+
+And also a matrix with the **maximum GPU memory consumption + maximum GPU power usage** of each configuration (**on average**):
+
+|Max. memory / Max. power|Transcriber|Aligner|Diarizer|
+|---|---|---|---|
+|large-v2 with `float16`|22273 MiB / 268 W|12649 MiB / 298 W|14502 MiB / 277 W|
+|large-v2 with `float32`|21375 MiB / 281 W|15381 MiB / 294 W|17316 MiB / 278 W|
+|large-v3 with `float16`|22142 MiB / 267 W|12977 MiB / 296 W|14502 MiB / 278 W|
+|large-v3 with `float32`|21298 MiB / 279 W|15381 MiB / 297 W|17316 MiB / 276 W|
