@@ -33,7 +33,7 @@ Here is a matrix with **WER** results of the baseline implementation from OpenAI
 |---|---|---|---|---|
 |[OpenAI](https://github.com/openai/whisper)|11.1%|11.0%|12.9%|13.2%|
 |[Huggingface (`transformers`)](https://huggingface.co/openai/whisper-large-v2#long-form-transcription)|17.1%|16.9%|16.6%|16.6%|
-|**[faster-whisper](https://github.com/SYSTRAN/faster-whisper/)**|**10.3%**|**10.2%**|**11.8%**|**11.8%**|
+|**[faster-whisper](https://github.com/SYSTRAN/faster-whisper/)**|**10.3%**|**10.3%**|**11.8%**|**11.8%**|
 |[WhisperX](https://github.com/m-bain/whisperX/)|12.3%|12.4%|13.0%|12.9%|
 
 <br>
@@ -44,8 +44,8 @@ And a matrix with the **time** spent in total by each implementation **to load a
 |---|---|---|---|---|
 |[OpenAI](https://github.com/openai/whisper)|36m:06s|32m:41s|42m:08s|30m:25s|
 |[Huggingface (`transformers`)](https://huggingface.co/openai/whisper-large-v2#long-form-transcription)|21m:48s|19m:13s|23m:22s|22m:02s|
-|[faster-whisper](https://github.com/SYSTRAN/faster-whisper/)|11m:40s|22m:27s|**11m:18s**|21m:56s|
-|**[WhisperX](https://github.com/m-bain/whisperX/)\***|**11m:17s**|**15m:54s**|11m:29s|**15m:05s**|
+|[faster-whisper](https://github.com/SYSTRAN/faster-whisper/)|11m:39s|22m:29s|11m:04s|24m:04s|
+|**[WhisperX](https://github.com/m-bain/whisperX/)\***|**11m:34s**|**15m:15s**|**11m:01s**|**15m:04s**|
 
 \* For WhisperX, a separate alignment model based on wav2vec 2.0 has been applied in order to obtain word-level timestamps. Therefore, the time measured contains the time to load the model, time to transcribe, and time to align to generate timestamps. Speaker diarization has also been applied for WhisperX, which is measured separately and covered in [this section](./whisperx.md).
 
@@ -55,10 +55,10 @@ Finally, a matrix with the **maximum GPU memory consumption + maximum GPU power 
 
 |Max. memory / Max. power|large-v2 with `float16`|large-v2 with `float32`|large-v3 with `float16`|large-v3 with `float32`|
 |---|---|---|---|---|
-|[OpenAI](https://github.com/openai/whisper)|10621 MiB / 240 W|**10639 MiB** / 264 W|10927 MiB / 238 W|10941 MiB / 266 W|
+|[OpenAI](https://github.com/openai/whisper)|10621 MiB / 240 W|10639 MiB / 264 W|10927 MiB / 238 W|10941 MiB / 266 W|
 |[Huggingface (`transformers`)](https://huggingface.co/openai/whisper-large-v2#long-form-transcription)*|15073 MiB / **141 W**|12981 MiB / **215 W**|14566 MiB / **123 W**|19385 MiB / **235 W**|
-|[faster-whisper](https://github.com/SYSTRAN/faster-whisper/)|**8576 MiB** / 188 W|11694 MiB / 235 W|**8567 MiB** / 195 W|**6942 MiB** / 237 W|
-|[WhisperX](https://github.com/m-bain/whisperX/)*|9419 MiB / 246 W|13548 MiB / 249 W|9417 MiB / 243 W|13539 MiB / 247 W|
+|[faster-whisper](https://github.com/SYSTRAN/faster-whisper/)|**4287 MiB** / 230 W|**7776 MiB** / 263 W|**4292 MiB** / 230 W|**7768 MiB** / 262 W|
+|[WhisperX](https://github.com/m-bain/whisperX/)*|9947 MiB / 249 W|13940 MiB / 252 W|9944 MiB / 250 W|14094 MiB / 254 W|
 
 \* For these implementations, batching is supported. Setting a higher `batch_size` will lead to faster inference at the cost of extra memory used.
 

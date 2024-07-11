@@ -4,7 +4,7 @@
 
 [**WhisperX**](https://github.com/m-bain/whisperX/) is an implementation of Whisper with support for batching, word/character level time alignment using wav2vec 2.0, and speaker diarization.
 
-There are 4 components/parts that we can define: **loading** Whisper, the **transcriber** (the part where Whisper runs to generate the text transcription without any timestamps), the **aligner** (generates the word-level timestamps using wav2vec 2.0), and the **diarizer** (identifies the speaker per segment and per word by assigning speaker IDs).
+There are 4 components/parts that we can define: **loading** Whisper + speaker diarization module, the **transcriber** (the part where Whisper runs to generate the text transcription without any timestamps), the **aligner** (generates the word-level timestamps using wav2vec 2.0), and the **diarizer** (identifies the speaker per segment and per word by assigning speaker IDs).
 
 Due to the wav2vec 2.0 based aligner which doesn't support aligning digits and currency symbols, numbers and currencies have been converted to their written form by setting `suppress_numerals=True`. In addition, the [original aligner](https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-dutch) used in WhisperX, based on XLSR-53, has been replaced with an [aligner based on XLS-R](https://huggingface.co/jonatasgrosman/wav2vec2-xls-r-1b-dutch). This was done because the original aligner struggled with aligning some characters that are less common in Dutch, but part of the orthography of it (mainly accents on vowels). This might have led to more time spent on aligning compared to the XLSR-53 version, but an ablation study is planned for future work to confirm this hypothesis.
 
