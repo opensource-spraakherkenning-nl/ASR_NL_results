@@ -22,10 +22,10 @@ Here's a matrix with the **time** spent by each component of WhisperX, using the
 
 |Configuration\Component|Loading|Transcriber|Aligner|Diarizer|Total|Total+Saving to JSON|
 |---|---|---|---|---|---|---|
-|large-v2 with `float16`|7.73s|4m:17s|6m:53s|3m:58s|15m:16s|15m:45s|
-|large-v2 with `float32`|10.51s|8m:07s|7m:36s|4m:01s|19m:54s|20m:26s|
-|large-v3 with `float16`|3.21s|4m:14s|7m:11s|4m:01s|15m:29s|16m:01s|
-|large-v3 with `float32`|6.12s|8m:00s|6m:59s|4m:00s|19m:05s|19m:36s|
+|large-v2 with `float16`|3.34s|4m:32s|7m:00s|2m:53s|14m:28s|14m:56s|
+|large-v2 with `float32`|6.30s|8m:10s|6m:59s|2m:55s|18m:10s|18m:32s|
+|large-v3 with `float16`|3.16s|4m:15s|6m:42s|2m:53s|13m:53s|14m:20s|
+|large-v3 with `float32`|6.59s|8m:03s|6m:55s|2m:54s|17m:58s|18m:21s|
 
 <br>
 
@@ -33,10 +33,10 @@ And also a matrix with the **maximum GPU memory consumption + maximum GPU power 
 
 |Max. memory / Max. power|Transcriber|Aligner|Diarizer|
 |---|---|---|---|
-|large-v2 with `float16`|9419 MiB / 246 W|11916 MiB / 227 W|13578 MiB / 229 W|
-|large-v2 with `float32`|13548 MiB / 249 W|14749 MiB / 234 W|16480 MiB / 234 W|
-|large-v3 with `float16`|9417 MiB / 243 W|11918 MiB / 235 W|13605 MiB / 231 W|
-|large-v3 with `float32`|13539 MiB / 247 W|14715 MiB / 232 W|16411 MiB / 228 W|
+|large-v2 with `float16`|9947 MiB / 249 W|11667 MiB / 233 W|13011 MiB / 207 W|
+|large-v2 with `float32`|13940 MiB / 252 W|14364 MiB / 229 W|15727 MiB / 206 W|
+|large-v3 with `float16`|9944 MiB / 250 W|11697 MiB / 249 W|13011 MiB / 206 W|
+|large-v3 with `float32`|14094 MiB / 254 W|14590 MiB / 248 W|15916 MiB / 207 W|
 
 ## Unlabelled data
 
@@ -46,10 +46,10 @@ Here's a matrix with the **time** spent by each component of WhisperX, using the
 
 |Configuration\Component|Loading|Transcriber|Aligner|Diarizer|Total|Total+Saving to JSON|
 |---|---|---|---|---|---|---|
-|large-v2 with `float16`|2.35s|15m:23s|11m:34s|12m:18s|39m:17s|39m:25s|
-|large-v2 with `float32`|6.48s|20m:35s|11m:21s|11m:51s|43m:53s|44m:01s|
-|large-v3 with `float16`|4.79s|15m:23s|11m:37s|12m:10s|39m:15s|39m:21s|
-|large-v3 with `float32`|7.27s|20m:22s|11m:21s|11m:55s|43m:45s|43m:52s|
+|large-v2 with `float16`|3.19s|13m:45s|11m:04s|11m:30s|36m:22s|36m:28s|
+|large-v2 with `float32`|8.00s|20m:27s|11m:26s|11m:38s|43m:39s|43m:40s|
+|large-v3 with `float16`|3.18s|14m:28s|11m:12s|11m:38s|37m:21s|37m:26s|
+|large-v3 with `float32`|6.38s|20m:11s|11m:07s|11m:27s|42m:51s|42m:53s|
 
 <br>
 
@@ -57,7 +57,7 @@ And also a matrix with the **maximum GPU memory consumption + maximum GPU power 
 
 |Max. memory / Max. power|Transcriber|Aligner|Diarizer|
 |---|---|---|---|
-|large-v2 with `float16`|22273 MiB / 268 W|12649 MiB / 298 W|14502 MiB / 277 W|
-|large-v2 with `float32`|21375 MiB / 281 W|15381 MiB / 294 W|17316 MiB / 278 W|
-|large-v3 with `float16`|22142 MiB / 267 W|12977 MiB / 296 W|14502 MiB / 278 W|
-|large-v3 with `float32`|21298 MiB / 279 W|15381 MiB / 297 W|17316 MiB / 276 W|
+|large-v2 with `float16`|21676 MiB / 268 W|12541 MiB / 295 W|14477 MiB / 277 W|
+|large-v2 with `float32`|21657 MiB / 279 W|15355 MiB / 300 W|17291 MiB / 276 W|
+|large-v3 with `float16`|22425 MiB / 267 W|12542 MiB / 294 W|14477 MiB / 276 W|
+|large-v3 with `float32`|21580 MiB / 279 W|15355 MiB / 298 W|17291 MiB / 276 W|
