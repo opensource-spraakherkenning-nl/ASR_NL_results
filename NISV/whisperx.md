@@ -40,7 +40,10 @@ And also a matrix with the **maximum GPU memory consumption + maximum GPU power 
 
 ## Unlabelled data
 
-The batch size used is `48` for `float16` and `16` for `float32`
+The batch sizes used:
+- `44` for `float16 large-v2`
+- `48` for `float16 large-v3`
+- `16` for `float32 large-v2/large-v3`
 
 Here's a matrix with the **time** spent by each component of WhisperX, using the various parameter configurations mentioned in the previous page, on the unlabelled data:
 
