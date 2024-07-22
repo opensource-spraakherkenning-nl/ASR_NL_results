@@ -1,4 +1,4 @@
-[Back to homepage](../index.md)
+[Back to homepage](../../index.md)
 
 ## Detailed results for WhisperX
 
@@ -22,10 +22,10 @@ Here's a matrix with the **time** spent by each component of WhisperX, using the
 
 |Configuration\Component|Loading|Transcriber|Aligner|Diarizer|Total|Total+Saving to JSON|
 |---|---|---|---|---|---|---|
-|large-v2 with `float16`|3.34s|4m:32s|7m:00s|2m:53s|14m:28s|14m:56s|
-|large-v2 with `float32`|6.30s|8m:10s|6m:59s|2m:55s|18m:10s|18m:32s|
-|large-v3 with `float16`|3.16s|4m:15s|6m:42s|2m:53s|13m:53s|14m:20s|
-|large-v3 with `float32`|6.59s|8m:03s|6m:55s|2m:54s|17m:58s|18m:21s|
+|large-v2 with `float16`|79.98s|7m:16s|22m:32s|4m:22s|35m:30s|36m:14s|
+|large-v2 with `float32`|82.74s|12m:31s|19m:28s|4m:14s|37m:36s|38m:10s|
+|large-v3 with `float16`|78.02s|7m:07s|20m:03s|4m:17s|32m:45s|33m:26s|
+|large-v3 with `float32`|53.35s|12m:35s|20m:13s|4m:16s|37m:57s|39m:04s|
 
 <br>
 
@@ -33,26 +33,25 @@ And also a matrix with the **maximum GPU memory consumption + maximum GPU power 
 
 |Max. memory / Max. power|Transcriber|Aligner|Diarizer|
 |---|---|---|---|
-|large-v2 with `float16`|9947 MiB / 249 W|11667 MiB / 233 W|13011 MiB / 207 W|
-|large-v2 with `float32`|13940 MiB / 252 W|14364 MiB / 229 W|15727 MiB / 206 W|
-|large-v3 with `float16`|9944 MiB / 250 W|11697 MiB / 249 W|13011 MiB / 206 W|
-|large-v3 with `float32`|14094 MiB / 254 W|14590 MiB / 248 W|15916 MiB / 207 W|
+|large-v2 with `float16`|9401 MiB / 181 W|11282 MiB / 171 W|12091 MiB / 122 W|
+|large-v2 with `float32`|12714 MiB / 197 W|13937 MiB / 164 W|14925 MiB / 140 W|
+|large-v3 with `float16`|9402 MiB / 186 W|11114 MiB / 178 W|12096 MiB / 138 W|
+|large-v3 with `float32`|12721 MiB / 198 W|14009 MiB / 166 W|15916 MiB / 136 W|
 
 ## Unlabelled data
 
 The batch sizes used:
-- `44` for `float16 large-v2`
-- `48` for `float16 large-v3`
-- `16` for `float32 large-v2/large-v3`
+- `48` for `float16`
+- `16` for `float32`
 
 Here's a matrix with the **time** spent by each component of WhisperX, using the various parameter configurations mentioned in the previous page, on the unlabelled data:
 
 |Configuration\Component|Loading|Transcriber|Aligner|Diarizer|Total|Total+Saving to JSON|
 |---|---|---|---|---|---|---|
-|large-v2 with `float16`|3.19s|13m:45s|11m:04s|11m:30s|36m:22s|36m:28s|
-|large-v2 with `float32`|8.00s|20m:27s|11m:26s|11m:38s|43m:39s|43m:40s|
-|large-v3 with `float16`|3.18s|14m:28s|11m:12s|11m:38s|37m:21s|37m:26s|
-|large-v3 with `float32`|6.38s|20m:11s|11m:07s|11m:27s|42m:51s|42m:53s|
+|large-v2 with `float16`|77.50s|8m:58s|11m:14s|7m:34s|29m:03s|29m:59s|
+|large-v2 with `float32`|57.55s|12m:28s|8m:49s|6m:53s|29m:07s|29m:22s|
+|large-v3 with `float16`|62.37s|9m:00s|10m:26s|7m:29s|27m:57s|28m:09s|
+|large-v3 with `float32`|7.47s|12m:15s|9m:14s|6m:55s|28m:31s|28m:34s|
 
 <br>
 
@@ -60,7 +59,7 @@ And also a matrix with the **maximum GPU memory consumption + maximum GPU power 
 
 |Max. memory / Max. power|Transcriber|Aligner|Diarizer|
 |---|---|---|---|
-|large-v2 with `float16`|21676 MiB / 268 W|12541 MiB / 295 W|14477 MiB / 277 W|
-|large-v2 with `float32`|21657 MiB / 279 W|15355 MiB / 300 W|17291 MiB / 276 W|
-|large-v3 with `float16`|22425 MiB / 267 W|12542 MiB / 294 W|14477 MiB / 276 W|
-|large-v3 with `float32`|21580 MiB / 279 W|15355 MiB / 298 W|17291 MiB / 276 W|
+|large-v2 with `float16`|19053 MiB / 257 W|12354 MiB / 289 W|14289 MiB / 275 W|
+|large-v2 with `float32`|22013 MiB / 276 W|15200 MiB / 288 W|17135 MiB / 275 W|
+|large-v3 with `float16`|19096 MiB / 256 W|12514 MiB / 290 W|14289 MiB / 275 W|
+|large-v3 with `float32`|22042 MiB / 276 W|15200 MiB / 294 W|17135 MiB / 274 W|

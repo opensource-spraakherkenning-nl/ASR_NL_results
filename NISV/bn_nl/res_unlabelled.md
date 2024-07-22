@@ -1,4 +1,4 @@
-[Back to homepage](../index.md)
+[Go back](./intro_bn_nl.md)
 
 <h2>Computational performance on the unlabelled audio of Broadcast News in the Netherlands</h2>
 
@@ -60,12 +60,3 @@ And also a matrix with the **maximum GPU memory consumption + maximum GPU power 
 |[WhisperX](https://github.com/m-bain/whisperX/)*|21676 MiB / **268 W**|21657 MiB / **279 W**|22425 MiB / 267 W|21580 MiB / **279 W**|
 
 \* For these implementations, batching is supported. Setting a higher `batch_size` will lead to faster inference at the cost of extra memory used.
-
-## Detailed results per pipeline component for WhisperX
-[Click here](./whisperx.md)
-
-## Hardware setup
-
-A high-performance computing cluster was used. The cluster's hardware consists of 2 x Nvidia Quadro RTX 6000 with 24 GiB VRAM each, using CUDA version 12.4, with an Intel(R) Xeon(R) Gold 5220 CPU @ 2.20GHz and 256 GB of RAM available.
-
-The OS installed on the cluster is [RHEL 9.3](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html-single/9.3_release_notes/index). -->

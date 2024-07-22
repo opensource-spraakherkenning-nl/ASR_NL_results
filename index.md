@@ -29,8 +29,8 @@ These results were achieved during the PDI-SSH **Ho**mo **Med**icinalis ([HoMed]
 
 *NISV = Netherlands Institute for Sound & Vision*
 
-- [Results on labelled data](./NISV/res_labelled.md)
-- [Computational performance for unlabelled data](./NISV/res_unlabelled.md)
+- [Results for Broadcast News Speech](./NISV/bn_nl/intro_bn_nl.md)
+- [Results for Conversational Telephone Speech](./NISV/cts_nl/intro_cts_nl.md)
 
 The results in **bold** indicate the best performance for the specific subset(s) between all models. The lower, the better.
 

@@ -1,18 +1,8 @@
-[Back to homepage](../index.md)
+[Go back](./intro_bn_nl.md)
 
 <h2>Results on the labelled audio of Broadcast News in the Netherlands</h2>
 
-The N-Best 2008 Dutch Evaluation corpus is a corpus designed to evaluate Dutch/Flemish Speech Recognition systems in 2008. The corpus consists of 4 subsets:
-- `bn_nl`: Broadcast News programmes in the Netherlands;
-- `cts_nl`: Conversational Telephone Speech in the Netherlands;
-- `bn_vl`: Broadcast News programmes in Belgium;
-- `cts_vl`: Conversational Telephone Speech in Belgium.
-
-For more details about the corpus, click [here](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=32b10cb0f4cb99ba934f5be5066638a5ad9b19f2).
-
-**The subset used in this benchmark is `bn_nl` (Broadcast News programmes in the Netherlands).**
-
-This data does not reflect the type of content on which the ASR will be applied to in terms of length of the audio, but it offers some rough estimates on the WER performance of the model, particularly when it comes to the time alignment of the word-level timestamps with the reference files.
+This data does not reflect the type of content on which the ASR will be applied to in terms of length of the audio, but it offers some rough estimates on the WER performance of the model on difficult speech conditions, particularly when it comes to the time alignment of the word-level timestamps with the reference files.
 
 <br>
 
@@ -77,13 +67,4 @@ Finally, a matrix with the **maximum GPU memory consumption + maximum GPU power 
 |[WhisperX](https://github.com/m-bain/whisperX/)*|9947 MiB / 249 W|13940 MiB / 252 W|9944 MiB / 250 W|14094 MiB / 254 W|
 
 \* For these implementations, batching is supported. Setting a higher `batch_size` will lead to faster inference at the cost of extra memory used.
-
-## Detailed results per pipeline component for WhisperX
-[Click here](./whisperx.md)
-
-## Hardware setup
-
-A high-performance computing cluster was used. The cluster's hardware consists of 2 x Nvidia Quadro RTX 6000 with 24 GiB VRAM each, using CUDA version 12.4, with an Intel(R) Xeon(R) Gold 5220 CPU @ 2.20GHz and 256 GB of RAM available.
-
-The OS installed on the cluster is [RHEL 9.3](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html-single/9.3_release_notes/index).
 
