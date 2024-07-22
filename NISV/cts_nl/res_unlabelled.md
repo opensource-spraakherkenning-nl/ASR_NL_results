@@ -31,18 +31,18 @@ Here's a matrix with the **time** spent in total by each implementation **to loa
 |[WhisperX](https://github.com/m-bain/whisperX/)*|21m:29s|22m:14s|20m:28s|21m:36s|
 
 \* For WhisperX, a separate alignment model based on wav2vec 2.0 has been applied in order to obtain word-level timestamps. Therefore, the time measured contains the time to load the model, time to transcribe, and time to align to generate timestamps. Speaker diarization has also been applied for WhisperX, which is measured separately and covered in a different section.
-<!-- 
+
 <br>
 
-Here's also a matrix with the **Real-Time Factor or RTF** for short (defined as time to process all of the input divided by the duration of the input) for transcribing **9.02 hours of speech** (rounded to 4 decimals):
+Here's also a matrix with the **Real-Time Factor or RTF** for short (defined as time to process all of the input divided by the duration of the input) for transcribing **5.69 hours of speech** (rounded to 4 decimals):
 
 |RTF (process time/duration of audio)|large-v2 with `float16`|large-v2 with `float32`|large-v3 with `float16`|large-v3 with `float32`|
 |---|---|---|---|---|
-|[OpenAI](https://github.com/openai/whisper)|0.1918|0.1487|0.2164|0.1641|
-|[Huggingface (`transformers`)](https://huggingface.co/openai/whisper-large-v2#long-form-transcription)|0.0796|0.1206|0.077|0.1141|
-|[faster-whisper](https://github.com/SYSTRAN/faster-whisper/)|0.0718|0.1434|0.0728|0.1559|
-|**[faster-whisper w/ batching](https://github.com/SYSTRAN/faster-whisper/pull/856)**|**0.0231**|**0.0436**|**0.02**|**0.0412**|
-|[WhisperX](https://github.com/m-bain/whisperX/)\*|0.0459|0.0592|0.0475|0.058| -->
+|[OpenAI](https://github.com/openai/whisper)|0.2115|0.1675|0.2604|0.2049|
+|[Huggingface (`transformers`)](https://huggingface.co/openai/whisper-large-v2#long-form-transcription)|0.1139|0.1848|0.083|0.1835|
+|[faster-whisper](https://github.com/SYSTRAN/faster-whisper/)|0.0817|0.1647|0.0932|0.1559|
+|**[faster-whisper w/ batching](https://github.com/SYSTRAN/faster-whisper/pull/856)**|**0.0227**|**0.0433**|**0.0195**|**0.0402**|
+|[WhisperX](https://github.com/m-bain/whisperX/)\*|0.0629|0.0651|0.0599|0.0633|
 
 <br>
 

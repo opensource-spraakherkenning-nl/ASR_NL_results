@@ -42,17 +42,17 @@ And a matrix with the **time** spent in total by each implementation **to load a
 
 \* For WhisperX, a separate alignment model based on wav2vec 2.0 has been applied in order to obtain word-level timestamps. Therefore, the time measured contains the time to load the model, time to transcribe, and time to align to generate timestamps. Speaker diarization has also been applied for WhisperX, which is measured separately and covered in [this section](./whisperx.md).
 
-<!-- <br>
+<br>
 
-Here's also a matrix with the **Real-Time Factor or RTF** for short (defined as time to process all of the input divided by the duration of the input) for transcribing **2.23 hours of speech** (rounded to 4 decimals):
+Here's also a matrix with the **Real-Time Factor or RTF** for short (defined as time to process all of the input divided by the duration of the input) for transcribing **2.18 hours of speech** (rounded to 4 decimals):
 
 |RTF (process time/duration of audio)|large-v2 with `float16`|large-v2 with `float32`|large-v3 with `float16`|large-v3 with `float32`|
 |---|---|---|---|---|
-|[OpenAI](https://github.com/openai/whisper)|0.2698|0.2443|0.3149|0.2273|
-|[Huggingface (`transformers`)](https://huggingface.co/openai/whisper-large-v2#long-form-transcription)|0.1629|0.1436|0.1746|0.1647|
-|[faster-whisper](https://github.com/SYSTRAN/faster-whisper/)|0.0871|0.168|0.0827|0.1799|
-|**[faster-whisper w/ batching](https://github.com/SYSTRAN/faster-whisper/pull/856)**|**0.0355**|**0.0663**|**0.033**|**0.0633**|
-|[WhisperX](https://github.com/m-bain/whisperX/)\*|0.0864|0.114|0.0823|0.1126| -->
+|[OpenAI](https://github.com/openai/whisper)|0.2695|0.2189|0.2396|0.246|
+|[Huggingface (`transformers`)](https://huggingface.co/openai/whisper-large-v2#long-form-transcription)|0.1606|0.1083|0.1311|0.1604|
+|[faster-whisper](https://github.com/SYSTRAN/faster-whisper/)|0.0791|0.1497|0.0963|0.1483|
+|**[faster-whisper w/ batching](https://github.com/SYSTRAN/faster-whisper/pull/856)**|**0.0522**|**0.0898**|**0.0487**|**0.0882**|
+|[WhisperX](https://github.com/m-bain/whisperX/)\*|0.238|0.2551|0.2176|0.2575|
 
 <br>
 
