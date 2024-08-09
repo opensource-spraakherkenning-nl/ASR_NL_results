@@ -1,4 +1,4 @@
-[Go back](./jasmin.md)
+[**Go back**](./jasmin.md)
 
 ## Jasmin Dutch results
 Here is a matrix with **WER** results of the baseline model, Kaldi_NL, as well as different models tested on **Dutch read speech**:

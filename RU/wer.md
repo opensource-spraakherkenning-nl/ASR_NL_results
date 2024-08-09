@@ -1,4 +1,4 @@
-[Back to homepage](../index.md)
+[**Back to homepage**](../index.md)
 
 # WER results
 - This file presents the **average (avg.) WER** scores of the four datasets tested within the [HoMed](https://homed.ruhosting.nl/) project (2021-2024).

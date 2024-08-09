@@ -1,4 +1,4 @@
-[Back to homepage](../index.md)
+[**Back to homepage**](../index.md)
 
 ## Analysis of WER difference between whisper-timestamped (Whisper) and faster-whisper
 

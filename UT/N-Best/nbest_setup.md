@@ -1,4 +1,4 @@
-[Go back](./nbest_res.md)
+[**Go back**](./nbest_res.md)
 
 ## N-Best setup
 ### Preprocessing

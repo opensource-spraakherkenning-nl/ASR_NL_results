@@ -1,4 +1,4 @@
-[Go back](./intro_bn_nl.md)
+[**Go back**](./intro_bn_nl.md)
 
 <h2>Computational performance on the unlabelled audio of Broadcast News in the Netherlands</h2>
 

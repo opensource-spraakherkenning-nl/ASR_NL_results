@@ -1,4 +1,4 @@
-[Go back](./intro_bn_nl.md)
+[**Go back**](./intro_bn_nl.md)
 
 <h2>Results on the labelled audio of Broadcast News in the Netherlands</h2>
 
