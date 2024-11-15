@@ -11,6 +11,7 @@ The implementation used to output word-level timestamps from Whisper is [whisper
 - `best_of=5`
 - `temperature=(0.0, 0.2, 0.4, 0.6, 0.8, 1.0)`
 - `language="nl"`
+- `compute_type=float16`
 
 <br>
 
