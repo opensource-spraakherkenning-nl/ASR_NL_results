@@ -1,0 +1,6312 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: /input/cv17_airtight_full_normalized_variations.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                        11266
+ with errors                             20.7%   (2337)
+
+   with substitutions                    19.2%   (2168)
+   with deletions                         3.5%   ( 393)
+   with insertions                        2.9%   ( 326)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.5%   (3559)
+
+Percent Correct           =   97.0%   (99591)
+
+Percent Substitution      =    2.6%   (2661)
+Percent Deletions         =    0.4%   ( 445)
+Percent Insertions        =    0.4%   ( 453)
+Percent Word Accuracy     =   96.5%
+
+
+Ref. words                =           (102697)
+Hyp. words                =           (102705)
+Aligned words             =           (103150)
+
+CONFUSION PAIRS                  Total                 (2154)
+                                 With >=  1 occurrences (2154)
+
+   1:   98  ->  wij ==> we
+   2:   41  ->  we ==> wij
+   3:   16  ->  dat ==> het
+   4:   14  ->  een ==> één
+   5:   13  ->  's ==> s
+   6:   12  ->  dat ==> dit
+   7:   12  ->  die ==> de
+   8:   12  ->  één ==> een
+   9:   11  ->  dit ==> dat
+  10:   11  ->  vóór ==> voor
+  11:   10  ->  dit ==> het
+  12:   10  ->  een ==> de
+  13:    9  ->  de ==> een
+  14:    9  ->  je ==> u
+  15:    9  ->  ze ==> zij
+  16:    8  ->  hun ==> een
+  17:    7  ->  collega’s ==> collega's
+  18:    7  ->  de ==> het
+  19:    7  ->  een ==> in
+  20:    7  ->  het ==> een
+  21:    7  ->  in ==> en
+  22:    7  ->  voor ==> vóór
+  23:    7  ->  zij ==> ze
+  24:    6  ->  kan ==> kun
+  25:    5  ->  een ==> het
+  26:    5  ->  het ==> dat
+  27:    5  ->  het ==> dit
+  28:    5  ->  je ==> ik
+  29:    5  ->  moet ==> moeten
+  30:    5  ->  tenslotte ==> slotte
+  31:    5  ->  teveel ==> veel
+  32:    5  ->  veel ==> zoveel
+  33:    4  ->  daar ==> er
+  34:    4  ->  de ==> er
+  35:    4  ->  de ==> te
+  36:    4  ->  een ==> hun
+  37:    4  ->  hawaï ==> hawaii
+  38:    4  ->  in ==> een
+  39:    4  ->  je ==> jij
+  40:    4  ->  mij ==> me
+  41:    4  ->  tenminste ==> minste
+  42:    4  ->  voor ==> van
+  43:    4  ->  zal ==> zou
+  44:    3  ->  anderen ==> andere
+  45:    3  ->  de ==> haar
+  46:    3  ->  droeg ==> droegen
+  47:    3  ->  echter ==> achter
+  48:    3  ->  een ==> en
+  49:    3  ->  gekomen ==> terechtgekomen
+  50:    3  ->  herkent ==> herkend
+  51:    3  ->  je ==> die
+  52:    3  ->  maar ==> naar
+  53:    3  ->  moeten ==> moet
+  54:    3  ->  moge ==> mogen
+  55:    3  ->  naar ==> na
+  56:    3  ->  oh ==> o
+  57:    3  ->  vetgedrukt ==> gedrukt
+  58:    3  ->  volgend ==> volgende
+  59:    2  ->  aan ==> en
+  60:    2  ->  aan ==> in
+  61:    2  ->  als ==> alsof
+  62:    2  ->  beide ==> beiden
+  63:    2  ->  blijven ==> blijft
+  64:    2  ->  bucharest ==> boekarest
+  65:    2  ->  cola ==> coca-cola
+  66:    2  ->  deze ==> de
+  67:    2  ->  dien ==> die
+  68:    2  ->  dát ==> dat
+  69:    2  ->  emily ==> emilie
+  70:    2  ->  en ==> een
+  71:    2  ->  er ==> ervan
+  72:    2  ->  eén ==> een
+  73:    2  ->  gaan ==> overgaan
+  74:    2  ->  gemaakt ==> bekendgemaakt
+  75:    2  ->  grotere ==> grote
+  76:    2  ->  haalde ==> haalden
+  77:    2  ->  halfleeg ==> leeg
+  78:    2  ->  halfvol ==> vol
+  79:    2  ->  heel ==> hele
+  80:    2  ->  hem ==> hen
+  81:    2  ->  hen ==> hem
+  82:    2  ->  hieraan ==> aan
+  83:    2  ->  hij ==> er
+  84:    2  ->  hogesnelheidstrein ==> snelheidstrein
+  85:    2  ->  hun ==> hem
+  86:    2  ->  hun ==> hen
+  87:    2  ->  in ==> de
+  88:    2  ->  isabelle ==> isabella
+  89:    2  ->  jaar ==> halfjaar
+  90:    2  ->  je ==> hier
+  91:    2  ->  karate ==> karaten
+  92:    2  ->  ken ==> kan
+  93:    2  ->  kernfusie ==> kernvizie
+  94:    2  ->  kilometer ==> km
+  95:    2  ->  lang ==> zolang
+  96:    2  ->  maakte ==> maakten
+  97:    2  ->  maken ==> gebruikmaken
+  98:    2  ->  maken ==> maak
+  99:    2  ->  marc ==> mark
+ 100:    2  ->  meeste ==> meesten
+ 101:    2  ->  militair ==> militaire
+ 102:    2  ->  minst ==> minste
+ 103:    2  ->  moest ==> moet
+ 104:    2  ->  muisstil ==> muistil
+ 105:    2  ->  na ==> naar
+ 106:    2  ->  niet ==> niets
+ 107:    2  ->  niets ==> niet
+ 108:    2  ->  nieuw ==> nieuwe
+ 109:    2  ->  nieuwe ==> nieuw
+ 110:    2  ->  op ==> of
+ 111:    2  ->  openhaard ==> haard
+ 112:    2  ->  peil ==> pijl
+ 113:    2  ->  plofte ==> ploften
+ 114:    2  ->  redenen ==> reden
+ 115:    2  ->  richtlijn ==> richtlijnen
+ 116:    2  ->  roodkapje ==> kapje
+ 117:    2  ->  scene ==> scène
+ 118:    2  ->  sciencefiction ==> fiction
+ 119:    2  ->  ski-jas ==> skijas
+ 120:    2  ->  slaapwel ==> wel
+ 121:    2  ->  speelde ==> speelden
+ 122:    2  ->  te ==> de
+ 123:    2  ->  til ==> deel
+ 124:    2  ->  tuurde ==> duurde
+ 125:    2  ->  vanuit ==> uit
+ 126:    2  ->  ver ==> zover
+ 127:    2  ->  verdergaan ==> gaan
+ 128:    2  ->  verdient ==> verdiend
+ 129:    2  ->  verdwaalt ==> verdwaald
+ 130:    2  ->  vindt ==> vind
+ 131:    2  ->  voeg ==> vroeg
+ 132:    2  ->  voor ==> voordat
+ 133:    2  ->  voorgestemd ==> gestemd
+ 134:    2  ->  waarde ==> waarden
+ 135:    2  ->  water ==> zoetwater
+ 136:    2  ->  weeral ==> al
+ 137:    2  ->  wel ==> zowel
+ 138:    2  ->  welk ==> welke
+ 139:    2  ->  welke ==> welk
+ 140:    2  ->  word ==> wordt
+ 141:    2  ->  ze ==> te
+ 142:    2  ->  zijn ==> een
+ 143:    2  ->  zélf ==> zelf
+ 144:    2  ->  Één ==> een
+ 145:    1  ->  'mondiale ==> mondiale
+ 146:    1  ->  's ==> straks
+ 147:    1  ->  a ==> af
+ 148:    1  ->  aan ==> een
+ 149:    1  ->  aan ==> er
+ 150:    1  ->  aan ==> eraan
+ 151:    1  ->  aan ==> waan
+ 152:    1  ->  aandrijfas ==> aandrijvas
+ 153:    1  ->  aaneen ==> eenen
+ 154:    1  ->  aangelegenheid ==> aangelukkigheid
+ 155:    1  ->  aangelegenheid ==> oneleenheid
+ 156:    1  ->  aanhalen ==> aanraden
+ 157:    1  ->  aanhoudt ==> aanhoud
+ 158:    1  ->  aannemer ==> aannemers
+ 159:    1  ->  aanpak' ==> aanpak
+ 160:    1  ->  aanstippen ==> aanstekken
+ 161:    1  ->  aantal ==> aantallen
+ 162:    1  ->  aantekenen ==> ondertekenen
+ 163:    1  ->  aanvaardde ==> aanvaarden
+ 164:    1  ->  aanvaarden ==> aanpakken
+ 165:    1  ->  aanvaring ==> aanvaarding
+ 166:    1  ->  aanvraagprocedures ==> aanvraagprocedure
+ 167:    1  ->  aanwervingsprocedure ==> aanwerfingsprocedure
+ 168:    1  ->  aanwezigheidsdienst ==> dienst
+ 169:    1  ->  aapje ==> haapje
+ 170:    1  ->  aard ==> naartoe
+ 171:    1  ->  aarde ==> adem
+ 172:    1  ->  aarlen ==> alen
+ 173:    1  ->  aartsmoeilijk ==> aardsmoeilijk
+ 174:    1  ->  abortus ==> aborten
+ 175:    1  ->  achillespees ==> achillespijs
+ 176:    1  ->  achteloos ==> achterloos
+ 177:    1  ->  achtenzestig ==> negenhonderdachtenzestig
+ 178:    1  ->  achter ==> erachter
+ 179:    1  ->  achterhaalt ==> haalt
+ 180:    1  ->  achterin ==> in
+ 181:    1  ->  achternazitten ==> zitten
+ 182:    1  ->  achteruitgegaan ==> gegaan
+ 183:    1  ->  actief ==> geulactief
+ 184:    1  ->  addertje ==> alletje
+ 185:    1  ->  adelaar ==> adela
+ 186:    1  ->  adequate ==> adéquate
+ 187:    1  ->  adviseerde ==> adviseerden
+ 188:    1  ->  af ==> op
+ 189:    1  ->  af ==> vooraf
+ 190:    1  ->  afdoende ==> voldoende
+ 191:    1  ->  afgebakend ==> afgebakken
+ 192:    1  ->  afgevaardigde ==> gedachte-afgevaardigde
+ 193:    1  ->  afgevaardigden ==> aangevaardigden
+ 194:    1  ->  afgezant ==> afgezond
+ 195:    1  ->  aflatende ==> niet-aflatende
+ 196:    1  ->  afstraffend ==> afstraffen
+ 197:    1  ->  afvoer ==> afweer
+ 198:    1  ->  afzakt ==> afzuigt
+ 199:    1  ->  akkefietje ==> akafietje
+ 200:    1  ->  al ==> deelzooi
+ 201:    1  ->  al ==> wel
+ 202:    1  ->  alfabet ==> andere
+ 203:    1  ->  algemeen ==> algemene
+ 204:    1  ->  alle ==> aller
+ 205:    1  ->  alledrie ==> drie
+ 206:    1  ->  alleenheerser ==> alleenheerder
+ 207:    1  ->  allegaartje ==> alhaartje
+ 208:    1  ->  allen ==> al
+ 209:    1  ->  allen ==> een
+ 210:    1  ->  almaar ==> maar
+ 211:    1  ->  almere ==> almeren
+ 212:    1  ->  aloë ==> aloe
+ 213:    1  ->  als ==> al
+ 214:    1  ->  als ==> sportsvrije
+ 215:    1  ->  alternatieven ==> alternatieve
+ 216:    1  ->  alvorens ==> volgens
+ 217:    1  ->  anaal ==> erna
+ 218:    1  ->  analysen ==> analyses
+ 219:    1  ->  anciaux ==> anzio
+ 220:    1  ->  andere ==> ander
+ 221:    1  ->  andere ==> anderen
+ 222:    1  ->  anderzijds ==> onderzijds
+ 223:    1  ->  angstvallig ==> angstvollig
+ 224:    1  ->  anijssmaak ==> aneisma
+ 225:    1  ->  anniek ==> annick
+ 226:    1  ->  antibioticakuur ==> antibiotica-kuur
+ 227:    1  ->  apeldoorn ==> appeldoorn
+ 228:    1  ->  aprerol ==> aperol
+ 229:    1  ->  arachnofobie ==> arachnophypo
+ 230:    1  ->  arbeidstijdverkorting ==> arbeidsverkorting
+ 231:    1  ->  archimedes ==> argineris
+ 232:    1  ->  architecte ==> architect
+ 233:    1  ->  argwaan ==> aangenaam
+ 234:    1  ->  armleuning ==> armluimen
+ 235:    1  ->  arnhem ==> anham
+ 236:    1  ->  arrestaties ==> restaties
+ 237:    1  ->  assumpties ==> assumptions
+ 238:    1  ->  atheïst ==> atheist
+ 239:    1  ->  atheïst ==> juist
+ 240:    1  ->  autorijden ==> rijden
+ 241:    1  ->  autostrade ==> autostraden
+ 242:    1  ->  auw ==> ouwe
+ 243:    1  ->  avocado ==> avocade
+ 244:    1  ->  avonds ==> s'avonds
+ 245:    1  ->  azerty ==> zijn
+ 246:    1  ->  azuurblauw ==> azurblauw
+ 247:    1  ->  azuurblauwe ==> azurblauwe
+ 248:    1  ->  b ==> bee
+ 249:    1  ->  baai ==> dubai
+ 250:    1  ->  backhand ==> backend
+ 251:    1  ->  bacteriën ==> bakkeringen
+ 252:    1  ->  balletdanseres ==> balletranseres
+ 253:    1  ->  balustrade ==> ballenstraat
+ 254:    1  ->  bankje ==> bank
+ 255:    1  ->  barbaren ==> parwaren
+ 256:    1  ->  barrière ==> plasticbarrière
+ 257:    1  ->  beboet ==> bepoet
+ 258:    1  ->  bedankte ==> bedankten
+ 259:    1  ->  bedoelde ==> bedoelden
+ 260:    1  ->  bedoelt ==> bedoeld
+ 261:    1  ->  bedreigt ==> bedreigd
+ 262:    1  ->  bedrijf ==> technologiebedrijf
+ 263:    1  ->  bedrijfstak ==> bedrijvenstak
+ 264:    1  ->  bedroefd ==> betroefd
+ 265:    1  ->  beenbreuk ==> pijnbreuk
+ 266:    1  ->  begint ==> beginnen
+ 267:    1  ->  begroting ==> begrotingen
+ 268:    1  ->  begroting ==> spaarzamenbegroting
+ 269:    1  ->  behartigenswaardige ==> behartenswaardige
+ 270:    1  ->  beheer ==> inefficiënt
+ 271:    1  ->  beheerssysteem ==> beheersysteem
+ 272:    1  ->  behoedzaam ==> bloedzaam
+ 273:    1  ->  behoefte ==> behoeften
+ 274:    1  ->  behoeften ==> hoogte
+ 275:    1  ->  behoren ==> behoorden
+ 276:    1  ->  behoren ==> horen
+ 277:    1  ->  behoud ==> behouden
+ 278:    1  ->  beige ==> zich
+ 279:    1  ->  bekeert ==> bekeerd
+ 280:    1  ->  bekent ==> bekend
+ 281:    1  ->  belang ==> balan
+ 282:    1  ->  belang ==> belangrijk
+ 283:    1  ->  belang ==> deelbelang
+ 284:    1  ->  belastingeninkomsten ==> belastinginkomsten
+ 285:    1  ->  belastinggebied ==> belastingsgebied
+ 286:    1  ->  beleefd ==> bedreefd
+ 287:    1  ->  beleg ==> belag
+ 288:    1  ->  belegd ==> topbeleid
+ 289:    1  ->  belemmerd ==> belengd
+ 290:    1  ->  belet ==> ivo-beleid
+ 291:    1  ->  belgisch ==> belgische
+ 292:    1  ->  beloond ==> belood
+ 293:    1  ->  beloven ==> verloven
+ 294:    1  ->  beluisterd ==> beluistert
+ 295:    1  ->  bemoeilijken ==> bemoedigen
+ 296:    1  ->  ben ==> zijn
+ 297:    1  ->  benedenverdieping ==> benedenverdiening
+ 298:    1  ->  bengelde ==> bingelde
+ 299:    1  ->  benoît ==> benoit
+ 300:    1  ->  bepalingen ==> bepaling
+ 301:    1  ->  beperkt ==> bepaald
+ 302:    1  ->  bepleit ==> bepleet
+ 303:    1  ->  bereidden ==> bereiden
+ 304:    1  ->  berekenen ==> bereiken
+ 305:    1  ->  beroep ==> dergelijke
+ 306:    1  ->  bert ==> wert
+ 307:    1  ->  beschikken ==> schikken
+ 308:    1  ->  beslist ==> precies
+ 309:    1  ->  besproeiing ==> bespringing
+ 310:    1  ->  bessensap ==> pessensap
+ 311:    1  ->  besteld ==> bestelt
+ 312:    1  ->  bestellen ==> scheppen
+ 313:    1  ->  betaald ==> betaalt
+ 314:    1  ->  betalende ==> belastingbetalende
+ 315:    1  ->  beton ==> ton
+ 316:    1  ->  betreur ==> bedreig
+ 317:    1  ->  bevat ==> bewaart
+ 318:    1  ->  bevatte ==> bevat
+ 319:    1  ->  beveiligingscamera ==> beveiligingskamer
+ 320:    1  ->  bevestigd ==> bevestigt
+ 321:    1  ->  bevoegde ==> bevoerde
+ 322:    1  ->  bevoogding ==> bevolking
+ 323:    1  ->  bewakingscamera ==> bewakkingcamera
+ 324:    1  ->  beweging ==> bewegingen
+ 325:    1  ->  bewering ==> beweging
+ 326:    1  ->  beweringen ==> bewering
+ 327:    1  ->  bezaaid ==> bezit
+ 328:    1  ->  bezig ==> speser
+ 329:    1  ->  beziggehouden ==> gehouden
+ 330:    1  ->  bezitten ==> verzitten
+ 331:    1  ->  bezorgtijd ==> bezorgdheid
+ 332:    1  ->  bezwijken ==> beswijken
+ 333:    1  ->  biefstuk ==> beefsteak
+ 334:    1  ->  bij ==> daarbij
+ 335:    1  ->  bij ==> met
+ 336:    1  ->  bijdrage ==> bijdragen
+ 337:    1  ->  bijeenkomen ==> inkomen
+ 338:    1  ->  bijeenkomen ==> komen
+ 339:    1  ->  bijensteken ==> bijsteken
+ 340:    1  ->  bijgevolg ==> gevolg
+ 341:    1  ->  bijl ==> wijl
+ 342:    1  ->  bijnaam ==> bijna
+ 343:    1  ->  bijtend ==> betend
+ 344:    1  ->  bijzonder ==> een
+ 345:    1  ->  bijzondere ==> bijzonder
+ 346:    1  ->  bio-ethanol ==> bioethanol
+ 347:    1  ->  blaast ==> laast
+ 348:    1  ->  blad-steen-schaar ==> bladsteen-schaar
+ 349:    1  ->  bladzijden ==> plaatszijden
+ 350:    1  ->  blanche ==> daanblaans
+ 351:    1  ->  blauwalg ==> ogen
+ 352:    1  ->  blijkt ==> pleegt
+ 353:    1  ->  blikjes ==> aluminiumblikje
+ 354:    1  ->  blikjes ==> aluminiumblikjes
+ 355:    1  ->  bliksemafleider ==> afleiden
+ 356:    1  ->  bliksemschicht ==> bliksemsticht
+ 357:    1  ->  blindedarmontsteking ==> darmontsteking
+ 358:    1  ->  bloed ==> bloed-
+ 359:    1  ->  bloes ==> blouse
+ 360:    1  ->  boarden ==> worden
+ 361:    1  ->  bodemverontreiniging ==> ontreiniging
+ 362:    1  ->  boeg ==> boegen
+ 363:    1  ->  boekdelen ==> opdelen
+ 364:    1  ->  boekje ==> hier
+ 365:    1  ->  bokkensprongen ==> bokkesprongen
+ 366:    1  ->  bol ==> boom
+ 367:    1  ->  bolwerk ==> balwerk
+ 368:    1  ->  bommelding ==> boelmelding
+ 369:    1  ->  bon ==> bom
+ 370:    1  ->  boodschappenlijstje ==> boodschapenlijstje
+ 371:    1  ->  boog ==> pijlenboog
+ 372:    1  ->  boogscheut ==> boogschut
+ 373:    1  ->  boom ==> bomen
+ 374:    1  ->  boor ==> boer
+ 375:    1  ->  boordcomputer ==> bordcomputer
+ 376:    1  ->  boordevol ==> behoordevol
+ 377:    1  ->  bordeaux ==> pordeaux
+ 378:    1  ->  borden ==> woorden
+ 379:    1  ->  borsato ==> bersato
+ 380:    1  ->  borsbeek ==> worsbeek
+ 381:    1  ->  bosbranden ==> polsbranden
+ 382:    1  ->  bossen ==> posten
+ 383:    1  ->  botert ==> bodert
+ 384:    1  ->  bouwden ==> een
+ 385:    1  ->  boven ==> en
+ 386:    1  ->  boycots ==> boycotts
+ 387:    1  ->  bram ==> bron
+ 388:    1  ->  brandblusser ==> brandplusser
+ 389:    1  ->  brandstoffen ==> brandstof
+ 390:    1  ->  brengen ==> thuisbrengen
+ 391:    1  ->  brengt ==> bindt
+ 392:    1  ->  brengt ==> brenkt
+ 393:    1  ->  brepoels ==> brimpoens
+ 394:    1  ->  breuklijnen ==> bruiklijnen
+ 395:    1  ->  briefjes ==> blitjes
+ 396:    1  ->  brisbane ==> chrisman
+ 397:    1  ->  brommer ==> broemer
+ 398:    1  ->  broodtrommel ==> broodtroemel
+ 399:    1  ->  bruikbare ==> braakbare
+ 400:    1  ->  brussel ==> duizendbrussel
+ 401:    1  ->  brûlé ==> brûlée
+ 402:    1  ->  budapest ==> boedapest
+ 403:    1  ->  buigen ==> beugen
+ 404:    1  ->  buik ==> beuk
+ 405:    1  ->  buikspieren ==> buikspiegelen
+ 406:    1  ->  buitenlands ==> buitenlandse
+ 407:    1  ->  buitenlands ==> ons
+ 408:    1  ->  bungeejumpen ==> bungee-jumpen
+ 409:    1  ->  bunsenbrander ==> bunsenbrand
+ 410:    1  ->  c ==> zee
+ 411:    1  ->  cafeïne ==> caffeineen
+ 412:    1  ->  cappuccino’s ==> cappuccino's
+ 413:    1  ->  caprio ==> dicaprio
+ 414:    1  ->  caravan ==> karavan
+ 415:    1  ->  caïro ==> carnillo
+ 416:    1  ->  cdenv ==> cdnv
+ 417:    1  ->  cedric ==> cédric
+ 418:    1  ->  cementovens ==> cementoverwesten
+ 419:    1  ->  chemische ==> hebische
+ 420:    1  ->  christen-democraten ==> christendemocraten
+ 421:    1  ->  citroensap ==> citroensaap
+ 422:    1  ->  collegas ==> collega's
+ 423:    1  ->  colosseum ==> coliseum
+ 424:    1  ->  columbia ==> colombia
+ 425:    1  ->  com ==> dotcom
+ 426:    1  ->  communicatie- ==> communicatie
+ 427:    1  ->  communie ==> combiné
+ 428:    1  ->  concentreerde ==> concentreerden
+ 429:    1  ->  copiloot ==> co-piloot
+ 430:    1  ->  cosmeticabedrijf ==> cosmetica-bedrijf
+ 431:    1  ->  crawl ==> kral
+ 432:    1  ->  crisis ==> ze
+ 433:    1  ->  crisismechanisme ==> crisismechanismen
+ 434:    1  ->  crème ==> creme
+ 435:    1  ->  cuba ==> kubo
+ 436:    1  ->  cynisme ==> sarcinisme
+ 437:    1  ->  d ==> dag
+ 438:    1  ->  daalt ==> dalt
+ 439:    1  ->  daar ==> daarbij
+ 440:    1  ->  daar ==> de
+ 441:    1  ->  daardoor ==> daaraan
+ 442:    1  ->  daarlangs ==> langs
+ 443:    1  ->  daarmee ==> met
+ 444:    1  ->  daarover ==> daarvoor
+ 445:    1  ->  daarvoor ==> ervoor
+ 446:    1  ->  daden ==> datum
+ 447:    1  ->  dagen ==> dekken
+ 448:    1  ->  daimler ==> duimler
+ 449:    1  ->  damiaan ==> damian
+ 450:    1  ->  damme ==> dam
+ 451:    1  ->  dan ==> want
+ 452:    1  ->  daniël ==> daniel
+ 453:    1  ->  dansten ==> dansen
+ 454:    1  ->  dat ==> daad
+ 455:    1  ->  dat ==> inderdaad
+ 456:    1  ->  dat ==> voordat
+ 457:    1  ->  dat ==> wat
+ 458:    1  ->  database ==> datamees
+ 459:    1  ->  dauw ==> bouw
+ 460:    1  ->  dauw ==> douw
+ 461:    1  ->  de ==> beheerde
+ 462:    1  ->  de ==> bende
+ 463:    1  ->  de ==> bijzondere
+ 464:    1  ->  de ==> dat
+ 465:    1  ->  de ==> den
+ 466:    1  ->  de ==> denise
+ 467:    1  ->  de ==> die
+ 468:    1  ->  de ==> dit
+ 469:    1  ->  de ==> en
+ 470:    1  ->  de ==> ik
+ 471:    1  ->  de ==> in
+ 472:    1  ->  de ==> inadequate
+ 473:    1  ->  de ==> je
+ 474:    1  ->  de ==> kapte
+ 475:    1  ->  de ==> loopte
+ 476:    1  ->  de ==> lukte
+ 477:    1  ->  de ==> maria
+ 478:    1  ->  de ==> minste
+ 479:    1  ->  de ==> moeten
+ 480:    1  ->  de ==> onder
+ 481:    1  ->  de ==> onverwachte
+ 482:    1  ->  de ==> sloten
+ 483:    1  ->  de ==> smeette
+ 484:    1  ->  de ==> stakende
+ 485:    1  ->  de ==> ter
+ 486:    1  ->  de ==> the
+ 487:    1  ->  de ==> tuin
+ 488:    1  ->  de ==> volgende
+ 489:    1  ->  de ==> voor
+ 490:    1  ->  de ==> voordat
+ 491:    1  ->  de ==> ze
+ 492:    1  ->  de ==> zijn
+ 493:    1  ->  debat ==> debatten
+ 494:    1  ->  deed ==> zit
+ 495:    1  ->  deelstaatparlement ==> deelstaatsparlement
+ 496:    1  ->  degelijke ==> degelijk
+ 497:    1  ->  denkt ==> denk
+ 498:    1  ->  derde ==> 3e
+ 499:    1  ->  derde ==> tweederde
+ 500:    1  ->  derden ==> derde
+ 501:    1  ->  derdewereldlanden ==> wereldlanden
+ 502:    1  ->  dergelijke ==> degelijke
+ 503:    1  ->  derhalve ==> daarhalve
+ 504:    1  ->  derhalve ==> daarover
+ 505:    1  ->  dertienhonderd ==> driehonderd
+ 506:    1  ->  dessert ==> een
+ 507:    1  ->  detective ==> detectieve
+ 508:    1  ->  deugt ==> toogt
+ 509:    1  ->  deur ==> deuren
+ 510:    1  ->  deze ==> ze
+ 511:    1  ->  dialecten ==> dialekten
+ 512:    1  ->  dichtgeslibd ==> dichtgeslipt
+ 513:    1  ->  dictator ==> wrede-dictator
+ 514:    1  ->  die ==> dit
+ 515:    1  ->  die ==> het
+ 516:    1  ->  die ==> hier
+ 517:    1  ->  die ==> u
+ 518:    1  ->  dienovereenkomstig ==> komstig
+ 519:    1  ->  dienovereenkomstig ==> overeenkomstig
+ 520:    1  ->  diensten ==> bevoegdediensten
+ 521:    1  ->  dient ==> hieraandiend
+ 522:    1  ->  diepgewortelde ==> diepgewordene
+ 523:    1  ->  diestse ==> diefste
+ 524:    1  ->  dimbaar ==> dimmbaar
+ 525:    1  ->  ding-tot-dingrelatie ==> ding-tot-ding-relatie
+ 526:    1  ->  dingen ==> dien
+ 527:    1  ->  dinsdag ==> tenzen
+ 528:    1  ->  discussies ==> discussie
+ 529:    1  ->  distilleerderij ==> destillerij
+ 530:    1  ->  dit ==> de
+ 531:    1  ->  dit ==> die
+ 532:    1  ->  dit ==> hier
+ 533:    1  ->  dit ==> hij
+ 534:    1  ->  dit ==> zet
+ 535:    1  ->  dmv ==> van
+ 536:    1  ->  doden ==> toren
+ 537:    1  ->  doel ==> dool
+ 538:    1  ->  doen ==> aandoen
+ 539:    1  ->  doen ==> goeddoen
+ 540:    1  ->  doen ==> meedoen
+ 541:    1  ->  doen ==> toe
+ 542:    1  ->  doende ==> aldoende
+ 543:    1  ->  doha ==> doa
+ 544:    1  ->  dollars ==> dollar's
+ 545:    1  ->  dondersgoed ==> goed
+ 546:    1  ->  doodssteek ==> doodsteek
+ 547:    1  ->  doodstraf ==> doelstraf
+ 548:    1  ->  doodvonnis ==> doodvornis
+ 549:    1  ->  doofpot ==> doofpoort
+ 550:    1  ->  doolhof ==> oorhof
+ 551:    1  ->  doopsel ==> doopstel
+ 552:    1  ->  door ==> er
+ 553:    1  ->  door ==> kan
+ 554:    1  ->  doornroosje ==> doornroze
+ 555:    1  ->  doorzetten ==> doorzitten
+ 556:    1  ->  doorzettingsvermogen ==> terugzettingsvermogen
+ 557:    1  ->  douaneagent ==> douane-agent
+ 558:    1  ->  douche ==> doe
+ 559:    1  ->  draaglijk ==> sociaal-draaglijk
+ 560:    1  ->  draaiende ==> goeddraaiende
+ 561:    1  ->  drielingen ==> drillingen
+ 562:    1  ->  drieluik ==> drielaak
+ 563:    1  ->  driemaal ==> maal
+ 564:    1  ->  drieëndertig ==> drieduizend
+ 565:    1  ->  dringend ==> uiteindelijk
+ 566:    1  ->  droef ==> drof
+ 567:    1  ->  drug ==> druk
+ 568:    1  ->  drugsbende ==> drugspinden
+ 569:    1  ->  drugsstrategie ==> drugstrategie
+ 570:    1  ->  drup ==> drupp
+ 571:    1  ->  dubbel-a-batterijen ==> dubbela-batterijen
+ 572:    1  ->  dubbelglas ==> glas
+ 573:    1  ->  duidelijk ==> duidelijke
+ 574:    1  ->  duidelijk ==> echter
+ 575:    1  ->  duizend ==> punt
+ 576:    1  ->  dus ==> ten
+ 577:    1  ->  duurzame ==> duurzaam
+ 578:    1  ->  dwarsliggen ==> liggen
+ 579:    1  ->  dwergen ==> zevedwenner
+ 580:    1  ->  dáárover ==> daarover
+ 581:    1  ->  dürüm ==> durem
+ 582:    1  ->  e-veertig ==> e40
+ 583:    1  ->  eagle ==> ego
+ 584:    1  ->  echt ==> echter
+ 585:    1  ->  echte ==> een
+ 586:    1  ->  echtgenotes ==> vrouwen-echtenotes
+ 587:    1  ->  ecologisch ==> ecologische
+ 588:    1  ->  ecologisch-sociale ==> sociale
+ 589:    1  ->  economisch ==> economische
+ 590:    1  ->  ecosysteemdiensten ==> diensten
+ 591:    1  ->  eddy ==> eddie
+ 592:    1  ->  edinburg ==> edinburgh
+ 593:    1  ->  een ==> buitstek
+ 594:    1  ->  een ==> deden
+ 595:    1  ->  een ==> eén
+ 596:    1  ->  een ==> geen
+ 597:    1  ->  een ==> haar
+ 598:    1  ->  een ==> heel
+ 599:    1  ->  een ==> internationalen
+ 600:    1  ->  een ==> mijn
+ 601:    1  ->  een ==> ons
+ 602:    1  ->  een ==> zijn
+ 603:    1  ->  eendrachtig ==> eendachtig
+ 604:    1  ->  eenendertig ==> dertig
+ 605:    1  ->  eenentwintigen ==> eenentwintig
+ 606:    1  ->  eenmaal ==> éénmaal
+ 607:    1  ->  eens ==> weleens
+ 608:    1  ->  eens ==> zo
+ 609:    1  ->  eerste ==> eerst
+ 610:    1  ->  efficiënt ==> bijsterefficiënt
+ 611:    1  ->  eicellen ==> ijscellen
+ 612:    1  ->  eigenlijk ==> eindelijk
+ 613:    1  ->  eik ==> ijk
+ 614:    1  ->  eiken ==> een
+ 615:    1  ->  eiken ==> eike
+ 616:    1  ->  eind ==> een
+ 617:    1  ->  eindstemmingen ==> eindstemmigen
+ 618:    1  ->  eisden ==> eesden
+ 619:    1  ->  eksteroog ==> oog
+ 620:    1  ->  electrowinkel ==> elektrowinkel
+ 621:    1  ->  elektrocutie ==> electrocutie
+ 622:    1  ->  eline ==> elina
+ 623:    1  ->  elise ==> elize
+ 624:    1  ->  elk ==> elke
+ 625:    1  ->  elk ==> hulp
+ 626:    1  ->  elkaar ==> haar
+ 627:    1  ->  els ==> else
+ 628:    1  ->  elsene ==> elsen
+ 629:    1  ->  embryo ==> ambireel
+ 630:    1  ->  embryo’s ==> embryo's
+ 631:    1  ->  en ==> in
+ 632:    1  ->  en ==> persen
+ 633:    1  ->  energie- ==> energie
+ 634:    1  ->  energiedebatten ==> energie-debatten
+ 635:    1  ->  enig ==> enige
+ 636:    1  ->  enige ==> enig
+ 637:    1  ->  enkel- ==> enkel
+ 638:    1  ->  er ==> de
+ 639:    1  ->  er ==> en
+ 640:    1  ->  er ==> met
+ 641:    1  ->  er ==> naar
+ 642:    1  ->  er ==> staar
+ 643:    1  ->  er ==> uw
+ 644:    1  ->  erg ==> er
+ 645:    1  ->  ergerde ==> ergde
+ 646:    1  ->  erkenning ==> herkenning
+ 647:    1  ->  erlenmeyer ==> erlenmeijer
+ 648:    1  ->  erom ==> daarom
+ 649:    1  ->  erop ==> roep
+ 650:    1  ->  ertegenop ==> tegenop
+ 651:    1  ->  erwtjes ==> hertjes
+ 652:    1  ->  eskimo's ==> eschimo's
+ 653:    1  ->  esther ==> ester
+ 654:    1  ->  etiketteringsregeling ==> etiketteringregeling
+ 655:    1  ->  ettelijke ==> etterlijke
+ 656:    1  ->  evaluatie ==> ante-evaluatie
+ 657:    1  ->  even ==> evenwijd
+ 658:    1  ->  evenredigheidsstelsel ==> vredigheidstelsel
+ 659:    1  ->  evenzo ==> zo
+ 660:    1  ->  ex-collega’s ==> ex-collega's
+ 661:    1  ->  exporteren ==> exploiteren
+ 662:    1  ->  express ==> aliexpress
+ 663:    1  ->  express ==> trans-siberië-express
+ 664:    1  ->  extensivering ==> excensificering
+ 665:    1  ->  eén ==> één
+ 666:    1  ->  fabrieksschip ==> fabriekschip
+ 667:    1  ->  faciliteit ==> faciliteiten
+ 668:    1  ->  failliet ==> faliet
+ 669:    1  ->  farao's ==> varoo's
+ 670:    1  ->  farce ==> farcen
+ 671:    1  ->  fazant ==> zand
+ 672:    1  ->  feestmaand ==> feestmaat
+ 673:    1  ->  feestten ==> feesten
+ 674:    1  ->  feestvreugde ==> feestvruchten
+ 675:    1  ->  fel ==> veel
+ 676:    1  ->  fietsen ==> filofietsen
+ 677:    1  ->  file ==> film
+ 678:    1  ->  fileparkeren ==> parkeren
+ 679:    1  ->  filmpjes ==> filmpje
+ 680:    1  ->  flauw ==> op
+ 681:    1  ->  flauwgevallen ==> gevallen
+ 682:    1  ->  fleecedekentje ==> vliestekentje
+ 683:    1  ->  flink ==> flik
+ 684:    1  ->  floor ==> flor
+ 685:    1  ->  fluwelen ==> fluwele
+ 686:    1  ->  forse ==> forsche
+ 687:    1  ->  forum ==> vorm
+ 688:    1  ->  fossiele ==> fossielen
+ 689:    1  ->  fout ==> schuld
+ 690:    1  ->  frank ==> franc
+ 691:    1  ->  frasen ==> frazen
+ 692:    1  ->  fraudeopsporingscapaciteit ==> fraudeomsporingscapaciteit
+ 693:    1  ->  fraudepoging ==> vrouwenpoging
+ 694:    1  ->  frigo ==> vriegel
+ 695:    1  ->  frisdrank ==> fresrank
+ 696:    1  ->  friteuse ==> friteuze
+ 697:    1  ->  frontaal ==> frontaan
+ 698:    1  ->  fundamentalistisch ==> fundamentalistische
+ 699:    1  ->  föhnen ==> funnen
+ 700:    1  ->  gaan ==> achteruitgaan
+ 701:    1  ->  gaan ==> binnengaan
+ 702:    1  ->  gaan ==> ga
+ 703:    1  ->  gaan ==> misgaan
+ 704:    1  ->  gaan ==> uitgaan
+ 705:    1  ->  gaan ==> verdergaan
+ 706:    1  ->  galg ==> golg
+ 707:    1  ->  gang ==> overgang
+ 708:    1  ->  ganzenbord ==> ganzenboord
+ 709:    1  ->  gas ==> gat
+ 710:    1  ->  gebaseerd ==> gewaseerd
+ 711:    1  ->  gebeurt ==> gebeurd
+ 712:    1  ->  gebieden ==> gebeden
+ 713:    1  ->  geboekt ==> vluchtelboek
+ 714:    1  ->  gebotst ==> gewotst
+ 715:    1  ->  gebruikte ==> gebruikten
+ 716:    1  ->  gecensureerd ==> gesensureerd
+ 717:    1  ->  gedaan ==> hier
+ 718:    1  ->  gedachten ==> gedachte
+ 719:    1  ->  gedebatteerd ==> gedeputeerd
+ 720:    1  ->  gedetineerden ==> detineerden
+ 721:    1  ->  gedwongen ==> gewonnen
+ 722:    1  ->  geen ==> heggen
+ 723:    1  ->  geen ==> wat
+ 724:    1  ->  gegaan ==> langsgegaan
+ 725:    1  ->  gegaan ==> misgegaan
+ 726:    1  ->  gehad ==> gehaald
+ 727:    1  ->  gehangen ==> gaan
+ 728:    1  ->  geheel ==> geweel
+ 729:    1  ->  gehele ==> geheelige
+ 730:    1  ->  geheven ==> opgeheven
+ 731:    1  ->  gehinderd ==> geïnteresseerd
+ 732:    1  ->  gekaapt ==> gekaakt
+ 733:    1  ->  gekheid ==> geit
+ 734:    1  ->  gekomen ==> thuisgekomen
+ 735:    1  ->  geld ==> held
+ 736:    1  ->  gelijk ==> slechts
+ 737:    1  ->  gelukwensen ==> is
+ 738:    1  ->  gemakkelijk ==> gemakkelijke
+ 739:    1  ->  gemakkelijk ==> gemakkelijker
+ 740:    1  ->  gemalen ==> gemalig
+ 741:    1  ->  gemeenschappelijke ==> maatschappelijke
+ 742:    1  ->  gemoeid ==> meegewoond
+ 743:    1  ->  gemorste ==> gemoesde
+ 744:    1  ->  genoegen ==> genoeg
+ 745:    1  ->  genomen ==> samengenomen
+ 746:    1  ->  genre ==> signaler
+ 747:    1  ->  gepasseerd ==> gebaseerd
+ 748:    1  ->  geplagieerd ==> geplagiëerd
+ 749:    1  ->  geprent ==> geprint
+ 750:    1  ->  geraadpleegd ==> gehadplicht
+ 751:    1  ->  geraakt ==> kwijtgeraakt
+ 752:    1  ->  geraken ==> terughaken
+ 753:    1  ->  gerd ==> gert
+ 754:    1  ->  gerecht ==> gereed
+ 755:    1  ->  gerecht ==> roerbakgerecht
+ 756:    1  ->  gerechtelijke ==> gerechtelijk
+ 757:    1  ->  gerede ==> gereden
+ 758:    1  ->  gescheeld ==> geschild
+ 759:    1  ->  geschillenregeling ==> geschiedenregelingen
+ 760:    1  ->  geslaagd ==> geslacht
+ 761:    1  ->  geslagen ==> slagen
+ 762:    1  ->  geslonken ==> gesloten
+ 763:    1  ->  gesloopt ==> gesloten
+ 764:    1  ->  gesneld ==> toegesneld
+ 765:    1  ->  gespitst ==> gespetst
+ 766:    1  ->  gestemd ==> tegengestemd
+ 767:    1  ->  gesteund ==> gestemd
+ 768:    1  ->  gestraft ==> bestraft
+ 769:    1  ->  geteisterd ==> gepijsterd
+ 770:    1  ->  getracht ==> gedracht
+ 771:    1  ->  getto ==> ghetto
+ 772:    1  ->  getuige ==> getuigen
+ 773:    1  ->  getuigen ==> getuige
+ 774:    1  ->  getypt ==> geteamed
+ 775:    1  ->  geur ==> reur
+ 776:    1  ->  gevaarlijke ==> gevaarlijk
+ 777:    1  ->  geval ==> gevaar
+ 778:    1  ->  gevallen ==> pannengevallen
+ 779:    1  ->  gevallen ==> verhalen
+ 780:    1  ->  gevangengezet ==> gezet
+ 781:    1  ->  geveld ==> gevuild
+ 782:    1  ->  gevoelen ==> gevoelens
+ 783:    1  ->  gevolgen ==> gevolgd
+ 784:    1  ->  gewapend ==> gewapen
+ 785:    1  ->  gewed ==> gewetst
+ 786:    1  ->  geweld ==> wapensgeweld
+ 787:    1  ->  gewerkt ==> aangewerkt
+ 788:    1  ->  gewoon ==> schoon
+ 789:    1  ->  gewoond ==> gewand
+ 790:    1  ->  gezandstraalde ==> gezondstraalde
+ 791:    1  ->  gezicht ==> gezegd
+ 792:    1  ->  geëerbiedigde ==> geeerbiedigde
+ 793:    1  ->  geëigende ==> geeigende
+ 794:    1  ->  geïndustrialiseerde ==> geïndustrialiseerden
+ 795:    1  ->  geïnformeerd ==> geformeerd
+ 796:    1  ->  ging ==> belging
+ 797:    1  ->  gisteren ==> hesteren
+ 798:    1  ->  glazenwasser ==> wasser
+ 799:    1  ->  glijden ==> inglijden
+ 800:    1  ->  glippen ==> lippen
+ 801:    1  ->  gloed ==> vloed
+ 802:    1  ->  glühwein ==> kleurwijn
+ 803:    1  ->  godsdienstvrijheid ==> rotsdienstvrijheid
+ 804:    1  ->  goeden ==> groenen
+ 805:    1  ->  goedgehumeurd ==> gehumeurd
+ 806:    1  ->  goedgemaakt ==> gemaakt
+ 807:    1  ->  goele ==> groelen
+ 808:    1  ->  gom ==> gum
+ 809:    1  ->  gonsde ==> werfgrondste
+ 810:    1  ->  goud ==> goed
+ 811:    1  ->  graag ==> verdrag
+ 812:    1  ->  grappen ==> krappen
+ 813:    1  ->  grens ==> frans
+ 814:    1  ->  griezelige ==> giezelige
+ 815:    1  ->  groef ==> groeft
+ 816:    1  ->  groeicijfers ==> ruwcijfers
+ 817:    1  ->  groente ==> groenten
+ 818:    1  ->  grondig ==> nauwkrantelijk
+ 819:    1  ->  grondstoffen ==> grootstoffen
+ 820:    1  ->  groot ==> vooral
+ 821:    1  ->  grootmoeder ==> goedmoeder
+ 822:    1  ->  grootouders ==> ouders
+ 823:    1  ->  groots ==> groot
+ 824:    1  ->  grootstad ==> stad
+ 825:    1  ->  grote ==> groot
+ 826:    1  ->  grote ==> rode
+ 827:    1  ->  gsm ==> samsung-gsm
+ 828:    1  ->  guantanamo ==> guantánamo
+ 829:    1  ->  gure ==> gruwel
+ 830:    1  ->  gynaecologie ==> ginecologie
+ 831:    1  ->  haag ==> vandaag
+ 832:    1  ->  haan ==> haal
+ 833:    1  ->  haar ==> een
+ 834:    1  ->  haar ==> naar
+ 835:    1  ->  haard ==> bovenaard
+ 836:    1  ->  haard ==> hart
+ 837:    1  ->  hachelijker ==> hagerlijke
+ 838:    1  ->  had ==> hadden
+ 839:    1  ->  had ==> het
+ 840:    1  ->  had ==> houdt
+ 841:    1  ->  hadden ==> houden
+ 842:    1  ->  halal ==> hallo
+ 843:    1  ->  halen ==> binnenhalen
+ 844:    1  ->  halfbakken ==> bakken
+ 845:    1  ->  halve ==> achterhalve
+ 846:    1  ->  handcrème ==> handcreme
+ 847:    1  ->  handelsstromen ==> handelstromen
+ 848:    1  ->  hang ==> hou
+ 849:    1  ->  hangbrug ==> hongerig
+ 850:    1  ->  hardeschijf ==> schijf
+ 851:    1  ->  haren ==> meharen
+ 852:    1  ->  hartenjagen ==> jagen
+ 853:    1  ->  hartsvriendinnen ==> hartvriendinnen
+ 854:    1  ->  hebben ==> hadden
+ 855:    1  ->  hebreeuwse ==> wereldse
+ 856:    1  ->  hebt ==> heb
+ 857:    1  ->  hebt ==> hebben
+ 858:    1  ->  heelde ==> hield
+ 859:    1  ->  heerlen ==> herlen
+ 860:    1  ->  heersen ==> vredeheersje
+ 861:    1  ->  heerser ==> en
+ 862:    1  ->  heg ==> hek
+ 863:    1  ->  hein ==> heijn
+ 864:    1  ->  heizelpark ==> heidselpark
+ 865:    1  ->  heksenjacht ==> heksjacht
+ 866:    1  ->  hel ==> heil
+ 867:    1  ->  heldere ==> helderen
+ 868:    1  ->  heldin ==> de
+ 869:    1  ->  heleboel ==> veel
+ 870:    1  ->  hem ==> een
+ 871:    1  ->  herhaling ==> erhaling
+ 872:    1  ->  hersenchirurg ==> hersenschirurg
+ 873:    1  ->  hervestiging ==> hervestigingen
+ 874:    1  ->  hervormingen ==> hervorming
+ 875:    1  ->  het ==> daar
+ 876:    1  ->  het ==> de
+ 877:    1  ->  het ==> er
+ 878:    1  ->  het ==> hij
+ 879:    1  ->  het ==> kaarten
+ 880:    1  ->  het ==> voordat
+ 881:    1  ->  hete ==> gebruikte
+ 882:    1  ->  heverlee ==> heverley
+ 883:    1  ->  hieraan ==> mij
+ 884:    1  ->  hierbij ==> bij
+ 885:    1  ->  hij ==> ik
+ 886:    1  ->  hij ==> wij
+ 887:    1  ->  hijskraan ==> hijskam
+ 888:    1  ->  hits ==> enkelhits
+ 889:    1  ->  hiv- ==> hiv
+ 890:    1  ->  hmm ==> hm
+ 891:    1  ->  hoefde ==> hoeft
+ 892:    1  ->  hoeft ==> ruft
+ 893:    1  ->  hoelang ==> lang
+ 894:    1  ->  hoever ==> ver
+ 895:    1  ->  hoewel ==> hij
+ 896:    1  ->  hoger ==> hoog
+ 897:    1  ->  hogesnelheidstreinen ==> snelheidsstrijden
+ 898:    1  ->  hol ==> hoge
+ 899:    1  ->  holle ==> rollen
+ 900:    1  ->  honden ==> ronden
+ 901:    1  ->  hondenmand ==> hondenmond
+ 902:    1  ->  hondenmand ==> wand
+ 903:    1  ->  honderden ==> andere
+ 904:    1  ->  hoofddoelstelling ==> hoofdtoelstelling
+ 905:    1  ->  hoofdkwartier ==> hoogtepazier
+ 906:    1  ->  hoofdlijnen ==> hoofdlenen
+ 907:    1  ->  hoofdwetten ==> hoofdstukken
+ 908:    1  ->  hoogbegaafd ==> hoogbegaat
+ 909:    1  ->  hooggespannen ==> gespannen
+ 910:    1  ->  hoogst ==> hoogste
+ 911:    1  ->  hoogstens ==> hoogtes
+ 912:    1  ->  hooiberg ==> nooiberg
+ 913:    1  ->  hooikoorts ==> koorts
+ 914:    1  ->  hoorapparaat ==> hongerapparaat
+ 915:    1  ->  hoorde ==> hoor
+ 916:    1  ->  hoorde ==> hoorden
+ 917:    1  ->  hoorntje ==> hoorentje
+ 918:    1  ->  hoorntje ==> horntje
+ 919:    1  ->  hopeloos ==> hoopeloos
+ 920:    1  ->  horden ==> orde
+ 921:    1  ->  hou ==> haal
+ 922:    1  ->  hou ==> houd
+ 923:    1  ->  houdt ==> houd
+ 924:    1  ->  houweel ==> howeel
+ 925:    1  ->  huidig ==> huidige
+ 926:    1  ->  huidige ==> een
+ 927:    1  ->  huisstofmijt ==> mijt
+ 928:    1  ->  hulp ==> spoedhuizenhulp
+ 929:    1  ->  hulpbron ==> behulpbron
+ 930:    1  ->  humus ==> hummus
+ 931:    1  ->  hun ==> de
+ 932:    1  ->  hun ==> om
+ 933:    1  ->  hun ==> u
+ 934:    1  ->  hunebedden ==> hunnebedden
+ 935:    1  ->  huurauto ==> uurauto
+ 936:    1  ->  huwelijk ==> heuvelk
+ 937:    1  ->  huwelijken ==> huurlijken
+ 938:    1  ->  hypocrisie ==> hypocratie
+ 939:    1  ->  i-profiel ==> e-profiel
+ 940:    1  ->  idee ==> ideeën
+ 941:    1  ->  iglo's ==> igloos
+ 942:    1  ->  ignace ==> iknees
+ 943:    1  ->  ijskoude ==> ijskalde
+ 944:    1  ->  ijsthee ==> ijstee
+ 945:    1  ->  ik ==> dan
+ 946:    1  ->  ik ==> dit
+ 947:    1  ->  ik ==> iet
+ 948:    1  ->  immigratiemogelijkheid ==> heet
+ 949:    1  ->  in ==> aan
+ 950:    1  ->  in ==> hun
+ 951:    1  ->  in ==> ik
+ 952:    1  ->  in ==> stonden
+ 953:    1  ->  in ==> woordenschatten
+ 954:    1  ->  ine ==> china
+ 955:    1  ->  ine ==> ina
+ 956:    1  ->  informatie ==> doelinformatie
+ 957:    1  ->  informatie-uitwisseling ==> informatieuitwisseling
+ 958:    1  ->  ingaat ==> gaat
+ 959:    1  ->  ingelicht ==> ingericht
+ 960:    1  ->  ingeënt ==> ingeëmd
+ 961:    1  ->  ingrijpend ==> ingrepend
+ 962:    1  ->  inhalen ==> halen
+ 963:    1  ->  inhouden ==> houden
+ 964:    1  ->  inkopen ==> inkoop
+ 965:    1  ->  inpakken ==> aanpakken
+ 966:    1  ->  insluiting ==> sluiting
+ 967:    1  ->  interesseren ==> geïnteresseerden
+ 968:    1  ->  internationaal ==> de
+ 969:    1  ->  internationaal ==> internationale
+ 970:    1  ->  internemarktagenda ==> internetmarktagenda
+ 971:    1  ->  internetfora ==> internetforen
+ 972:    1  ->  interventie-aankopen ==> interventieaankopen
+ 973:    1  ->  interventieaankopen ==> interventie-aankopen
+ 974:    1  ->  inwerkingtreding ==> werkingtreding
+ 975:    1  ->  inziens ==> enzins
+ 976:    1  ->  is ==> er
+ 977:    1  ->  is ==> haar
+ 978:    1  ->  is ==> in
+ 979:    1  ->  is ==> mijlpeil
+ 980:    1  ->  is ==> personeelvervullers
+ 981:    1  ->  is ==> zoals
+ 982:    1  ->  islamieten ==> israëliten
+ 983:    1  ->  isoleercel ==> isoleurcel
+ 984:    1  ->  istanboel ==> istanbul
+ 985:    1  ->  ivoorkust ==> ivorkust
+ 986:    1  ->  ixelles ==> excel
+ 987:    1  ->  ja ==> dat
+ 988:    1  ->  jaar ==> je
+ 989:    1  ->  jaar ==> keer
+ 990:    1  ->  jack ==> blackjack
+ 991:    1  ->  jammer ==> nemmer
+ 992:    1  ->  jasje ==> juist
+ 993:    1  ->  jayden ==> jaden
+ 994:    1  ->  je ==> de
+ 995:    1  ->  je ==> denk
+ 996:    1  ->  je ==> er
+ 997:    1  ->  je ==> hun
+ 998:    1  ->  je ==> menen
+ 999:    1  ->  je ==> sluiten
+1000:    1  ->  je ==> uw
+1001:    1  ->  je ==> ze
+1002:    1  ->  jef ==> jeff
+1003:    1  ->  jenever ==> geneve
+1004:    1  ->  jet ==> jett
+1005:    1  ->  jij ==> hij
+1006:    1  ->  jij ==> je
+1007:    1  ->  journalisten ==> soeneristen
+1008:    1  ->  jozef ==> joseph
+1009:    1  ->  juffrouw ==> jufvrouw
+1010:    1  ->  juichen ==> jurgen
+1011:    1  ->  juni ==> kyrie
+1012:    1  ->  juridisch ==> juridische
+1013:    1  ->  juwelen ==> kuweelen
+1014:    1  ->  k ==> kaart
+1015:    1  ->  kaak ==> kaart
+1016:    1  ->  kaarsjes ==> kaars
+1017:    1  ->  kaart ==> maestrokaart
+1018:    1  ->  kaartentrucs ==> kaartentricks
+1019:    1  ->  kaartlezen ==> lezen
+1020:    1  ->  kaas ==> gruyèrekaas
+1021:    1  ->  kaderwetgevingen ==> kabelwetgeringen
+1022:    1  ->  kaften ==> kafta
+1023:    1  ->  kamde ==> kampte
+1024:    1  ->  kamp ==> opkampen
+1025:    1  ->  kampingvuurtje ==> campingvuurtje
+1026:    1  ->  kan ==> ga
+1027:    1  ->  kan ==> jij
+1028:    1  ->  kan ==> kam
+1029:    1  ->  kandidaatlanden ==> kandidaat-landen
+1030:    1  ->  kangoeroes ==> kangeroes
+1031:    1  ->  kansen ==> kans
+1032:    1  ->  kapstok ==> kapstoek
+1033:    1  ->  kapstok ==> kapstoor
+1034:    1  ->  kapstok ==> kopstok
+1035:    1  ->  karatetrap ==> karatentrap
+1036:    1  ->  karien ==> karin
+1037:    1  ->  karwei ==> karrein
+1038:    1  ->  kasseien ==> kassaai
+1039:    1  ->  kauwen ==> kouwen
+1040:    1  ->  keiharde ==> felle
+1041:    1  ->  ken ==> ging
+1042:    1  ->  kennelijk ==> kindelijk
+1043:    1  ->  kennen ==> kunnen
+1044:    1  ->  kent ==> kennen
+1045:    1  ->  kernenergiesector ==> kernenergie-sector
+1046:    1  ->  kernsplijting ==> kernspleiting
+1047:    1  ->  kersentaart ==> kersttaart
+1048:    1  ->  keuze ==> keuzen
+1049:    1  ->  keuzemogelijkheden ==> mogelijkheden
+1050:    1  ->  kiezers ==> kiezels
+1051:    1  ->  kijf ==> keef
+1052:    1  ->  kijken ==> gaan
+1053:    1  ->  kijken ==> vooruitkijken
+1054:    1  ->  kilowattuur ==> kwh
+1055:    1  ->  king” ==> king
+1056:    1  ->  kitch ==> kiez
+1057:    1  ->  kiwi's ==> in
+1058:    1  ->  kiwi's ==> kiwis
+1059:    1  ->  klaar ==> geklaar
+1060:    1  ->  kleurpotloden ==> kleurpotlodingen
+1061:    1  ->  klimaatonderhandelingen ==> klimaatonderhandeling
+1062:    1  ->  klimaatsverandering ==> klimaatverandering
+1063:    1  ->  klinkklare ==> klinklare
+1064:    1  ->  klopt ==> klopte
+1065:    1  ->  knipperlichtrelatie ==> relatie
+1066:    1  ->  knokke ==> knokken
+1067:    1  ->  knoop ==> leerkrachten
+1068:    1  ->  kobe ==> kober
+1069:    1  ->  koestert ==> kustert
+1070:    1  ->  komen ==> er
+1071:    1  ->  komen ==> stilkomen
+1072:    1  ->  komen ==> terugkomen
+1073:    1  ->  komen ==> toekomen
+1074:    1  ->  komt ==> terechtkomt
+1075:    1  ->  kon ==> komt
+1076:    1  ->  kon ==> konden
+1077:    1  ->  kon ==> kwam
+1078:    1  ->  koopt ==> komen
+1079:    1  ->  koord ==> koort
+1080:    1  ->  koordje ==> koortje
+1081:    1  ->  koorts ==> kortst
+1082:    1  ->  koosjer ==> kosher
+1083:    1  ->  koran ==> van
+1084:    1  ->  kort ==> kwart
+1085:    1  ->  kousen ==> kous
+1086:    1  ->  kraait ==> krijgt
+1087:    1  ->  kraantjeswater ==> water
+1088:    1  ->  krabt ==> krapt
+1089:    1  ->  krachtdadige ==> rechtdadige
+1090:    1  ->  kreeg ==> krijgt
+1091:    1  ->  krijgen ==> koffie
+1092:    1  ->  kritische ==> kritisch
+1093:    1  ->  kroonjuwelen ==> kroniwielen
+1094:    1  ->  kroop ==> kroopt
+1095:    1  ->  kruispunten ==> prijspunten
+1096:    1  ->  kuifje ==> köfië
+1097:    1  ->  kuisen ==> kuizen
+1098:    1  ->  kundig ==> buitengewoonkundig
+1099:    1  ->  kunstmest ==> kunstmes
+1100:    1  ->  kustgemeenschappen ==> maatschappen
+1101:    1  ->  kwam ==> kan
+1102:    1  ->  kwart ==> kort
+1103:    1  ->  kwesties ==> kwestie
+1104:    1  ->  kwijtgeraakt ==> kwijtgehaakt
+1105:    1  ->  kwijtgescholden ==> kwetsgescholden
+1106:    1  ->  kwikdamp ==> kwikdom
+1107:    1  ->  kán ==> kan
+1108:    1  ->  kán ==> kàn
+1109:    1  ->  l ==> uil
+1110:    1  ->  laad ==> laat
+1111:    1  ->  laag ==> lach
+1112:    1  ->  laagje ==> lage
+1113:    1  ->  laat ==> uit
+1114:    1  ->  laatst ==> laatste
+1115:    1  ->  laatste ==> laatsten
+1116:    1  ->  laattijdige ==> laadtijdige
+1117:    1  ->  laattijdige ==> laatijdige
+1118:    1  ->  lade ==> laden
+1119:    1  ->  lag ==> wacht
+1120:    1  ->  lagelonenlanden ==> lage-lonenlanden
+1121:    1  ->  lagere ==> lafeless
+1122:    1  ->  land ==> dan
+1123:    1  ->  landbouwbeleid ==> landsbouwbeleid
+1124:    1  ->  lang ==> maandenlang
+1125:    1  ->  langetermijngroei ==> groei
+1126:    1  ->  langsgeweest ==> geweest
+1127:    1  ->  lapmiddelen ==> labmiddelen
+1128:    1  ->  laptoptas ==> laptopdas
+1129:    1  ->  laten ==> het
+1130:    1  ->  lauwtjes ==> loutjes
+1131:    1  ->  lawaai ==> veerlawaai
+1132:    1  ->  ledverlichting ==> led-verlichting
+1133:    1  ->  leeft ==> leefde
+1134:    1  ->  leen ==> leem
+1135:    1  ->  leerden ==> leerde
+1136:    1  ->  leerkracht ==> leerkrachten
+1137:    1  ->  leg ==> lig
+1138:    1  ->  legde ==> lichtte
+1139:    1  ->  legionellabacterie ==> legionella-bacterie
+1140:    1  ->  leidde ==> leiden
+1141:    1  ->  leidsters ==> lijsters
+1142:    1  ->  leien ==> leie
+1143:    1  ->  leien ==> leiem
+1144:    1  ->  leien ==> leiend
+1145:    1  ->  lekkende ==> lekkere
+1146:    1  ->  lenaerts ==> lennarts
+1147:    1  ->  lengtes ==> langtes
+1148:    1  ->  lenig ==> onlenig
+1149:    1  ->  lepralijders ==> lepraleiders
+1150:    1  ->  leren ==> leden
+1151:    1  ->  letter ==> lette
+1152:    1  ->  levend ==> leven
+1153:    1  ->  leverden ==> een
+1154:    1  ->  leverfalen ==> leverfaden
+1155:    1  ->  levert ==> leveren
+1156:    1  ->  lichtelijk ==> telkens
+1157:    1  ->  lidstaat ==> ledstaat
+1158:    1  ->  lidstaat ==> lidstaten
+1159:    1  ->  lien ==> liens
+1160:    1  ->  lievelingskleur ==> lievelingspil
+1161:    1  ->  ligt ==> legt
+1162:    1  ->  lijden ==> leiden
+1163:    1  ->  lijdensweg ==> leidensweg
+1164:    1  ->  lijdt ==> leidt
+1165:    1  ->  lijst ==> to-do-lijst
+1166:    1  ->  likte ==> likten
+1167:    1  ->  linie ==> lidi
+1168:    1  ->  loffelijk ==> moffelig
+1169:    1  ->  logica ==> urologica
+1170:    1  ->  lood ==> loot
+1171:    1  ->  loodsen ==> lozen
+1172:    1  ->  loont ==> loomt
+1173:    1  ->  loopgravenoorlog ==> loopgavenoorlog
+1174:    1  ->  louis ==> lewis
+1175:    1  ->  louter ==> luider
+1176:    1  ->  lucht ==> hedenlucht
+1177:    1  ->  luid ==> lui
+1178:    1  ->  luide ==> luidend
+1179:    1  ->  lukken ==> slagje
+1180:    1  ->  luuk ==> luke
+1181:    1  ->  maaidorser ==> maaidorster
+1182:    1  ->  maait ==> maakt
+1183:    1  ->  maakt ==> maakte
+1184:    1  ->  maakte ==> maakt
+1185:    1  ->  maal ==> eenmaal
+1186:    1  ->  maaltijd ==> mijltijd
+1187:    1  ->  maande ==> maanden
+1188:    1  ->  maanreis ==> baanreis
+1189:    1  ->  maar ==> me
+1190:    1  ->  maar ==> normaal
+1191:    1  ->  maart ==> maagd
+1192:    1  ->  maaseik ==> maaswijk
+1193:    1  ->  maasmechelen ==> maas-machelen
+1194:    1  ->  maatregel ==> maatregelen
+1195:    1  ->  maatregelen ==> maatregel
+1196:    1  ->  macht ==> wacht
+1197:    1  ->  machtige ==> heersen
+1198:    1  ->  mag ==> maak
+1199:    1  ->  maken ==> voortmaken
+1200:    1  ->  malariamug ==> malaria-mug
+1201:    1  ->  maleisië ==> melassie
+1202:    1  ->  maneschijn ==> manenschijn
+1203:    1  ->  mangrovebos ==> mangrovenbos
+1204:    1  ->  manhattanproject ==> project
+1205:    1  ->  mannentoiletten ==> manentoiletten
+1206:    1  ->  map ==> roadmap
+1207:    1  ->  marginaal ==> margineel
+1208:    1  ->  mariet ==> marit
+1209:    1  ->  marktschommelingen ==> in
+1210:    1  ->  maxime ==> maximum
+1211:    1  ->  mazout ==> mazoet
+1212:    1  ->  mcdonald's ==> mcdonalds
+1213:    1  ->  me ==> is
+1214:    1  ->  me ==> mij
+1215:    1  ->  me ==> ons
+1216:    1  ->  medaille ==> middag
+1217:    1  ->  mededingingsrecht ==> metedingingsrecht
+1218:    1  ->  mededingingsvoorwaarden ==> mededingsvoorwaarden
+1219:    1  ->  medeondertekenaars ==> mede-ondertekenaars
+1220:    1  ->  medeondertekenen ==> ondertekenen
+1221:    1  ->  medewerking ==> medewerkingen
+1222:    1  ->  medior ==> media
+1223:    1  ->  mee ==> ermee
+1224:    1  ->  meedelen ==> mededelen
+1225:    1  ->  meegewerkt ==> gewerkt
+1226:    1  ->  meehelpen ==> helpen
+1227:    1  ->  meer ==> hier
+1228:    1  ->  meer ==> maar
+1229:    1  ->  meer ==> vrachtmeel
+1230:    1  ->  meerkeuzevragen ==> keuzevragen
+1231:    1  ->  meester ==> er
+1232:    1  ->  meesterwerk ==> werk
+1233:    1  ->  meiklokjes ==> meiklopjes
+1234:    1  ->  men ==> willen
+1235:    1  ->  menigte ==> minister
+1236:    1  ->  mensen ==> messen
+1237:    1  ->  mensenrechtenschendingen ==> schendingen
+1238:    1  ->  met ==> het
+1239:    1  ->  meten ==> weten
+1240:    1  ->  meter ==> mater
+1241:    1  ->  methode ==> methoden
+1242:    1  ->  metingen ==> meedingen
+1243:    1  ->  middags ==> smiddags
+1244:    1  ->  middenberm ==> middenwerm
+1245:    1  ->  mieke ==> wieke
+1246:    1  ->  mij ==> mijn
+1247:    1  ->  mijlenver ==> ver
+1248:    1  ->  mijn ==> maar
+1249:    1  ->  mijn ==> men
+1250:    1  ->  milieu-inspectie ==> milieuinspecties
+1251:    1  ->  milieuoverwegingen ==> milieuroverwegingen
+1252:    1  ->  millenniumbug ==> bug
+1253:    1  ->  min ==> minne
+1254:    1  ->  minimumconsensus ==> consensus
+1255:    1  ->  minuutje ==> menu
+1256:    1  ->  model ==> teslamodel
+1257:    1  ->  modelvliegtuig ==> vliegtuig
+1258:    1  ->  moderne ==> onder
+1259:    1  ->  moedersterfte ==> moederssterfte
+1260:    1  ->  moeilijk ==> moeilijker
+1261:    1  ->  moeskroen ==> groen
+1262:    1  ->  moet ==> wij
+1263:    1  ->  mogelijke ==> welke
+1264:    1  ->  mogen ==> vermogen
+1265:    1  ->  monsieur ==> krok-monsieur
+1266:    1  ->  monster ==> megamonster
+1267:    1  ->  mopje ==> je
+1268:    1  ->  morgen ==> mogen
+1269:    1  ->  mortem-test ==> antimortemtest
+1270:    1  ->  motie ==> mooisje
+1271:    1  ->  mouw ==> maal
+1272:    1  ->  mozesaan ==> aan
+1273:    1  ->  muggenbeet ==> beet
+1274:    1  ->  muilezel ==> melezel
+1275:    1  ->  méér ==> meer
+1276:    1  ->  n-va ==> nva
+1277:    1  ->  na ==> hersenschimmelaar
+1278:    1  ->  naaktslak ==> naaktslag
+1279:    1  ->  naamsestraat ==> straat
+1280:    1  ->  naar ==> nergens
+1281:    1  ->  naarstig ==> naarzig
+1282:    1  ->  nadat ==> dat
+1283:    1  ->  nagegaan ==> nagaan
+1284:    1  ->  nagemaakt ==> gemaakt
+1285:    1  ->  name ==> bename
+1286:    1  ->  namen ==> naam
+1287:    1  ->  nauw ==> naam
+1288:    1  ->  negatief ==> negatiefs
+1289:    1  ->  negen ==> laat
+1290:    1  ->  negen ==> lezen
+1291:    1  ->  negentienhonderdachtenvijftig ==> negenhonderdachtenvijftig
+1292:    1  ->  negentienhonderdentwaalf ==> negenhonderdtwaalf
+1293:    1  ->  negentienhonderdzeventig ==> negenhonderdzeventig
+1294:    1  ->  nemen ==> aannemen
+1295:    1  ->  nemen ==> vrijnemen
+1296:    1  ->  nepnieuws ==> nieuws
+1297:    1  ->  nette ==> een
+1298:    1  ->  neushoorns ==> neuzen
+1299:    1  ->  neven ==> leven
+1300:    1  ->  niet ==> nu
+1301:    1  ->  niet ==> te
+1302:    1  ->  niet-overheidsactoren ==> niet-overheidsfactoren
+1303:    1  ->  niezen ==> nizen
+1304:    1  ->  nis ==> belgië
+1305:    1  ->  noa ==> noah
+1306:    1  ->  noch ==> nog
+1307:    1  ->  noemen ==> noem
+1308:    1  ->  nog ==> een
+1309:    1  ->  nootmuskaat ==> nootmuscata
+1310:    1  ->  nopen ==> lopen
+1311:    1  ->  notitieboekje ==> auditieboek
+1312:    1  ->  nu ==> doet
+1313:    1  ->  nu ==> jullie
+1314:    1  ->  nu ==> niet
+1315:    1  ->  nul ==> wel
+1316:    1  ->  o ==> oh
+1317:    1  ->  oa ==> andere
+1318:    1  ->  obees ==> obes
+1319:    1  ->  obesitasepidemie ==> obesitas-epidemie
+1320:    1  ->  ochtends ==> dus
+1321:    1  ->  oehoe ==> oegoe
+1322:    1  ->  oeralgebergte ==> oerolgebergte
+1323:    1  ->  of ==> om
+1324:    1  ->  ok ==> oké
+1325:    1  ->  olie-embargo ==> oliënmargo
+1326:    1  ->  om ==> en
+1327:    1  ->  omgaan ==> opgaan
+1328:    1  ->  omgeven ==> omgeheven
+1329:    1  ->  omhooggetakeld ==> getakeld
+1330:    1  ->  on ==> om
+1331:    1  ->  onaanvaardbaar ==> onaanvraagbaar
+1332:    1  ->  onafhankelijke ==> onafhankelijk
+1333:    1  ->  onbestraft ==> straf
+1334:    1  ->  onderdeel ==> varia-onderdeel
+1335:    1  ->  onderhandeld ==> overonderhandeld
+1336:    1  ->  onderhandelingen ==> omhandelingen
+1337:    1  ->  onderhandelingen ==> onderhandeling
+1338:    1  ->  ondermijnt ==> ondermijdt
+1339:    1  ->  ondernemen ==> ondernemer
+1340:    1  ->  onderschepte ==> onderschapte
+1341:    1  ->  onderwater ==> water
+1342:    1  ->  onderwijzend ==> onderwijsen
+1343:    1  ->  onderzoekmanagement ==> onderzoeksmanagement
+1344:    1  ->  onenigheid ==> oneindigheid
+1345:    1  ->  ongedeerd ==> ongedeeld
+1346:    1  ->  ongerijmdheid ==> ongeruimdheid
+1347:    1  ->  ongewisse ==> ongewis
+1348:    1  ->  ongeëvenaard ==> ongeïvenaard
+1349:    1  ->  onkostenregeling ==> onkostregeling
+1350:    1  ->  onkruid ==> hankruid
+1351:    1  ->  onmiddelijk ==> onmiddellijk
+1352:    1  ->  onmiskenbaar ==> onmiskenbare
+1353:    1  ->  onomatopee ==> opé
+1354:    1  ->  ons ==> het
+1355:    1  ->  ons ==> onze
+1356:    1  ->  ons ==> u
+1357:    1  ->  ontberen ==> ontweren
+1358:    1  ->  ontbijtgranen ==> gehangen
+1359:    1  ->  ontbrak ==> programma-ombrak
+1360:    1  ->  ontevredenheid ==> onvervredenheid
+1361:    1  ->  ontgaat ==> ontvraagt
+1362:    1  ->  onthouden ==> onderhouden
+1363:    1  ->  ontmaskeren ==> ontmasken
+1364:    1  ->  ontpitten ==> ontbitten
+1365:    1  ->  ontploffing ==> plotting
+1366:    1  ->  ontvlambaar ==> vlammbaar
+1367:    1  ->  ontwarde ==> knoopontwarden
+1368:    1  ->  ontwerp-mandaat ==> ontwerpmandaat
+1369:    1  ->  ontwerpresolutie ==> ontwerprevolutie
+1370:    1  ->  ontwikkeld ==> ontwikkelt
+1371:    1  ->  ontwikkelingen ==> ontwikkeling
+1372:    1  ->  ontwikkelingsbeleid ==> ontwikkelingspleit
+1373:    1  ->  onverhoopt ==> veroopt
+1374:    1  ->  onvervreemdbaar ==> onvervreembaar
+1375:    1  ->  onvruchtbaar ==> onveruchtbaar
+1376:    1  ->  oog ==> getoog
+1377:    1  ->  oogstte ==> oogste
+1378:    1  ->  ook ==> hoe
+1379:    1  ->  oordeel ==> heel
+1380:    1  ->  oorsuizen ==> oorzuizen
+1381:    1  ->  oostende ==> de
+1382:    1  ->  oostende ==> oost-ende
+1383:    1  ->  op ==> in
+1384:    1  ->  op ==> ook
+1385:    1  ->  op ==> rapporten
+1386:    1  ->  op ==> tot
+1387:    1  ->  opel ==> opal
+1388:    1  ->  openhartoperaties ==> open-hart-operaties
+1389:    1  ->  opererende ==> de
+1390:    1  ->  opgefleurd ==> opgevuld
+1391:    1  ->  opgelegd ==> oplegd
+1392:    1  ->  ophaalbrug ==> ophaltbrug
+1393:    1  ->  oplegt ==> ontpleegt
+1394:    1  ->  oplossingen ==> oplossing
+1395:    1  ->  oponthoud ==> onthoud
+1396:    1  ->  oppasser ==> oppassen
+1397:    1  ->  oproerpolitie ==> oproeppolitie
+1398:    1  ->  opruimen ==> opruimend
+1399:    1  ->  opties ==> optie
+1400:    1  ->  opvallen ==> opvallend
+1401:    1  ->  opvatting ==> oppatting
+1402:    1  ->  opzadelen ==> opsadelen
+1403:    1  ->  opzicht ==> omzicht
+1404:    1  ->  oratoriënberg ==> oratorienberg
+1405:    1  ->  orde ==> boiden
+1406:    1  ->  orderbevestiging ==> oordeelbevestiging
+1407:    1  ->  oren ==> oor
+1408:    1  ->  organisatie ==> spionnenorganisatie
+1409:    1  ->  oude ==> ouder
+1410:    1  ->  ovatie ==> ovasie
+1411:    1  ->  over ==> de
+1412:    1  ->  over ==> open
+1413:    1  ->  over ==> oven
+1414:    1  ->  overblijft ==> overkrijgt
+1415:    1  ->  overeen ==> overeind
+1416:    1  ->  overeenkomst ==> overrekening
+1417:    1  ->  overgestapt ==> gestapt
+1418:    1  ->  overleg ==> driepartietoverleg
+1419:    1  ->  overspannen ==> overspannend
+1420:    1  ->  overtuigen ==> vertuigen
+1421:    1  ->  oververhit ==> overfit
+1422:    1  ->  overweg ==> overwegen
+1423:    1  ->  ozonlaag ==> ozellaag
+1424:    1  ->  paardenmiddel ==> baardemiddel
+1425:    1  ->  paardrijden ==> rijden
+1426:    1  ->  paars ==> paas
+1427:    1  ->  padie ==> paddy
+1428:    1  ->  paper ==> peper
+1429:    1  ->  papier-maché ==> papiermaché
+1430:    1  ->  papieren ==> en
+1431:    1  ->  papoea-nieuw-guinea ==> nieuw-guinea
+1432:    1  ->  paraplu ==> paleplu
+1433:    1  ->  pardoel ==> gers-pardul
+1434:    1  ->  parket ==> pakket
+1435:    1  ->  parlofoon ==> pornofoon
+1436:    1  ->  parochiezaal ==> barochiezaal
+1437:    1  ->  pas ==> vas
+1438:    1  ->  passer ==> passe
+1439:    1  ->  pasta ==> paste
+1440:    1  ->  paters ==> bouwde
+1441:    1  ->  paus ==> pauze
+1442:    1  ->  pechstrook ==> pakstraat
+1443:    1  ->  peeters ==> bart-peters
+1444:    1  ->  peeters ==> peters
+1445:    1  ->  peinzen ==> pijn
+1446:    1  ->  pels ==> pijl
+1447:    1  ->  personen ==> personen-
+1448:    1  ->  persoonlijk ==> eenpersoonlijk
+1449:    1  ->  perste ==> verspestte
+1450:    1  ->  perziken ==> kunnen
+1451:    1  ->  petje ==> padje
+1452:    1  ->  peuters ==> peters
+1453:    1  ->  pi ==> π
+1454:    1  ->  pientere ==> pintere
+1455:    1  ->  pijp ==> pijn
+1456:    1  ->  pijpenstelen ==> pestelen
+1457:    1  ->  pilote ==> piloot
+1458:    1  ->  pincode ==> pincone
+1459:    1  ->  pindanootjes ==> pindernoodjes
+1460:    1  ->  pintjes ==> puntjes
+1461:    1  ->  plaats ==> druwplaats
+1462:    1  ->  plaats ==> pleit
+1463:    1  ->  plakkaat ==> parkaat
+1464:    1  ->  plank ==> plamk
+1465:    1  ->  plastieken ==> de
+1466:    1  ->  platanen ==> lactanen
+1467:    1  ->  pleitten ==> pleiten
+1468:    1  ->  pluto ==> uto
+1469:    1  ->  politici ==> politie
+1470:    1  ->  porde ==> poorden
+1471:    1  ->  positie ==> oppositie
+1472:    1  ->  potentiële ==> potentieel
+1473:    1  ->  praag ==> vraag
+1474:    1  ->  preventieve ==> preventie
+1475:    1  ->  prijkt ==> prijpt
+1476:    1  ->  principieel ==> niet-principieel
+1477:    1  ->  privé-monopolies ==> privémonopolies
+1478:    1  ->  privéaangelegenheid ==> privé-aangelegenheid
+1479:    1  ->  probleem ==> problemen
+1480:    1  ->  proces ==> selectieproces
+1481:    1  ->  promotie-activiteiten ==> promotieactiviteiten
+1482:    1  ->  protestants ==> protestant
+1483:    1  ->  provider ==> profijter
+1484:    1  ->  pruimen ==> bruimen
+1485:    1  ->  public ==> publiek
+1486:    1  ->  pukkelpop ==> bukkelpoep
+1487:    1  ->  punt ==> pin
+1488:    1  ->  punt ==> veerpunt
+1489:    1  ->  punten ==> bereikspunten
+1490:    1  ->  puppy’s ==> puppy's
+1491:    1  ->  pus ==> kus
+1492:    1  ->  pythons ==> pytons
+1493:    1  ->  qatar ==> katar
+1494:    1  ->  quinten ==> quinta
+1495:    1  ->  qwertytoetsenbord ==> qwerty-toetsenbord
+1496:    1  ->  rampenanalyse ==> rampanalyse
+1497:    1  ->  rampenscenario's ==> rampscenario's
+1498:    1  ->  rapporteur ==> raporteur
+1499:    1  ->  realiteitszin ==> realiteit
+1500:    1  ->  recente ==> recentere
+1501:    1  ->  recht ==> terecht
+1502:    1  ->  rechte ==> recht
+1503:    1  ->  rechtsgrondslag ==> grondslag
+1504:    1  ->  rechtsgrondslag ==> rechtsschoonslag
+1505:    1  ->  rechtstreekse ==> rechtstreefse
+1506:    1  ->  recycleerbare ==> recyclebare
+1507:    1  ->  redden ==> rijden
+1508:    1  ->  regelgevingskader ==> kader
+1509:    1  ->  regenjas ==> regio's
+1510:    1  ->  regenwoud ==> regenwater
+1511:    1  ->  regeringen ==> regering
+1512:    1  ->  reikende ==> wederreikende
+1513:    1  ->  reken ==> rekent
+1514:    1  ->  relatie ==> vader-zoon-relatie
+1515:    1  ->  remon ==> raymond
+1516:    1  ->  renderende ==> goedrenderende
+1517:    1  ->  restaurant ==> sushi-restaurant
+1518:    1  ->  resteert ==> rest
+1519:    1  ->  resultaten ==> wereldstaten
+1520:    1  ->  reünie ==> reunie
+1521:    1  ->  richt ==> recht
+1522:    1  ->  richtsnoeren ==> richtsloeren
+1523:    1  ->  rijden ==> gerijden
+1524:    1  ->  rijpe ==> rijpen
+1525:    1  ->  rijst ==> gereisd
+1526:    1  ->  rijvak ==> rijvalk
+1527:    1  ->  rijvakken ==> rijvlakken
+1528:    1  ->  risico´s ==> risico's
+1529:    1  ->  roamen ==> romen
+1530:    1  ->  roer ==> roeren
+1531:    1  ->  roeren ==> horen
+1532:    1  ->  roken ==> muziek
+1533:    1  ->  rolluiken ==> rolluiden
+1534:    1  ->  rome ==> romen
+1535:    1  ->  rommel ==> trommel
+1536:    1  ->  ronde ==> rond
+1537:    1  ->  rood ==> spaarrood
+1538:    1  ->  rook ==> ook
+1539:    1  ->  rook ==> rookt
+1540:    1  ->  router ==> route
+1541:    1  ->  rover ==> landrover
+1542:    1  ->  rovers ==> rovers'
+1543:    1  ->  rozengeur ==> geur
+1544:    1  ->  rozengeur ==> rozenkleur
+1545:    1  ->  ruggengraat ==> ruggenkraat
+1546:    1  ->  ruimt ==> remt
+1547:    1  ->  ruk ==> druk
+1548:    1  ->  rustig ==> hustig
+1549:    1  ->  ruwe ==> rieuwe
+1550:    1  ->  saamhorigheid ==> saamhorighed
+1551:    1  ->  samenhang ==> samengang
+1552:    1  ->  schaafwond ==> rond
+1553:    1  ->  schaalvergroting ==> schaalverhouding
+1554:    1  ->  schaarbeek ==> scharenbeek
+1555:    1  ->  schade ==> levenskader
+1556:    1  ->  schandelijke ==> schadelijke
+1557:    1  ->  schapevleesbeleid ==> schapenvleesbeleid
+1558:    1  ->  schemerlicht ==> licht
+1559:    1  ->  schendt ==> schenkt
+1560:    1  ->  scheppen ==> schrijven
+1561:    1  ->  schertsvertoning ==> schertsbetoning
+1562:    1  ->  schieten ==> tekortschieten
+1563:    1  ->  schijfruimte ==> schuifruimte
+1564:    1  ->  schok ==> shock
+1565:    1  ->  schommelt ==> gekommeld
+1566:    1  ->  schonere ==> groenere
+1567:    1  ->  school ==> vol
+1568:    1  ->  schrappen ==> strappen
+1569:    1  ->  schriftelijke ==> schriftelijk
+1570:    1  ->  schrijf ==> schrijft
+1571:    1  ->  schromelijk ==> schommelijk
+1572:    1  ->  schroothoop ==> hoop
+1573:    1  ->  schuchtere ==> schuchteren
+1574:    1  ->  schuifdeur ==> is
+1575:    1  ->  schuingedrukt ==> gedrukt
+1576:    1  ->  schuldig ==> onschuldig
+1577:    1  ->  secondaire ==> secundaire
+1578:    1  ->  secretaresse ==> cicatrice
+1579:    1  ->  sem ==> sam
+1580:    1  ->  seraing ==> serijn
+1581:    1  ->  shirt ==> schrift
+1582:    1  ->  shortje ==> shortster
+1583:    1  ->  sikkepit ==> sikkerpid
+1584:    1  ->  silicium ==> silicum
+1585:    1  ->  silicone ==> siliconen
+1586:    1  ->  sinistere ==> sinisteren
+1587:    1  ->  sint-stevens-woluwe ==> sint-stevens-volvo
+1588:    1  ->  situatie ==> brexit-situatie
+1589:    1  ->  sjoerd ==> short
+1590:    1  ->  skibotten ==> ski-botten
+1591:    1  ->  skischoenen ==> ski-skis
+1592:    1  ->  slaapziekte ==> slaapzicht
+1593:    1  ->  slachten ==> starten
+1594:    1  ->  slechts ==> rechts
+1595:    1  ->  slechts ==> u
+1596:    1  ->  slechtst ==> slechts
+1597:    1  ->  sleep ==> sleip
+1598:    1  ->  slib ==> slip
+1599:    1  ->  slingerde ==> slingerden
+1600:    1  ->  sloot ==> we
+1601:    1  ->  slotte ==> tenslotte
+1602:    1  ->  smoorverliefd ==> moorverliefd
+1603:    1  ->  sneeuwruimen ==> ruimen
+1604:    1  ->  snelheid ==> maximumsnelheid
+1605:    1  ->  snooker ==> snoeker
+1606:    1  ->  snor ==> snoer
+1607:    1  ->  sofie ==> sophie
+1608:    1  ->  softwarecode ==> software-code
+1609:    1  ->  solden ==> zolde
+1610:    1  ->  solden ==> zolder
+1611:    1  ->  solventie ==> zolven
+1612:    1  ->  sommigen ==> sommige
+1613:    1  ->  sovjetisering ==> soviëtisering
+1614:    1  ->  spataders ==> spattaarders
+1615:    1  ->  speekselklieren ==> speekselkleren
+1616:    1  ->  speel ==> spel
+1617:    1  ->  spelen ==> speelt
+1618:    1  ->  sportvliegtuigje ==> sportvliegtuig
+1619:    1  ->  sprake ==> gesproken
+1620:    1  ->  springplank ==> springblank
+1621:    1  ->  spritz ==> spriets
+1622:    1  ->  spyker ==> spiker
+1623:    1  ->  staanlamp ==> staallamp
+1624:    1  ->  staarde ==> staarden
+1625:    1  ->  staat ==> staaf
+1626:    1  ->  staatsgreep ==> staatscheep
+1627:    1  ->  stadstuintje ==> stadstauntje
+1628:    1  ->  staf ==> stad
+1629:    1  ->  startup ==> start-up
+1630:    1  ->  steeds ==> steek
+1631:    1  ->  stelde ==> stouwde
+1632:    1  ->  stem ==> stemt
+1633:    1  ->  stemhokje ==> stembalkje
+1634:    1  ->  stemming ==> stemmingen
+1635:    1  ->  stereotiepe ==> stereotype
+1636:    1  ->  sterf ==> sterft
+1637:    1  ->  sterkste ==> sterksten
+1638:    1  ->  steun ==> steen
+1639:    1  ->  steunen ==> strengen
+1640:    1  ->  steunprogramma´s ==> steunprogramma's
+1641:    1  ->  steunzool ==> steunsel
+1642:    1  ->  stiefbroer ==> stiefbroeder
+1643:    1  ->  stiefbroer ==> stiefvoer
+1644:    1  ->  stijn ==> stein
+1645:    1  ->  stikstofoxide- ==> stikstofoxide
+1646:    1  ->  stikstofuitstoot ==> stikstofnetzit
+1647:    1  ->  stilzwijgen ==> zwijgen
+1648:    1  ->  stonden ==> stoorde
+1649:    1  ->  stoom ==> stroom
+1650:    1  ->  stop ==> stap
+1651:    1  ->  stopbord ==> stopwoord
+1652:    1  ->  straatlantaarn ==> straatantaren
+1653:    1  ->  straatverlichting ==> richting
+1654:    1  ->  strakke ==> anderstrakke
+1655:    1  ->  straten ==> straat
+1656:    1  ->  stresstest ==> lichtstresstest
+1657:    1  ->  stripverhaal ==> halk
+1658:    1  ->  stroom ==> megawatt-stroom
+1659:    1  ->  stroomde ==> rond
+1660:    1  ->  stroomt ==> stramt
+1661:    1  ->  stroopwafels ==> strookwafels
+1662:    1  ->  structuur ==> structuren
+1663:    1  ->  struikelde ==> struikelden
+1664:    1  ->  struikgewas ==> strijkgewas
+1665:    1  ->  studentenvereniging ==> studentenverandering
+1666:    1  ->  studentes ==> studenten
+1667:    1  ->  studies ==> studie
+1668:    1  ->  stuurlui ==> stuurlijnen
+1669:    1  ->  stuwdam ==> stuurdam
+1670:    1  ->  stuwmeer ==> stuurmeer
+1671:    1  ->  sumoworstelaars ==> sumo-ortelaars
+1672:    1  ->  supermarktketen ==> supermarkt-keten
+1673:    1  ->  surseance ==> surceons
+1674:    1  ->  suske ==> siske
+1675:    1  ->  synagoge ==> synagogen
+1676:    1  ->  synagoge ==> synagoog
+1677:    1  ->  synthetische ==> synthetisch
+1678:    1  ->  t ==> thee
+1679:    1  ->  taalgebruik ==> voor
+1680:    1  ->  tachtigste ==> 80e
+1681:    1  ->  tafel ==> eikentafel
+1682:    1  ->  taken ==> taak
+1683:    1  ->  tal ==> dal
+1684:    1  ->  talenknobbel ==> talenknabbel
+1685:    1  ->  talloze ==> telloze
+1686:    1  ->  tandenfee ==> tandenvee
+1687:    1  ->  te ==> dan
+1688:    1  ->  te ==> fijne
+1689:    1  ->  te ==> kassen
+1690:    1  ->  te ==> minuten
+1691:    1  ->  te ==> speeltal
+1692:    1  ->  technisch ==> luidtechnisch
+1693:    1  ->  technologie ==> groentechnologie
+1694:    1  ->  teerling ==> deerling
+1695:    1  ->  tegen ==> in
+1696:    1  ->  tegenspelers ==> tegenspeerders
+1697:    1  ->  tegenvallers ==> tegenvaller
+1698:    1  ->  tekenen ==> tekende
+1699:    1  ->  tektonische ==> technologische
+1700:    1  ->  telecommunicatie ==> tegencommunicatie
+1701:    1  ->  teleologisch ==> theologisch
+1702:    1  ->  ten ==> te
+1703:    1  ->  tentoonstelling ==> tektoonstelling
+1704:    1  ->  tenuitvoerlegging ==> tenuitvoergelijking
+1705:    1  ->  terawattuur ==> terrawattuur
+1706:    1  ->  terdege ==> terdeeg
+1707:    1  ->  terechtkunnen ==> kunnen
+1708:    1  ->  terpentine ==> therapetine
+1709:    1  ->  terras ==> terreis
+1710:    1  ->  terug ==> achtervolgingsscène
+1711:    1  ->  terug ==> rug
+1712:    1  ->  terugblikken ==> blikken
+1713:    1  ->  tervuren ==> vuren
+1714:    1  ->  teveel ==> de
+1715:    1  ->  thais ==> thuis
+1716:    1  ->  thora ==> tora
+1717:    1  ->  tien ==> driehonderdtien
+1718:    1  ->  tienduizend ==> tien
+1719:    1  ->  tijdelijk ==> tijdelijke
+1720:    1  ->  tijden ==> tijde
+1721:    1  ->  tijdgebrek ==> tijdsgebrek
+1722:    1  ->  tijdschema ==> kwaliteitsschema
+1723:    1  ->  tijgers ==> tijkers
+1724:    1  ->  tikt ==> dekt
+1725:    1  ->  tim ==> tam
+1726:    1  ->  timer ==> taak
+1727:    1  ->  toe ==> daarnaar
+1728:    1  ->  toe ==> naartoe
+1729:    1  ->  toe ==> toen
+1730:    1  ->  toegegroeid ==> gegroeid
+1731:    1  ->  toegejuicht ==> toegejaagd
+1732:    1  ->  toendra ==> tundra
+1733:    1  ->  toerbeurtsysteem ==> tourbeursysteem
+1734:    1  ->  toestel ==> android-toestel
+1735:    1  ->  toetsenbord ==> qwerty-toetsenbord
+1736:    1  ->  toetsenbord ==> woord
+1737:    1  ->  toevoegde ==> toegevoegde
+1738:    1  ->  tokio ==> tokyo
+1739:    1  ->  tomen ==> tonen
+1740:    1  ->  tonic ==> ginnintonnen
+1741:    1  ->  tonijn ==> donijn
+1742:    1  ->  top ==> op
+1743:    1  ->  tortilla ==> tortillen
+1744:    1  ->  tragische ==> tragisch
+1745:    1  ->  trailrun ==> treuren
+1746:    1  ->  trajectcontrole ==> trackcontrole
+1747:    1  ->  tramsporen ==> trepsporen
+1748:    1  ->  trapeze ==> trapezen
+1749:    1  ->  traumatische ==> dramatische
+1750:    1  ->  treed ==> treedt
+1751:    1  ->  treft ==> terecht
+1752:    1  ->  treinverkeer ==> rijverkeer
+1753:    1  ->  trekke ==> trekken
+1754:    1  ->  trekrugzak ==> trekkerrugzak
+1755:    1  ->  trema ==> tremen
+1756:    1  ->  troep ==> troep'
+1757:    1  ->  troostprijs ==> trollspace
+1758:    1  ->  tros ==> tos
+1759:    1  ->  trotse ==> totse
+1760:    1  ->  tseetseevlieg ==> zitsgevlieg
+1761:    1  ->  tsunami’s ==> tsunamis
+1762:    1  ->  tube ==> dubbele
+1763:    1  ->  tube ==> tue
+1764:    1  ->  turnhout ==> turrenhout
+1765:    1  ->  twaalf ==> 1200
+1766:    1  ->  twaalfhonderd ==> tweehonderd
+1767:    1  ->  twee ==> veertien
+1768:    1  ->  tweelingen ==> twillingen
+1769:    1  ->  twijfelde ==> twijfelden
+1770:    1  ->  typte ==> typt
+1771:    1  ->  u ==> de
+1772:    1  ->  u ==> heeft
+1773:    1  ->  u ==> ik
+1774:    1  ->  u ==> je
+1775:    1  ->  u ==> vijf
+1776:    1  ->  u ==> we
+1777:    1  ->  u ==> wij
+1778:    1  ->  u ==> ze
+1779:    1  ->  uber ==> uur
+1780:    1  ->  uit ==> op
+1781:    1  ->  uit ==> vanuit
+1782:    1  ->  uit ==> zij
+1783:    1  ->  uitbarsting ==> uitbasting
+1784:    1  ->  uiteindelijk ==> uiteindelijke
+1785:    1  ->  uiterst ==> ouders
+1786:    1  ->  uitgave ==> uitgaven
+1787:    1  ->  uitgavenpost ==> uitgavenposten
+1788:    1  ->  uitgehold ==> uitgerold
+1789:    1  ->  uitgehouwen ==> uitgehouden
+1790:    1  ->  uitgeroeid ==> uitgegroeid
+1791:    1  ->  uitgesteld ==> uitgestild
+1792:    1  ->  uitgewist ==> uitgeweest
+1793:    1  ->  uitgommen ==> uitgummen
+1794:    1  ->  uithangen ==> oorlog
+1795:    1  ->  uiting ==> aating
+1796:    1  ->  uitsluitend ==> uitsluiten
+1797:    1  ->  uitvoerige ==> niet-alt-uitvoerig
+1798:    1  ->  uitvoering ==> gitaaruitvoering
+1799:    1  ->  uitzicht ==> uitzichten
+1800:    1  ->  urgentverklaring ==> verklaring
+1801:    1  ->  uw ==> u
+1802:    1  ->  v ==> tv
+1803:    1  ->  vaakst ==> snel
+1804:    1  ->  vaart ==> terugvaart
+1805:    1  ->  vaas ==> porceleirenvaas
+1806:    1  ->  vacature ==> facture
+1807:    1  ->  vacuüms ==> vacuums
+1808:    1  ->  vademecum ==> fadamecum
+1809:    1  ->  val ==> vuil
+1810:    1  ->  van ==> de
+1811:    1  ->  van ==> die
+1812:    1  ->  van ==> een
+1813:    1  ->  van ==> rond
+1814:    1  ->  van ==> valt
+1815:    1  ->  van ==> voor
+1816:    1  ->  vanaf ==> af
+1817:    1  ->  vanbuiten ==> buiten
+1818:    1  ->  varkens ==> valkens
+1819:    1  ->  varkens ==> vorkens
+1820:    1  ->  vastgegespt ==> vastgevest
+1821:    1  ->  vastgelegde ==> vastgestelde
+1822:    1  ->  vaticaan ==> fatica
+1823:    1  ->  veel ==> een
+1824:    1  ->  veel ==> hoeveel
+1825:    1  ->  veel ==> teveel
+1826:    1  ->  veel ==> vele
+1827:    1  ->  veeleisende ==> eisende
+1828:    1  ->  vel ==> vuil
+1829:    1  ->  velen ==> vele
+1830:    1  ->  venen ==> veene
+1831:    1  ->  venten ==> vanten
+1832:    1  ->  ver ==> verder
+1833:    1  ->  veranderd ==> verandert
+1834:    1  ->  verbaasd ==> verrast
+1835:    1  ->  verbeteren ==> beteren
+1836:    1  ->  verbonden ==> gebonden
+1837:    1  ->  verbrand ==> verbrandt
+1838:    1  ->  verbrandingsovens ==> verbrandingsodens
+1839:    1  ->  verdeelt ==> verdeeld
+1840:    1  ->  verdelen ==> verdeelen
+1841:    1  ->  verder ==> weg
+1842:    1  ->  verdiend ==> verdient
+1843:    1  ->  verdiep ==> verdieping
+1844:    1  ->  verdieping ==> vernieuwing
+1845:    1  ->  verdoen ==> verduwen
+1846:    1  ->  verdonkeremaand ==> maand
+1847:    1  ->  verdorven ==> verdomme
+1848:    1  ->  verdrag ==> bedrag
+1849:    1  ->  verdronken ==> vertronken
+1850:    1  ->  verdwaasd ==> bedwaast
+1851:    1  ->  verdwijningen ==> weinigen
+1852:    1  ->  vereist ==> verhaalst
+1853:    1  ->  vergeefs ==> vergeefd
+1854:    1  ->  vergeeld ==> vergild
+1855:    1  ->  vergeetachtig ==> vergetenachtig
+1856:    1  ->  vergen ==> verken
+1857:    1  ->  vergoeding ==> vergoedingen
+1858:    1  ->  vergroot ==> vergroten
+1859:    1  ->  verhoogt ==> volgt
+1860:    1  ->  verhuis ==> lieverhuis
+1861:    1  ->  verijdeld ==> vereideld
+1862:    1  ->  verklaard ==> heiligverklaard
+1863:    1  ->  verkleumd ==> verkleund
+1864:    1  ->  verkleumd ==> verklumd
+1865:    1  ->  verkoopactiviteiten ==> verkoopsactiviteiten
+1866:    1  ->  verkoper ==> juniorverkoper
+1867:    1  ->  verlaging ==> koolstofdioxideverlaging
+1868:    1  ->  verlaten ==> vandaag
+1869:    1  ->  verlichte ==> verlichtte
+1870:    1  ->  vermelding ==> verbeelding
+1871:    1  ->  vermolmde ==> vermolde
+1872:    1  ->  vermomd ==> vermond
+1873:    1  ->  vernield ==> verneeld
+1874:    1  ->  verontschuldiging ==> verantwoordiging
+1875:    1  ->  verontwaardiging ==> verontwaardigingen
+1876:    1  ->  veroordeling ==> verhoorteling
+1877:    1  ->  veroorzakende ==> allergieveroorzakende
+1878:    1  ->  verordening ==> verordeningen
+1879:    1  ->  verraders ==> verhalen
+1880:    1  ->  verschillen ==> verscherden
+1881:    1  ->  versnellingen ==> versnelling
+1882:    1  ->  verspild ==> verspeld
+1883:    1  ->  verspreiden ==> verspreidden
+1884:    1  ->  versterker ==> versterkers
+1885:    1  ->  versterking ==> oversterking
+1886:    1  ->  vertaald ==> verteld
+1887:    1  ->  vertaalde ==> vertelde
+1888:    1  ->  vertegenwoordiger ==> bestegenwoordiger
+1889:    1  ->  verteld ==> vertelt
+1890:    1  ->  vertolker ==> vertrokken
+1891:    1  ->  vertraagd ==> verdraagd
+1892:    1  ->  vertraging ==> treinvertraging
+1893:    1  ->  vertragingen ==> verdragingen
+1894:    1  ->  vertrekpunt ==> betrekpunt
+1895:    1  ->  vervalste ==> vervalse
+1896:    1  ->  vervellen ==> verveilen
+1897:    1  ->  vervoersmaatschappijen ==> vervoersmaatschappij
+1898:    1  ->  vervuiler ==> verveiler
+1899:    1  ->  vervuiling ==> vervulling
+1900:    1  ->  verwanten ==> verbanden
+1901:    1  ->  verwarrend ==> verwarmd
+1902:    1  ->  verwelkomen ==> welkomen
+1903:    1  ->  verwijderen ==> verwederen
+1904:    1  ->  verwijdert ==> verveidigde
+1905:    1  ->  verzaagt ==> verzaagd
+1906:    1  ->  verzetten ==> is
+1907:    1  ->  verzoeken ==> bezoeken
+1908:    1  ->  victoriaans ==> vectoriaans
+1909:    1  ->  viel ==> veel
+1910:    1  ->  vier ==> vieren
+1911:    1  ->  vierenzeventig ==> vier
+1912:    1  ->  viert ==> vier
+1913:    1  ->  vijf ==> 3415
+1914:    1  ->  vijf- ==> vijf
+1915:    1  ->  vijfhonderd ==> vijf
+1916:    1  ->  virtualrealitybril ==> reality-bril
+1917:    1  ->  virtualrealityomgeving ==> reality-omgeving
+1918:    1  ->  vis ==> vissen
+1919:    1  ->  vlek ==> vlekken
+1920:    1  ->  vliegdekschip ==> vliegtuigschip
+1921:    1  ->  vlooien ==> vlooi
+1922:    1  ->  voeder ==> voedsel
+1923:    1  ->  voel ==> vuur
+1924:    1  ->  voelden ==> voerden
+1925:    1  ->  volgens ==> voor
+1926:    1  ->  volksvijandige ==> volksveilige
+1927:    1  ->  volledig ==> volledige
+1928:    1  ->  volledig ==> zinvolledig
+1929:    1  ->  volledige ==> volledig
+1930:    1  ->  volvo ==> volkswagen-volvo
+1931:    1  ->  voor ==> ervoor
+1932:    1  ->  voor ==> spreek
+1933:    1  ->  voor ==> vol
+1934:    1  ->  voor ==> vr
+1935:    1  ->  vooraf ==> vooral
+1936:    1  ->  voorbarig ==> voorbaardig
+1937:    1  ->  voorbeeldfunctie ==> voorbeeldactie
+1938:    1  ->  voorbehoedsmiddelen ==> voorbroedsmiddelen
+1939:    1  ->  voorbehoud ==> onbevoorbeeld
+1940:    1  ->  voorbereidende ==> voorbereide
+1941:    1  ->  voorbereidingen ==> voorbereiding
+1942:    1  ->  voorgerecht ==> dag
+1943:    1  ->  voorgesteld ==> doorgesteld
+1944:    1  ->  voorlees ==> lees
+1945:    1  ->  voorliggende ==> voorlichtende
+1946:    1  ->  voornaamste ==> fraamste
+1947:    1  ->  vooroordelen ==> veroordelen
+1948:    1  ->  voorrang ==> voorgang
+1949:    1  ->  voorsprong ==> 2-0-voorsprong
+1950:    1  ->  voortzetten ==> voorzetten
+1951:    1  ->  vooruitgang ==> uitgang
+1952:    1  ->  vooruitzichten ==> vooruitzicht
+1953:    1  ->  voorvechters ==> voorvachters
+1954:    1  ->  voorwaarde ==> voorwaar
+1955:    1  ->  voorwaarde ==> voorwaarden
+1956:    1  ->  voorzitster ==> voorzitter
+1957:    1  ->  voorzitterschap ==> voortzitterschap
+1958:    1  ->  vorig ==> het
+1959:    1  ->  vorig ==> vorige
+1960:    1  ->  vormden ==> vormde
+1961:    1  ->  vormt ==> vond
+1962:    1  ->  vouwfiets ==> vouwvieter
+1963:    1  ->  vragenuur ==> vraaguur
+1964:    1  ->  vrede ==> een
+1965:    1  ->  vrede ==> vrijheid
+1966:    1  ->  vreest ==> hij
+1967:    1  ->  vreet ==> wreet
+1968:    1  ->  vreugdedansje ==> vreugdedanciën
+1969:    1  ->  vriendin ==> vrienden
+1970:    1  ->  vrijaf ==> af
+1971:    1  ->  vrijelijk ==> vrijerlijk
+1972:    1  ->  vrijemarktdenken ==> marktdenken
+1973:    1  ->  vrijetijdsbesteding ==> tijdsbesteding
+1974:    1  ->  vrijgezellen ==> vrijgezel
+1975:    1  ->  vrijuit ==> vrij
+1976:    1  ->  vroeger ==> vroeg
+1977:    1  ->  vuiltje ==> veldje
+1978:    1  ->  vulde ==> vulden
+1979:    1  ->  w ==> wee
+1980:    1  ->  waadde ==> waden
+1981:    1  ->  waaijenberg ==> wajenberg
+1982:    1  ->  waar ==> merwaar
+1983:    1  ->  waar ==> naarwaar
+1984:    1  ->  waar ==> wat
+1985:    1  ->  waarheid ==> achter
+1986:    1  ->  waarschijnlijk ==> bescherming
+1987:    1  ->  waddeneilanden ==> wadden-eilanden
+1988:    1  ->  wafelijzer ==> twaalflazer
+1989:    1  ->  wafelijzer ==> wafelijster
+1990:    1  ->  wal ==> wel
+1991:    1  ->  wallonië ==> bologna
+1992:    1  ->  walt ==> wal
+1993:    1  ->  wang ==> lang
+1994:    1  ->  wapens ==> wavens
+1995:    1  ->  waren ==> ware
+1996:    1  ->  warm ==> zwarm
+1997:    1  ->  warmde ==> warmden
+1998:    1  ->  warschau ==> warsaw
+1999:    1  ->  was ==> vas
+2000:    1  ->  was ==> zoals
+2001:    1  ->  wasbak ==> waspak
+2002:    1  ->  wasbakken ==> basbakken
+2003:    1  ->  wasmand ==> wasband
+2004:    1  ->  waste ==> was
+2005:    1  ->  wat ==> 'wat
+2006:    1  ->  wat ==> het
+2007:    1  ->  wat ==> ten
+2008:    1  ->  wat ==> wel
+2009:    1  ->  water ==> zoutwater
+2010:    1  ->  waterdruk ==> watertruk
+2011:    1  ->  watertanden ==> watertand
+2012:    1  ->  wattenstaafjes ==> waterstafjes
+2013:    1  ->  waver ==> waven
+2014:    1  ->  we ==> een
+2015:    1  ->  we ==> met
+2016:    1  ->  we ==> u
+2017:    1  ->  wedstrijd ==> slam-wedstrijd
+2018:    1  ->  weer ==> wel
+2019:    1  ->  weerd ==> weert
+2020:    1  ->  wegebben ==> weg-ebben
+2021:    1  ->  wegingsregeling ==> weigingsregeling
+2022:    1  ->  wegrestaurant ==> strand
+2023:    1  ->  wei ==> wij
+2024:    1  ->  wel ==> wél
+2025:    1  ->  welgemanierd ==> gemaneerd
+2026:    1  ->  welke ==> helke
+2027:    1  ->  welnu ==> nu
+2028:    1  ->  wensen ==> winsten
+2029:    1  ->  werchter ==> rockwerchter
+2030:    1  ->  wereld ==> beschaving
+2031:    1  ->  wereldbol ==> wereldboel
+2032:    1  ->  werk ==> bergenwerk
+2033:    1  ->  werk ==> werken
+2034:    1  ->  werkgelegenheidstop ==> werkgelegenheidsstop
+2035:    1  ->  werkgeversbelangen ==> werkgeversbelang
+2036:    1  ->  werklozen ==> werkloven
+2037:    1  ->  werknemers ==> waarnemers
+2038:    1  ->  werknemers ==> werknemer
+2039:    1  ->  werkt ==> brengt
+2040:    1  ->  werkt ==> werken
+2041:    1  ->  werkt ==> werkte
+2042:    1  ->  werktuig ==> werkdruk
+2043:    1  ->  werpt ==> werkt
+2044:    1  ->  west ==> oost-west
+2045:    1  ->  wetenschappelijk ==> wetenschappelijke
+2046:    1  ->  wetgevings- ==> wetgevend
+2047:    1  ->  wezen ==> wijzen
+2048:    1  ->  we—maar ==> maar
+2049:    1  ->  wie ==> die
+2050:    1  ->  wie ==> wij
+2051:    1  ->  wiet ==> een
+2052:    1  ->  wigwams ==> wegbams
+2053:    1  ->  wij ==> gezegd
+2054:    1  ->  wij ==> hij
+2055:    1  ->  wij ==> laat
+2056:    1  ->  wij ==> zij
+2057:    1  ->  wijdverbreid ==> verbreid
+2058:    1  ->  wijs ==> in
+2059:    1  ->  wijze ==> wijzen
+2060:    1  ->  wijzigen ==> wijzigingen
+2061:    1  ->  wil ==> kan
+2062:    1  ->  wil ==> wereld
+2063:    1  ->  wil ==> zou
+2064:    1  ->  wilde ==> wil
+2065:    1  ->  wilt ==> wil
+2066:    1  ->  win-winstrategie ==> win-win-strategie
+2067:    1  ->  winstbejag ==> winstbejaag
+2068:    1  ->  won ==> woen
+2069:    1  ->  wonde ==> wonden
+2070:    1  ->  wonen ==> horen
+2071:    1  ->  wonen ==> woorden
+2072:    1  ->  worden ==> de
+2073:    1  ->  worden ==> wordt
+2074:    1  ->  wordt ==> werd
+2075:    1  ->  wordt ==> word
+2076:    1  ->  wou ==> zewel
+2077:    1  ->  wringt ==> havering
+2078:    1  ->  wurgen ==> vurgen
+2079:    1  ->  y ==> yipsilon
+2080:    1  ->  yogalerares ==> yoga-lerares
+2081:    1  ->  yves ==> hij
+2082:    1  ->  yves ==> kun
+2083:    1  ->  zaak-dutroux ==> de
+2084:    1  ->  zag ==> ontzag
+2085:    1  ->  zagen ==> terugzagen
+2086:    1  ->  zak ==> pmd-zak
+2087:    1  ->  zaken ==> zaak
+2088:    1  ->  zakrekenmachinetjes ==> zakrekenmachientjes
+2089:    1  ->  zal ==> zil
+2090:    1  ->  zand ==> millesand
+2091:    1  ->  zat ==> staat
+2092:    1  ->  zaventem ==> avonden
+2093:    1  ->  zaventem ==> saventum
+2094:    1  ->  ze ==> de
+2095:    1  ->  ze ==> hij
+2096:    1  ->  ze ==> ik
+2097:    1  ->  ze ==> mensen
+2098:    1  ->  ze ==> we
+2099:    1  ->  ze ==> zo
+2100:    1  ->  zebrapad ==> zeepad
+2101:    1  ->  zee-engte ==> zeeengte
+2102:    1  ->  zeehond ==> zijhond
+2103:    1  ->  zeemeerminnen ==> zeemerminnen
+2104:    1  ->  zeepbel ==> zeepel
+2105:    1  ->  zeer ==> ser
+2106:    1  ->  zeerste ==> eerste
+2107:    1  ->  zeggen ==> zich
+2108:    1  ->  zelfs ==> zelf
+2109:    1  ->  zes ==> dat
+2110:    1  ->  zet ==> zeg
+2111:    1  ->  zette ==> zetten
+2112:    1  ->  zetten ==> zitten
+2113:    1  ->  zich ==> voorzichtig
+2114:    1  ->  zicht ==> zich
+2115:    1  ->  zichzelf ==> zich
+2116:    1  ->  zien ==> zin
+2117:    1  ->  zijden ==> zijde
+2118:    1  ->  zijn ==> ten
+2119:    1  ->  zijn ==> zij
+2120:    1  ->  zilver ==> helder
+2121:    1  ->  zit ==> dwarsziet
+2122:    1  ->  zit ==> net
+2123:    1  ->  zo ==> zou
+2124:    1  ->  zo ==> zoveel
+2125:    1  ->  zo'n ==> zo
+2126:    1  ->  zoals ==> zodat
+2127:    1  ->  zocht ==> zochten
+2128:    1  ->  zoek ==> natuurlijk
+2129:    1  ->  zoeken ==> zoek
+2130:    1  ->  zolder ==> zolderen
+2131:    1  ->  zomers ==> somers
+2132:    1  ->  zon ==> kwam
+2133:    1  ->  zondagsrijder ==> zondagrijder
+2134:    1  ->  zonder ==> zoende
+2135:    1  ->  zonet ==> net
+2136:    1  ->  zonne-energiesector ==> zonne-energie-sector
+2137:    1  ->  zonnebrandcrème ==> zonnebrandcreme
+2138:    1  ->  zoo ==> zoer
+2139:    1  ->  zopas ==> pas
+2140:    1  ->  zou ==> zouden
+2141:    1  ->  zou ==> zul
+2142:    1  ->  zo’n ==> zo'n
+2143:    1  ->  zuiden ==> zuid
+2144:    1  ->  zuivelsector ==> cijfersector
+2145:    1  ->  zullen ==> zou
+2146:    1  ->  zwaaide ==> zwaaiden
+2147:    1  ->  zwart-witfoto ==> foto
+2148:    1  ->  zwartwerken ==> zwatwerken
+2149:    1  ->  zweet ==> zwee
+2150:    1  ->  zwommen ==> vonden
+2151:    1  ->  én ==> en
+2152:    1  ->  Đelić ==> delitzsch
+2153:    1  ->  “friends” ==> friends
+2154:    1  ->  “lion ==> lion
+     -------
+      2661
+
+
+
+INSERTIONS                       Total                 (203)
+                                 With >=  1 occurrences (203)
+
+   1:   44  ->  de
+   2:   21  ->  een
+   3:   17  ->  van
+   4:   14  ->  in
+   5:   12  ->  het
+   6:   12  ->  is
+   7:   11  ->  er
+   8:   11  ->  te
+   9:    9  ->  ten
+  10:    7  ->  der
+  11:    7  ->  grootste
+  12:    7  ->  leijden
+  13:    7  ->  wereld
+  14:    7  ->  winkels
+  15:    6  ->  duizend
+  16:    6  ->  en
+  17:    6  ->  hier
+  18:    5  ->  voor
+  19:    4  ->  al
+  20:    4  ->  bij
+  21:    4  ->  dan
+  22:    3  ->  aan
+  23:    3  ->  daar
+  24:    3  ->  half
+  25:    3  ->  hoe
+  26:    3  ->  hoge
+  27:    3  ->  nog
+  28:    3  ->  onder
+  29:    3  ->  ook
+  30:    3  ->  op
+  31:    3  ->  open
+  32:    3  ->  vet
+  33:    3  ->  wat
+  34:    3  ->  weer
+  35:    3  ->  zo
+  36:    2  ->  dien
+  37:    2  ->  drie
+  38:    2  ->  goed
+  39:    2  ->  groot
+  40:    2  ->  heel
+  41:    2  ->  hij
+  42:    2  ->  ik
+  43:    2  ->  je
+  44:    2  ->  me
+  45:    2  ->  meer
+  46:    2  ->  meeste
+  47:    2  ->  over
+  48:    2  ->  rood
+  49:    2  ->  science
+  50:    2  ->  slaap
+  51:    2  ->  tot
+  52:    2  ->  twee
+  53:    2  ->  verder
+  54:    2  ->  virtual
+  55:    2  ->  we
+  56:    2  ->  wel
+  57:    2  ->  zeven
+  58:    1  ->  aanwezigheid
+  59:    1  ->  achter
+  60:    1  ->  achterna
+  61:    1  ->  achteruit
+  62:    1  ->  alle
+  63:    1  ->  als
+  64:    1  ->  assertie
+  65:    1  ->  auto
+  66:    1  ->  avond
+  67:    1  ->  bezig
+  68:    1  ->  bijeen
+  69:    1  ->  blauwe
+  70:    1  ->  bliksem
+  71:    1  ->  blinde
+  72:    1  ->  bodem
+  73:    1  ->  boek
+  74:    1  ->  buiten
+  75:    1  ->  derde
+  76:    1  ->  dit
+  77:    1  ->  donders
+  78:    1  ->  door
+  79:    1  ->  dubbel
+  80:    1  ->  dus
+  81:    1  ->  dwars
+  82:    1  ->  echt
+  83:    1  ->  ecologische
+  84:    1  ->  ecosysteem
+  85:    1  ->  eens
+  86:    1  ->  even
+  87:    1  ->  extra
+  88:    1  ->  file
+  89:    1  ->  flauw
+  90:    1  ->  gebruik
+  91:    1  ->  geen
+  92:    1  ->  gelukkigheid
+  93:    1  ->  gevangen
+  94:    1  ->  glazen
+  95:    1  ->  graag
+  96:    1  ->  grote
+  97:    1  ->  harde
+  98:    1  ->  harten
+  99:    1  ->  heb
+ 100:    1  ->  helft
+ 101:    1  ->  hem
+ 102:    1  ->  hoog
+ 103:    1  ->  hooi
+ 104:    1  ->  huidig
+ 105:    1  ->  huisstof
+ 106:    1  ->  iets
+ 107:    1  ->  immigrage
+ 108:    1  ->  ives
+ 109:    1  ->  kaart
+ 110:    1  ->  keer
+ 111:    1  ->  keus
+ 112:    1  ->  kiwis
+ 113:    1  ->  knipperlicht
+ 114:    1  ->  kohan
+ 115:    1  ->  komend
+ 116:    1  ->  komma
+ 117:    1  ->  kraantjes
+ 118:    1  ->  krijgt
+ 119:    1  ->  kunnen
+ 120:    1  ->  kunstse
+ 121:    1  ->  kwam
+ 122:    1  ->  laat
+ 123:    1  ->  lange
+ 124:    1  ->  langs
+ 125:    1  ->  leveren
+ 126:    1  ->  maar
+ 127:    1  ->  machten
+ 128:    1  ->  manhattan
+ 129:    1  ->  markt
+ 130:    1  ->  mede
+ 131:    1  ->  mee
+ 132:    1  ->  mensen
+ 133:    1  ->  middel
+ 134:    1  ->  mijlen
+ 135:    1  ->  millennium
+ 136:    1  ->  minimum
+ 137:    1  ->  model
+ 138:    1  ->  moes
+ 139:    1  ->  mogelijk
+ 140:    1  ->  mozes
+ 141:    1  ->  mugge
+ 142:    1  ->  muziek
+ 143:    1  ->  naamse
+ 144:    1  ->  neigen
+ 145:    1  ->  net
+ 146:    1  ->  om
+ 147:    1  ->  omhoog
+ 148:    1  ->  onomaat
+ 149:    1  ->  ontbijt
+ 150:    1  ->  oost
+ 151:    1  ->  opereren
+ 152:    1  ->  paard
+ 153:    1  ->  papier
+ 154:    1  ->  papoea
+ 155:    1  ->  pater
+ 156:    1  ->  plastiek
+ 157:    1  ->  punt
+ 158:    1  ->  recht
+ 159:    1  ->  rechten
+ 160:    1  ->  regelgevend
+ 161:    1  ->  ronde
+ 162:    1  ->  roze
+ 163:    1  ->  schaaf
+ 164:    1  ->  schemere
+ 165:    1  ->  schuifdeel
+ 166:    1  ->  schuin
+ 167:    1  ->  sneeuw
+ 168:    1  ->  speelt
+ 169:    1  ->  stil
+ 170:    1  ->  straat
+ 171:    1  ->  strip
+ 172:    1  ->  ter
+ 173:    1  ->  terecht
+ 174:    1  ->  termijn
+ 175:    1  ->  terug
+ 176:    1  ->  tevoren
+ 177:    1  ->  toe
+ 178:    1  ->  tussendoor
+ 179:    1  ->  urgent
+ 180:    1  ->  vaak
+ 181:    1  ->  veel
+ 182:    1  ->  verdonkeren
+ 183:    1  ->  vierkante
+ 184:    1  ->  vloem
+ 185:    1  ->  vorige
+ 186:    1  ->  vrij
+ 187:    1  ->  vrije
+ 188:    1  ->  waar
+ 189:    1  ->  was
+ 190:    1  ->  werd
+ 191:    1  ->  westen
+ 192:    1  ->  wie
+ 193:    1  ->  wil
+ 194:    1  ->  woord
+ 195:    1  ->  woorden
+ 196:    1  ->  word
+ 197:    1  ->  worden
+ 198:    1  ->  wordt
+ 199:    1  ->  zaak
+ 200:    1  ->  zee
+ 201:    1  ->  zegt
+ 202:    1  ->  zijn
+ 203:    1  ->  zwart-wit
+     -------
+       453
+
+
+
+DELETIONS                        Total                 (232)
+                                 With >=  1 occurrences (232)
+
+   1:   37  ->  de
+   2:   29  ->  -
+   3:   22  ->  een
+   4:   17  ->  het
+   5:   12  ->  zo
+   6:    8  ->  en
+   7:    8  ->  er
+   8:    8  ->  te
+   9:    7  ->  in
+  10:    5  ->  's
+  11:    5  ->  ik
+  12:    4  ->  je
+  13:    4  ->  niet
+  14:    4  ->  om
+  15:    4  ->  ook
+  16:    4  ->  op
+  17:    4  ->  terecht
+  18:    4  ->  twee
+  19:    4  ->  van
+  20:    4  ->  –
+  21:    3  ->  aan
+  22:    3  ->  daar
+  23:    3  ->  goed
+  24:    3  ->  naar
+  25:    3  ->  ons
+  26:    3  ->  over
+  27:    3  ->  u
+  28:    3  ->  ze
+  29:    2  ->  al
+  30:    2  ->  aluminium
+  31:    2  ->  ante
+  32:    2  ->  bekend
+  33:    2  ->  binnen
+  34:    2  ->  coca
+  35:    2  ->  dan
+  36:    2  ->  die
+  37:    2  ->  dit
+  38:    2  ->  duizend
+  39:    2  ->  gebruik
+  40:    2  ->  half
+  41:    2  ->  is
+  42:    2  ->  mee
+  43:    2  ->  met
+  44:    2  ->  mis
+  45:    2  ->  nieuwe
+  46:    2  ->  nu
+  47:    2  ->  terug
+  48:    2  ->  thuis
+  49:    2  ->  verder
+  50:    2  ->  voor
+  51:    2  ->  zoet
+  52:    1  ->  achter
+  53:    1  ->  achteruit
+  54:    1  ->  achtervolgingsscene
+  55:    1  ->  af
+  56:    1  ->  alfa
+  57:    1  ->  ali
+  58:    1  ->  alle
+  59:    1  ->  allergie
+  60:    1  ->  anders
+  61:    1  ->  android
+  62:    1  ->  at
+  63:    1  ->  bart
+  64:    1  ->  bel
+  65:    1  ->  belasting
+  66:    1  ->  ben
+  67:    1  ->  bergen
+  68:    1  ->  bevoegde
+  69:    1  ->  bij
+  70:    1  ->  bijster
+  71:    1  ->  black
+  72:    1  ->  blijven
+  73:    1  ->  brexit
+  74:    1  ->  buitengewoon
+  75:    1  ->  croque
+  76:    1  ->  dame
+  77:    1  ->  deed
+  78:    1  ->  deels
+  79:    1  ->  dertig
+  80:    1  ->  di
+  81:    1  ->  doe
+  82:    1  ->  dot
+  83:    1  ->  drie
+  84:    1  ->  drink
+  85:    1  ->  dus
+  86:    1  ->  dwars
+  87:    1  ->  echt
+  88:    1  ->  enkel
+  89:    1  ->  fijn
+  90:    1  ->  geachte
+  91:    1  ->  gebruikt
+  92:    1  ->  gers
+  93:    1  ->  gin
+  94:    1  ->  gitaar
+  95:    1  ->  groene
+  96:    1  ->  gruyère
+  97:    1  ->  gul
+  98:    1  ->  gênant
+  99:    1  ->  haar
+ 100:    1  ->  heb
+ 101:    1  ->  hebben
+ 102:    1  ->  heel
+ 103:    1  ->  heilig
+ 104:    1  ->  hersenschimmen
+ 105:    1  ->  hieraan
+ 106:    1  ->  hij
+ 107:    1  ->  hoe
+ 108:    1  ->  hun
+ 109:    1  ->  iets
+ 110:    1  ->  inadequaat
+ 111:    1  ->  inefficiënte
+ 112:    1  ->  ivo
+ 113:    1  ->  junior
+ 114:    1  ->  kaart
+ 115:    1  ->  kan
+ 116:    1  ->  kapt
+ 117:    1  ->  kast
+ 118:    1  ->  komma
+ 119:    1  ->  koolstofdioxide
+ 120:    1  ->  kunnen
+ 121:    1  ->  kwijt
+ 122:    1  ->  land
+ 123:    1  ->  langs
+ 124:    1  ->  laten
+ 125:    1  ->  leerkracht
+ 126:    1  ->  leven
+ 127:    1  ->  lichte
+ 128:    1  ->  loopt
+ 129:    1  ->  louter
+ 130:    1  ->  maanden
+ 131:    1  ->  maar
+ 132:    1  ->  maestro
+ 133:    1  ->  mariabeeldje
+ 134:    1  ->  maximum
+ 135:    1  ->  meen
+ 136:    1  ->  mega
+ 137:    1  ->  megawatt
+ 138:    1  ->  men
+ 139:    1  ->  mij
+ 140:    1  ->  mijlpaal
+ 141:    1  ->  mijn
+ 142:    1  ->  minst
+ 143:    1  ->  moet
+ 144:    1  ->  mulle
+ 145:    1  ->  nog
+ 146:    1  ->  nul
+ 147:    1  ->  of
+ 148:    1  ->  onder
+ 149:    1  ->  onverwacht
+ 150:    1  ->  oost
+ 151:    1  ->  panne
+ 152:    1  ->  personeel
+ 153:    1  ->  pijl
+ 154:    1  ->  plastic
+ 155:    1  ->  pluk
+ 156:    1  ->  plus
+ 157:    1  ->  pmd
+ 158:    1  ->  porseleinen
+ 159:    1  ->  program
+ 160:    1  ->  punt
+ 161:    1  ->  qwerty
+ 162:    1  ->  reeks
+ 163:    1  ->  road
+ 164:    1  ->  rock
+ 165:    1  ->  roerbak
+ 166:    1  ->  samen
+ 167:    1  ->  samsung
+ 168:    1  ->  selectie
+ 169:    1  ->  slam
+ 170:    1  ->  sluit
+ 171:    1  ->  smeet
+ 172:    1  ->  sociaal
+ 173:    1  ->  spa
+ 174:    1  ->  spaarzame
+ 175:    1  ->  spijt
+ 176:    1  ->  spionnen
+ 177:    1  ->  spoedeisende
+ 178:    1  ->  sport
+ 179:    1  ->  sprake
+ 180:    1  ->  spreekt
+ 181:    1  ->  sta
+ 182:    1  ->  staken
+ 183:    1  ->  stil
+ 184:    1  ->  stond
+ 185:    1  ->  sushi
+ 186:    1  ->  technologie
+ 187:    1  ->  teer
+ 188:    1  ->  tegen
+ 189:    1  ->  tekort
+ 190:    1  ->  ten
+ 191:    1  ->  tesla
+ 192:    1  ->  todo
+ 193:    1  ->  toe
+ 194:    1  ->  top
+ 195:    1  ->  transsiberië
+ 196:    1  ->  trein
+ 197:    1  ->  tripartiet
+ 198:    1  ->  tuinman
+ 199:    1  ->  tweeënzeventig
+ 200:    1  ->  uitstek
+ 201:    1  ->  uur
+ 202:    1  ->  uw
+ 203:    1  ->  vader-zoon
+ 204:    1  ->  varia
+ 205:    1  ->  veel
+ 206:    1  ->  vervullen
+ 207:    1  ->  vier
+ 208:    1  ->  villo
+ 209:    1  ->  vlucht
+ 210:    1  ->  vogel
+ 211:    1  ->  volkswagen
+ 212:    1  ->  voort
+ 213:    1  ->  vooruit
+ 214:    1  ->  voren
+ 215:    1  ->  vrij
+ 216:    1  ->  vrouwen
+ 217:    1  ->  vóór
+ 218:    1  ->  wapens
+ 219:    1  ->  we
+ 220:    1  ->  wel
+ 221:    1  ->  werd
+ 222:    1  ->  werf
+ 223:    1  ->  wil
+ 224:    1  ->  woord
+ 225:    1  ->  woordenschat
+ 226:    1  ->  worden
+ 227:    1  ->  wrede
+ 228:    1  ->  wrok
+ 229:    1  ->  zelf
+ 230:    1  ->  zeven
+ 231:    1  ->  zout
+ 232:    1  ->  één
+     -------
+       445
+
+
+
+SUBSTITUTIONS                    Total                 (1827)
+                                 With >=  1 occurrences (1827)
+
+   1:  102  ->  wij
+   2:   59  ->  de
+   3:   53  ->  een
+   4:   44  ->  we
+   5:   32  ->  dat
+   6:   31  ->  je
+   7:   26  ->  dit
+   8:   23  ->  het
+   9:   18  ->  in
+  10:   17  ->  voor
+  11:   17  ->  ze
+  12:   16  ->  die
+  13:   15  ->  hun
+  14:   14  ->  's
+  15:   12  ->  één
+  16:   11  ->  vóór
+  17:    9  ->  kan
+  18:    9  ->  veel
+  19:    8  ->  aan
+  20:    8  ->  er
+  21:    8  ->  gaan
+  22:    8  ->  u
+  23:    7  ->  collega’s
+  24:    7  ->  te
+  25:    7  ->  zij
+  26:    6  ->  daar
+  27:    6  ->  is
+  28:    6  ->  moet
+  29:    6  ->  op
+  30:    6  ->  teveel
+  31:    6  ->  van
+  32:    5  ->  maar
+  33:    5  ->  maken
+  34:    5  ->  mij
+  35:    5  ->  tenslotte
+  36:    5  ->  zal
+  37:    4  ->  als
+  38:    4  ->  doen
+  39:    4  ->  en
+  40:    4  ->  gekomen
+  41:    4  ->  hawaï
+  42:    4  ->  hij
+  43:    4  ->  jaar
+  44:    4  ->  komen
+  45:    4  ->  naar
+  46:    4  ->  niet
+  47:    4  ->  tenminste
+  48:    4  ->  wat
+  49:    4  ->  zijn
+  50:    3  ->  anderen
+  51:    3  ->  belang
+  52:    3  ->  deze
+  53:    3  ->  droeg
+  54:    3  ->  echter
+  55:    3  ->  eén
+  56:    3  ->  had
+  57:    3  ->  hem
+  58:    3  ->  herkent
+  59:    3  ->  hieraan
+  60:    3  ->  ik
+  61:    3  ->  kapstok
+  62:    3  ->  ken
+  63:    3  ->  kon
+  64:    3  ->  lang
+  65:    3  ->  leien
+  66:    3  ->  maakte
+  67:    3  ->  me
+  68:    3  ->  meer
+  69:    3  ->  moeten
+  70:    3  ->  moge
+  71:    3  ->  na
+  72:    3  ->  nu
+  73:    3  ->  oh
+  74:    3  ->  ons
+  75:    3  ->  over
+  76:    3  ->  toe
+  77:    3  ->  uit
+  78:    3  ->  ver
+  79:    3  ->  vetgedrukt
+  80:    3  ->  volgend
+  81:    3  ->  waar
+  82:    3  ->  water
+  83:    3  ->  wel
+  84:    3  ->  welke
+  85:    3  ->  werkt
+  86:    3  ->  wil
+  87:    2  ->  aangelegenheid
+  88:    2  ->  af
+  89:    2  ->  al
+  90:    2  ->  allen
+  91:    2  ->  andere
+  92:    2  ->  atheïst
+  93:    2  ->  begroting
+  94:    2  ->  behoren
+  95:    2  ->  beide
+  96:    2  ->  bij
+  97:    2  ->  bijeenkomen
+  98:    2  ->  blijven
+  99:    2  ->  blikjes
+ 100:    2  ->  brengt
+ 101:    2  ->  bucharest
+ 102:    2  ->  buitenlands
+ 103:    2  ->  cola
+ 104:    2  ->  dauw
+ 105:    2  ->  derde
+ 106:    2  ->  derhalve
+ 107:    2  ->  dien
+ 108:    2  ->  dienovereenkomstig
+ 109:    2  ->  door
+ 110:    2  ->  duidelijk
+ 111:    2  ->  dát
+ 112:    2  ->  eens
+ 113:    2  ->  eiken
+ 114:    2  ->  elk
+ 115:    2  ->  emily
+ 116:    2  ->  express
+ 117:    2  ->  geen
+ 118:    2  ->  gegaan
+ 119:    2  ->  gemaakt
+ 120:    2  ->  gemakkelijk
+ 121:    2  ->  gerecht
+ 122:    2  ->  gevallen
+ 123:    2  ->  grote
+ 124:    2  ->  grotere
+ 125:    2  ->  haalde
+ 126:    2  ->  haar
+ 127:    2  ->  haard
+ 128:    2  ->  halfleeg
+ 129:    2  ->  halfvol
+ 130:    2  ->  hebt
+ 131:    2  ->  heel
+ 132:    2  ->  hen
+ 133:    2  ->  hogesnelheidstrein
+ 134:    2  ->  hondenmand
+ 135:    2  ->  hoorde
+ 136:    2  ->  hoorntje
+ 137:    2  ->  hou
+ 138:    2  ->  ine
+ 139:    2  ->  internationaal
+ 140:    2  ->  isabelle
+ 141:    2  ->  jij
+ 142:    2  ->  karate
+ 143:    2  ->  kernfusie
+ 144:    2  ->  kijken
+ 145:    2  ->  kilometer
+ 146:    2  ->  kiwi's
+ 147:    2  ->  kán
+ 148:    2  ->  laattijdige
+ 149:    2  ->  lidstaat
+ 150:    2  ->  marc
+ 151:    2  ->  meeste
+ 152:    2  ->  mijn
+ 153:    2  ->  militair
+ 154:    2  ->  minst
+ 155:    2  ->  moest
+ 156:    2  ->  muisstil
+ 157:    2  ->  negen
+ 158:    2  ->  nemen
+ 159:    2  ->  niets
+ 160:    2  ->  nieuw
+ 161:    2  ->  nieuwe
+ 162:    2  ->  onderhandelingen
+ 163:    2  ->  oostende
+ 164:    2  ->  openhaard
+ 165:    2  ->  peeters
+ 166:    2  ->  peil
+ 167:    2  ->  plaats
+ 168:    2  ->  plofte
+ 169:    2  ->  punt
+ 170:    2  ->  rechtsgrondslag
+ 171:    2  ->  redenen
+ 172:    2  ->  richtlijn
+ 173:    2  ->  roodkapje
+ 174:    2  ->  rook
+ 175:    2  ->  rozengeur
+ 176:    2  ->  scene
+ 177:    2  ->  sciencefiction
+ 178:    2  ->  ski-jas
+ 179:    2  ->  slaapwel
+ 180:    2  ->  slechts
+ 181:    2  ->  solden
+ 182:    2  ->  speelde
+ 183:    2  ->  stiefbroer
+ 184:    2  ->  synagoge
+ 185:    2  ->  terug
+ 186:    2  ->  til
+ 187:    2  ->  toetsenbord
+ 188:    2  ->  tube
+ 189:    2  ->  tuurde
+ 190:    2  ->  vanuit
+ 191:    2  ->  varkens
+ 192:    2  ->  verdergaan
+ 193:    2  ->  verdient
+ 194:    2  ->  verdwaalt
+ 195:    2  ->  verkleumd
+ 196:    2  ->  vindt
+ 197:    2  ->  voeg
+ 198:    2  ->  volledig
+ 199:    2  ->  voorgestemd
+ 200:    2  ->  voorwaarde
+ 201:    2  ->  vorig
+ 202:    2  ->  vrede
+ 203:    2  ->  waarde
+ 204:    2  ->  wafelijzer
+ 205:    2  ->  was
+ 206:    2  ->  weeral
+ 207:    2  ->  welk
+ 208:    2  ->  werk
+ 209:    2  ->  werknemers
+ 210:    2  ->  wie
+ 211:    2  ->  wonen
+ 212:    2  ->  word
+ 213:    2  ->  worden
+ 214:    2  ->  wordt
+ 215:    2  ->  yves
+ 216:    2  ->  zaventem
+ 217:    2  ->  zit
+ 218:    2  ->  zo
+ 219:    2  ->  zou
+ 220:    2  ->  zélf
+ 221:    2  ->  Één
+ 222:    1  ->  'mondiale
+ 223:    1  ->  a
+ 224:    1  ->  aandrijfas
+ 225:    1  ->  aaneen
+ 226:    1  ->  aanhalen
+ 227:    1  ->  aanhoudt
+ 228:    1  ->  aannemer
+ 229:    1  ->  aanpak'
+ 230:    1  ->  aanstippen
+ 231:    1  ->  aantal
+ 232:    1  ->  aantekenen
+ 233:    1  ->  aanvaardde
+ 234:    1  ->  aanvaarden
+ 235:    1  ->  aanvaring
+ 236:    1  ->  aanvraagprocedures
+ 237:    1  ->  aanwervingsprocedure
+ 238:    1  ->  aanwezigheidsdienst
+ 239:    1  ->  aapje
+ 240:    1  ->  aard
+ 241:    1  ->  aarde
+ 242:    1  ->  aarlen
+ 243:    1  ->  aartsmoeilijk
+ 244:    1  ->  abortus
+ 245:    1  ->  achillespees
+ 246:    1  ->  achteloos
+ 247:    1  ->  achtenzestig
+ 248:    1  ->  achter
+ 249:    1  ->  achterhaalt
+ 250:    1  ->  achterin
+ 251:    1  ->  achternazitten
+ 252:    1  ->  achteruitgegaan
+ 253:    1  ->  actief
+ 254:    1  ->  addertje
+ 255:    1  ->  adelaar
+ 256:    1  ->  adequate
+ 257:    1  ->  adviseerde
+ 258:    1  ->  afdoende
+ 259:    1  ->  afgebakend
+ 260:    1  ->  afgevaardigde
+ 261:    1  ->  afgevaardigden
+ 262:    1  ->  afgezant
+ 263:    1  ->  aflatende
+ 264:    1  ->  afstraffend
+ 265:    1  ->  afvoer
+ 266:    1  ->  afzakt
+ 267:    1  ->  akkefietje
+ 268:    1  ->  alfabet
+ 269:    1  ->  algemeen
+ 270:    1  ->  alle
+ 271:    1  ->  alledrie
+ 272:    1  ->  alleenheerser
+ 273:    1  ->  allegaartje
+ 274:    1  ->  almaar
+ 275:    1  ->  almere
+ 276:    1  ->  aloë
+ 277:    1  ->  alternatieven
+ 278:    1  ->  alvorens
+ 279:    1  ->  anaal
+ 280:    1  ->  analysen
+ 281:    1  ->  anciaux
+ 282:    1  ->  anderzijds
+ 283:    1  ->  angstvallig
+ 284:    1  ->  anijssmaak
+ 285:    1  ->  anniek
+ 286:    1  ->  antibioticakuur
+ 287:    1  ->  apeldoorn
+ 288:    1  ->  aprerol
+ 289:    1  ->  arachnofobie
+ 290:    1  ->  arbeidstijdverkorting
+ 291:    1  ->  archimedes
+ 292:    1  ->  architecte
+ 293:    1  ->  argwaan
+ 294:    1  ->  armleuning
+ 295:    1  ->  arnhem
+ 296:    1  ->  arrestaties
+ 297:    1  ->  assumpties
+ 298:    1  ->  autorijden
+ 299:    1  ->  autostrade
+ 300:    1  ->  auw
+ 301:    1  ->  avocado
+ 302:    1  ->  avonds
+ 303:    1  ->  azerty
+ 304:    1  ->  azuurblauw
+ 305:    1  ->  azuurblauwe
+ 306:    1  ->  b
+ 307:    1  ->  baai
+ 308:    1  ->  backhand
+ 309:    1  ->  bacteriën
+ 310:    1  ->  balletdanseres
+ 311:    1  ->  balustrade
+ 312:    1  ->  bankje
+ 313:    1  ->  barbaren
+ 314:    1  ->  barrière
+ 315:    1  ->  beboet
+ 316:    1  ->  bedankte
+ 317:    1  ->  bedoelde
+ 318:    1  ->  bedoelt
+ 319:    1  ->  bedreigt
+ 320:    1  ->  bedrijf
+ 321:    1  ->  bedrijfstak
+ 322:    1  ->  bedroefd
+ 323:    1  ->  beenbreuk
+ 324:    1  ->  begint
+ 325:    1  ->  behartigenswaardige
+ 326:    1  ->  beheer
+ 327:    1  ->  beheerssysteem
+ 328:    1  ->  behoedzaam
+ 329:    1  ->  behoefte
+ 330:    1  ->  behoeften
+ 331:    1  ->  behoud
+ 332:    1  ->  beige
+ 333:    1  ->  bekeert
+ 334:    1  ->  bekent
+ 335:    1  ->  belastingeninkomsten
+ 336:    1  ->  belastinggebied
+ 337:    1  ->  beleefd
+ 338:    1  ->  beleg
+ 339:    1  ->  belegd
+ 340:    1  ->  belemmerd
+ 341:    1  ->  belet
+ 342:    1  ->  belgisch
+ 343:    1  ->  beloond
+ 344:    1  ->  beloven
+ 345:    1  ->  beluisterd
+ 346:    1  ->  bemoeilijken
+ 347:    1  ->  ben
+ 348:    1  ->  benedenverdieping
+ 349:    1  ->  bengelde
+ 350:    1  ->  benoît
+ 351:    1  ->  bepalingen
+ 352:    1  ->  beperkt
+ 353:    1  ->  bepleit
+ 354:    1  ->  bereidden
+ 355:    1  ->  berekenen
+ 356:    1  ->  beroep
+ 357:    1  ->  bert
+ 358:    1  ->  beschikken
+ 359:    1  ->  beslist
+ 360:    1  ->  besproeiing
+ 361:    1  ->  bessensap
+ 362:    1  ->  besteld
+ 363:    1  ->  bestellen
+ 364:    1  ->  betaald
+ 365:    1  ->  betalende
+ 366:    1  ->  beton
+ 367:    1  ->  betreur
+ 368:    1  ->  bevat
+ 369:    1  ->  bevatte
+ 370:    1  ->  beveiligingscamera
+ 371:    1  ->  bevestigd
+ 372:    1  ->  bevoegde
+ 373:    1  ->  bevoogding
+ 374:    1  ->  bewakingscamera
+ 375:    1  ->  beweging
+ 376:    1  ->  bewering
+ 377:    1  ->  beweringen
+ 378:    1  ->  bezaaid
+ 379:    1  ->  bezig
+ 380:    1  ->  beziggehouden
+ 381:    1  ->  bezitten
+ 382:    1  ->  bezorgtijd
+ 383:    1  ->  bezwijken
+ 384:    1  ->  biefstuk
+ 385:    1  ->  bijdrage
+ 386:    1  ->  bijensteken
+ 387:    1  ->  bijgevolg
+ 388:    1  ->  bijl
+ 389:    1  ->  bijnaam
+ 390:    1  ->  bijtend
+ 391:    1  ->  bijzonder
+ 392:    1  ->  bijzondere
+ 393:    1  ->  bio-ethanol
+ 394:    1  ->  blaast
+ 395:    1  ->  blad-steen-schaar
+ 396:    1  ->  bladzijden
+ 397:    1  ->  blanche
+ 398:    1  ->  blauwalg
+ 399:    1  ->  blijkt
+ 400:    1  ->  bliksemafleider
+ 401:    1  ->  bliksemschicht
+ 402:    1  ->  blindedarmontsteking
+ 403:    1  ->  bloed
+ 404:    1  ->  bloes
+ 405:    1  ->  boarden
+ 406:    1  ->  bodemverontreiniging
+ 407:    1  ->  boeg
+ 408:    1  ->  boekdelen
+ 409:    1  ->  boekje
+ 410:    1  ->  bokkensprongen
+ 411:    1  ->  bol
+ 412:    1  ->  bolwerk
+ 413:    1  ->  bommelding
+ 414:    1  ->  bon
+ 415:    1  ->  boodschappenlijstje
+ 416:    1  ->  boog
+ 417:    1  ->  boogscheut
+ 418:    1  ->  boom
+ 419:    1  ->  boor
+ 420:    1  ->  boordcomputer
+ 421:    1  ->  boordevol
+ 422:    1  ->  bordeaux
+ 423:    1  ->  borden
+ 424:    1  ->  borsato
+ 425:    1  ->  borsbeek
+ 426:    1  ->  bosbranden
+ 427:    1  ->  bossen
+ 428:    1  ->  botert
+ 429:    1  ->  bouwden
+ 430:    1  ->  boven
+ 431:    1  ->  boycots
+ 432:    1  ->  bram
+ 433:    1  ->  brandblusser
+ 434:    1  ->  brandstoffen
+ 435:    1  ->  brengen
+ 436:    1  ->  brepoels
+ 437:    1  ->  breuklijnen
+ 438:    1  ->  briefjes
+ 439:    1  ->  brisbane
+ 440:    1  ->  brommer
+ 441:    1  ->  broodtrommel
+ 442:    1  ->  bruikbare
+ 443:    1  ->  brussel
+ 444:    1  ->  brûlé
+ 445:    1  ->  budapest
+ 446:    1  ->  buigen
+ 447:    1  ->  buik
+ 448:    1  ->  buikspieren
+ 449:    1  ->  bungeejumpen
+ 450:    1  ->  bunsenbrander
+ 451:    1  ->  c
+ 452:    1  ->  cafeïne
+ 453:    1  ->  cappuccino’s
+ 454:    1  ->  caprio
+ 455:    1  ->  caravan
+ 456:    1  ->  caïro
+ 457:    1  ->  cdenv
+ 458:    1  ->  cedric
+ 459:    1  ->  cementovens
+ 460:    1  ->  chemische
+ 461:    1  ->  christen-democraten
+ 462:    1  ->  citroensap
+ 463:    1  ->  collegas
+ 464:    1  ->  colosseum
+ 465:    1  ->  columbia
+ 466:    1  ->  com
+ 467:    1  ->  communicatie-
+ 468:    1  ->  communie
+ 469:    1  ->  concentreerde
+ 470:    1  ->  copiloot
+ 471:    1  ->  cosmeticabedrijf
+ 472:    1  ->  crawl
+ 473:    1  ->  crisis
+ 474:    1  ->  crisismechanisme
+ 475:    1  ->  crème
+ 476:    1  ->  cuba
+ 477:    1  ->  cynisme
+ 478:    1  ->  d
+ 479:    1  ->  daalt
+ 480:    1  ->  daardoor
+ 481:    1  ->  daarlangs
+ 482:    1  ->  daarmee
+ 483:    1  ->  daarover
+ 484:    1  ->  daarvoor
+ 485:    1  ->  daden
+ 486:    1  ->  dagen
+ 487:    1  ->  daimler
+ 488:    1  ->  damiaan
+ 489:    1  ->  damme
+ 490:    1  ->  dan
+ 491:    1  ->  daniël
+ 492:    1  ->  dansten
+ 493:    1  ->  database
+ 494:    1  ->  debat
+ 495:    1  ->  deed
+ 496:    1  ->  deelstaatparlement
+ 497:    1  ->  degelijke
+ 498:    1  ->  denkt
+ 499:    1  ->  derden
+ 500:    1  ->  derdewereldlanden
+ 501:    1  ->  dergelijke
+ 502:    1  ->  dertienhonderd
+ 503:    1  ->  dessert
+ 504:    1  ->  detective
+ 505:    1  ->  deugt
+ 506:    1  ->  deur
+ 507:    1  ->  dialecten
+ 508:    1  ->  dichtgeslibd
+ 509:    1  ->  dictator
+ 510:    1  ->  diensten
+ 511:    1  ->  dient
+ 512:    1  ->  diepgewortelde
+ 513:    1  ->  diestse
+ 514:    1  ->  dimbaar
+ 515:    1  ->  ding-tot-dingrelatie
+ 516:    1  ->  dingen
+ 517:    1  ->  dinsdag
+ 518:    1  ->  discussies
+ 519:    1  ->  distilleerderij
+ 520:    1  ->  dmv
+ 521:    1  ->  doden
+ 522:    1  ->  doel
+ 523:    1  ->  doende
+ 524:    1  ->  doha
+ 525:    1  ->  dollars
+ 526:    1  ->  dondersgoed
+ 527:    1  ->  doodssteek
+ 528:    1  ->  doodstraf
+ 529:    1  ->  doodvonnis
+ 530:    1  ->  doofpot
+ 531:    1  ->  doolhof
+ 532:    1  ->  doopsel
+ 533:    1  ->  doornroosje
+ 534:    1  ->  doorzetten
+ 535:    1  ->  doorzettingsvermogen
+ 536:    1  ->  douaneagent
+ 537:    1  ->  douche
+ 538:    1  ->  draaglijk
+ 539:    1  ->  draaiende
+ 540:    1  ->  drielingen
+ 541:    1  ->  drieluik
+ 542:    1  ->  driemaal
+ 543:    1  ->  drieëndertig
+ 544:    1  ->  dringend
+ 545:    1  ->  droef
+ 546:    1  ->  drug
+ 547:    1  ->  drugsbende
+ 548:    1  ->  drugsstrategie
+ 549:    1  ->  drup
+ 550:    1  ->  dubbel-a-batterijen
+ 551:    1  ->  dubbelglas
+ 552:    1  ->  duizend
+ 553:    1  ->  dus
+ 554:    1  ->  duurzame
+ 555:    1  ->  dwarsliggen
+ 556:    1  ->  dwergen
+ 557:    1  ->  dáárover
+ 558:    1  ->  dürüm
+ 559:    1  ->  e-veertig
+ 560:    1  ->  eagle
+ 561:    1  ->  echt
+ 562:    1  ->  echte
+ 563:    1  ->  echtgenotes
+ 564:    1  ->  ecologisch
+ 565:    1  ->  ecologisch-sociale
+ 566:    1  ->  economisch
+ 567:    1  ->  ecosysteemdiensten
+ 568:    1  ->  eddy
+ 569:    1  ->  edinburg
+ 570:    1  ->  eendrachtig
+ 571:    1  ->  eenendertig
+ 572:    1  ->  eenentwintigen
+ 573:    1  ->  eenmaal
+ 574:    1  ->  eerste
+ 575:    1  ->  efficiënt
+ 576:    1  ->  eicellen
+ 577:    1  ->  eigenlijk
+ 578:    1  ->  eik
+ 579:    1  ->  eind
+ 580:    1  ->  eindstemmingen
+ 581:    1  ->  eisden
+ 582:    1  ->  eksteroog
+ 583:    1  ->  electrowinkel
+ 584:    1  ->  elektrocutie
+ 585:    1  ->  eline
+ 586:    1  ->  elise
+ 587:    1  ->  elkaar
+ 588:    1  ->  els
+ 589:    1  ->  elsene
+ 590:    1  ->  embryo
+ 591:    1  ->  embryo’s
+ 592:    1  ->  energie-
+ 593:    1  ->  energiedebatten
+ 594:    1  ->  enig
+ 595:    1  ->  enige
+ 596:    1  ->  enkel-
+ 597:    1  ->  erg
+ 598:    1  ->  ergerde
+ 599:    1  ->  erkenning
+ 600:    1  ->  erlenmeyer
+ 601:    1  ->  erom
+ 602:    1  ->  erop
+ 603:    1  ->  ertegenop
+ 604:    1  ->  erwtjes
+ 605:    1  ->  eskimo's
+ 606:    1  ->  esther
+ 607:    1  ->  etiketteringsregeling
+ 608:    1  ->  ettelijke
+ 609:    1  ->  evaluatie
+ 610:    1  ->  even
+ 611:    1  ->  evenredigheidsstelsel
+ 612:    1  ->  evenzo
+ 613:    1  ->  ex-collega’s
+ 614:    1  ->  exporteren
+ 615:    1  ->  extensivering
+ 616:    1  ->  fabrieksschip
+ 617:    1  ->  faciliteit
+ 618:    1  ->  failliet
+ 619:    1  ->  farao's
+ 620:    1  ->  farce
+ 621:    1  ->  fazant
+ 622:    1  ->  feestmaand
+ 623:    1  ->  feestten
+ 624:    1  ->  feestvreugde
+ 625:    1  ->  fel
+ 626:    1  ->  fietsen
+ 627:    1  ->  file
+ 628:    1  ->  fileparkeren
+ 629:    1  ->  filmpjes
+ 630:    1  ->  flauw
+ 631:    1  ->  flauwgevallen
+ 632:    1  ->  fleecedekentje
+ 633:    1  ->  flink
+ 634:    1  ->  floor
+ 635:    1  ->  fluwelen
+ 636:    1  ->  forse
+ 637:    1  ->  forum
+ 638:    1  ->  fossiele
+ 639:    1  ->  fout
+ 640:    1  ->  frank
+ 641:    1  ->  frasen
+ 642:    1  ->  fraudeopsporingscapaciteit
+ 643:    1  ->  fraudepoging
+ 644:    1  ->  frigo
+ 645:    1  ->  frisdrank
+ 646:    1  ->  friteuse
+ 647:    1  ->  frontaal
+ 648:    1  ->  fundamentalistisch
+ 649:    1  ->  föhnen
+ 650:    1  ->  galg
+ 651:    1  ->  gang
+ 652:    1  ->  ganzenbord
+ 653:    1  ->  gas
+ 654:    1  ->  gebaseerd
+ 655:    1  ->  gebeurt
+ 656:    1  ->  gebieden
+ 657:    1  ->  geboekt
+ 658:    1  ->  gebotst
+ 659:    1  ->  gebruikte
+ 660:    1  ->  gecensureerd
+ 661:    1  ->  gedaan
+ 662:    1  ->  gedachten
+ 663:    1  ->  gedebatteerd
+ 664:    1  ->  gedetineerden
+ 665:    1  ->  gedwongen
+ 666:    1  ->  gehad
+ 667:    1  ->  gehangen
+ 668:    1  ->  geheel
+ 669:    1  ->  gehele
+ 670:    1  ->  geheven
+ 671:    1  ->  gehinderd
+ 672:    1  ->  gekaapt
+ 673:    1  ->  gekheid
+ 674:    1  ->  geld
+ 675:    1  ->  gelijk
+ 676:    1  ->  gelukwensen
+ 677:    1  ->  gemalen
+ 678:    1  ->  gemeenschappelijke
+ 679:    1  ->  gemoeid
+ 680:    1  ->  gemorste
+ 681:    1  ->  genoegen
+ 682:    1  ->  genomen
+ 683:    1  ->  genre
+ 684:    1  ->  gepasseerd
+ 685:    1  ->  geplagieerd
+ 686:    1  ->  geprent
+ 687:    1  ->  geraadpleegd
+ 688:    1  ->  geraakt
+ 689:    1  ->  geraken
+ 690:    1  ->  gerd
+ 691:    1  ->  gerechtelijke
+ 692:    1  ->  gerede
+ 693:    1  ->  gescheeld
+ 694:    1  ->  geschillenregeling
+ 695:    1  ->  geslaagd
+ 696:    1  ->  geslagen
+ 697:    1  ->  geslonken
+ 698:    1  ->  gesloopt
+ 699:    1  ->  gesneld
+ 700:    1  ->  gespitst
+ 701:    1  ->  gestemd
+ 702:    1  ->  gesteund
+ 703:    1  ->  gestraft
+ 704:    1  ->  geteisterd
+ 705:    1  ->  getracht
+ 706:    1  ->  getto
+ 707:    1  ->  getuige
+ 708:    1  ->  getuigen
+ 709:    1  ->  getypt
+ 710:    1  ->  geur
+ 711:    1  ->  gevaarlijke
+ 712:    1  ->  geval
+ 713:    1  ->  gevangengezet
+ 714:    1  ->  geveld
+ 715:    1  ->  gevoelen
+ 716:    1  ->  gevolgen
+ 717:    1  ->  gewapend
+ 718:    1  ->  gewed
+ 719:    1  ->  geweld
+ 720:    1  ->  gewerkt
+ 721:    1  ->  gewoon
+ 722:    1  ->  gewoond
+ 723:    1  ->  gezandstraalde
+ 724:    1  ->  gezicht
+ 725:    1  ->  geëerbiedigde
+ 726:    1  ->  geëigende
+ 727:    1  ->  geïndustrialiseerde
+ 728:    1  ->  geïnformeerd
+ 729:    1  ->  ging
+ 730:    1  ->  gisteren
+ 731:    1  ->  glazenwasser
+ 732:    1  ->  glijden
+ 733:    1  ->  glippen
+ 734:    1  ->  gloed
+ 735:    1  ->  glühwein
+ 736:    1  ->  godsdienstvrijheid
+ 737:    1  ->  goeden
+ 738:    1  ->  goedgehumeurd
+ 739:    1  ->  goedgemaakt
+ 740:    1  ->  goele
+ 741:    1  ->  gom
+ 742:    1  ->  gonsde
+ 743:    1  ->  goud
+ 744:    1  ->  graag
+ 745:    1  ->  grappen
+ 746:    1  ->  grens
+ 747:    1  ->  griezelige
+ 748:    1  ->  groef
+ 749:    1  ->  groeicijfers
+ 750:    1  ->  groente
+ 751:    1  ->  grondig
+ 752:    1  ->  grondstoffen
+ 753:    1  ->  groot
+ 754:    1  ->  grootmoeder
+ 755:    1  ->  grootouders
+ 756:    1  ->  groots
+ 757:    1  ->  grootstad
+ 758:    1  ->  gsm
+ 759:    1  ->  guantanamo
+ 760:    1  ->  gure
+ 761:    1  ->  gynaecologie
+ 762:    1  ->  haag
+ 763:    1  ->  haan
+ 764:    1  ->  hachelijker
+ 765:    1  ->  hadden
+ 766:    1  ->  halal
+ 767:    1  ->  halen
+ 768:    1  ->  halfbakken
+ 769:    1  ->  halve
+ 770:    1  ->  handcrème
+ 771:    1  ->  handelsstromen
+ 772:    1  ->  hang
+ 773:    1  ->  hangbrug
+ 774:    1  ->  hardeschijf
+ 775:    1  ->  haren
+ 776:    1  ->  hartenjagen
+ 777:    1  ->  hartsvriendinnen
+ 778:    1  ->  hebben
+ 779:    1  ->  hebreeuwse
+ 780:    1  ->  heelde
+ 781:    1  ->  heerlen
+ 782:    1  ->  heersen
+ 783:    1  ->  heerser
+ 784:    1  ->  heg
+ 785:    1  ->  hein
+ 786:    1  ->  heizelpark
+ 787:    1  ->  heksenjacht
+ 788:    1  ->  hel
+ 789:    1  ->  heldere
+ 790:    1  ->  heldin
+ 791:    1  ->  heleboel
+ 792:    1  ->  herhaling
+ 793:    1  ->  hersenchirurg
+ 794:    1  ->  hervestiging
+ 795:    1  ->  hervormingen
+ 796:    1  ->  hete
+ 797:    1  ->  heverlee
+ 798:    1  ->  hierbij
+ 799:    1  ->  hijskraan
+ 800:    1  ->  hits
+ 801:    1  ->  hiv-
+ 802:    1  ->  hmm
+ 803:    1  ->  hoefde
+ 804:    1  ->  hoeft
+ 805:    1  ->  hoelang
+ 806:    1  ->  hoever
+ 807:    1  ->  hoewel
+ 808:    1  ->  hoger
+ 809:    1  ->  hogesnelheidstreinen
+ 810:    1  ->  hol
+ 811:    1  ->  holle
+ 812:    1  ->  honden
+ 813:    1  ->  honderden
+ 814:    1  ->  hoofddoelstelling
+ 815:    1  ->  hoofdkwartier
+ 816:    1  ->  hoofdlijnen
+ 817:    1  ->  hoofdwetten
+ 818:    1  ->  hoogbegaafd
+ 819:    1  ->  hooggespannen
+ 820:    1  ->  hoogst
+ 821:    1  ->  hoogstens
+ 822:    1  ->  hooiberg
+ 823:    1  ->  hooikoorts
+ 824:    1  ->  hoorapparaat
+ 825:    1  ->  hopeloos
+ 826:    1  ->  horden
+ 827:    1  ->  houdt
+ 828:    1  ->  houweel
+ 829:    1  ->  huidig
+ 830:    1  ->  huidige
+ 831:    1  ->  huisstofmijt
+ 832:    1  ->  hulp
+ 833:    1  ->  hulpbron
+ 834:    1  ->  humus
+ 835:    1  ->  hunebedden
+ 836:    1  ->  huurauto
+ 837:    1  ->  huwelijk
+ 838:    1  ->  huwelijken
+ 839:    1  ->  hypocrisie
+ 840:    1  ->  i-profiel
+ 841:    1  ->  idee
+ 842:    1  ->  iglo's
+ 843:    1  ->  ignace
+ 844:    1  ->  ijskoude
+ 845:    1  ->  ijsthee
+ 846:    1  ->  immigratiemogelijkheid
+ 847:    1  ->  informatie
+ 848:    1  ->  informatie-uitwisseling
+ 849:    1  ->  ingaat
+ 850:    1  ->  ingelicht
+ 851:    1  ->  ingeënt
+ 852:    1  ->  ingrijpend
+ 853:    1  ->  inhalen
+ 854:    1  ->  inhouden
+ 855:    1  ->  inkopen
+ 856:    1  ->  inpakken
+ 857:    1  ->  insluiting
+ 858:    1  ->  interesseren
+ 859:    1  ->  internemarktagenda
+ 860:    1  ->  internetfora
+ 861:    1  ->  interventie-aankopen
+ 862:    1  ->  interventieaankopen
+ 863:    1  ->  inwerkingtreding
+ 864:    1  ->  inziens
+ 865:    1  ->  islamieten
+ 866:    1  ->  isoleercel
+ 867:    1  ->  istanboel
+ 868:    1  ->  ivoorkust
+ 869:    1  ->  ixelles
+ 870:    1  ->  ja
+ 871:    1  ->  jack
+ 872:    1  ->  jammer
+ 873:    1  ->  jasje
+ 874:    1  ->  jayden
+ 875:    1  ->  jef
+ 876:    1  ->  jenever
+ 877:    1  ->  jet
+ 878:    1  ->  journalisten
+ 879:    1  ->  jozef
+ 880:    1  ->  juffrouw
+ 881:    1  ->  juichen
+ 882:    1  ->  juni
+ 883:    1  ->  juridisch
+ 884:    1  ->  juwelen
+ 885:    1  ->  k
+ 886:    1  ->  kaak
+ 887:    1  ->  kaarsjes
+ 888:    1  ->  kaart
+ 889:    1  ->  kaartentrucs
+ 890:    1  ->  kaartlezen
+ 891:    1  ->  kaas
+ 892:    1  ->  kaderwetgevingen
+ 893:    1  ->  kaften
+ 894:    1  ->  kamde
+ 895:    1  ->  kamp
+ 896:    1  ->  kampingvuurtje
+ 897:    1  ->  kandidaatlanden
+ 898:    1  ->  kangoeroes
+ 899:    1  ->  kansen
+ 900:    1  ->  karatetrap
+ 901:    1  ->  karien
+ 902:    1  ->  karwei
+ 903:    1  ->  kasseien
+ 904:    1  ->  kauwen
+ 905:    1  ->  keiharde
+ 906:    1  ->  kennelijk
+ 907:    1  ->  kennen
+ 908:    1  ->  kent
+ 909:    1  ->  kernenergiesector
+ 910:    1  ->  kernsplijting
+ 911:    1  ->  kersentaart
+ 912:    1  ->  keuze
+ 913:    1  ->  keuzemogelijkheden
+ 914:    1  ->  kiezers
+ 915:    1  ->  kijf
+ 916:    1  ->  kilowattuur
+ 917:    1  ->  king”
+ 918:    1  ->  kitch
+ 919:    1  ->  klaar
+ 920:    1  ->  kleurpotloden
+ 921:    1  ->  klimaatonderhandelingen
+ 922:    1  ->  klimaatsverandering
+ 923:    1  ->  klinkklare
+ 924:    1  ->  klopt
+ 925:    1  ->  knipperlichtrelatie
+ 926:    1  ->  knokke
+ 927:    1  ->  knoop
+ 928:    1  ->  kobe
+ 929:    1  ->  koestert
+ 930:    1  ->  komt
+ 931:    1  ->  koopt
+ 932:    1  ->  koord
+ 933:    1  ->  koordje
+ 934:    1  ->  koorts
+ 935:    1  ->  koosjer
+ 936:    1  ->  koran
+ 937:    1  ->  kort
+ 938:    1  ->  kousen
+ 939:    1  ->  kraait
+ 940:    1  ->  kraantjeswater
+ 941:    1  ->  krabt
+ 942:    1  ->  krachtdadige
+ 943:    1  ->  kreeg
+ 944:    1  ->  krijgen
+ 945:    1  ->  kritische
+ 946:    1  ->  kroonjuwelen
+ 947:    1  ->  kroop
+ 948:    1  ->  kruispunten
+ 949:    1  ->  kuifje
+ 950:    1  ->  kuisen
+ 951:    1  ->  kundig
+ 952:    1  ->  kunstmest
+ 953:    1  ->  kustgemeenschappen
+ 954:    1  ->  kwam
+ 955:    1  ->  kwart
+ 956:    1  ->  kwesties
+ 957:    1  ->  kwijtgeraakt
+ 958:    1  ->  kwijtgescholden
+ 959:    1  ->  kwikdamp
+ 960:    1  ->  l
+ 961:    1  ->  laad
+ 962:    1  ->  laag
+ 963:    1  ->  laagje
+ 964:    1  ->  laat
+ 965:    1  ->  laatst
+ 966:    1  ->  laatste
+ 967:    1  ->  lade
+ 968:    1  ->  lag
+ 969:    1  ->  lagelonenlanden
+ 970:    1  ->  lagere
+ 971:    1  ->  land
+ 972:    1  ->  landbouwbeleid
+ 973:    1  ->  langetermijngroei
+ 974:    1  ->  langsgeweest
+ 975:    1  ->  lapmiddelen
+ 976:    1  ->  laptoptas
+ 977:    1  ->  laten
+ 978:    1  ->  lauwtjes
+ 979:    1  ->  lawaai
+ 980:    1  ->  ledverlichting
+ 981:    1  ->  leeft
+ 982:    1  ->  leen
+ 983:    1  ->  leerden
+ 984:    1  ->  leerkracht
+ 985:    1  ->  leg
+ 986:    1  ->  legde
+ 987:    1  ->  legionellabacterie
+ 988:    1  ->  leidde
+ 989:    1  ->  leidsters
+ 990:    1  ->  lekkende
+ 991:    1  ->  lenaerts
+ 992:    1  ->  lengtes
+ 993:    1  ->  lenig
+ 994:    1  ->  lepralijders
+ 995:    1  ->  leren
+ 996:    1  ->  letter
+ 997:    1  ->  levend
+ 998:    1  ->  leverden
+ 999:    1  ->  leverfalen
+1000:    1  ->  levert
+1001:    1  ->  lichtelijk
+1002:    1  ->  lien
+1003:    1  ->  lievelingskleur
+1004:    1  ->  ligt
+1005:    1  ->  lijden
+1006:    1  ->  lijdensweg
+1007:    1  ->  lijdt
+1008:    1  ->  lijst
+1009:    1  ->  likte
+1010:    1  ->  linie
+1011:    1  ->  loffelijk
+1012:    1  ->  logica
+1013:    1  ->  lood
+1014:    1  ->  loodsen
+1015:    1  ->  loont
+1016:    1  ->  loopgravenoorlog
+1017:    1  ->  louis
+1018:    1  ->  louter
+1019:    1  ->  lucht
+1020:    1  ->  luid
+1021:    1  ->  luide
+1022:    1  ->  lukken
+1023:    1  ->  luuk
+1024:    1  ->  maaidorser
+1025:    1  ->  maait
+1026:    1  ->  maakt
+1027:    1  ->  maal
+1028:    1  ->  maaltijd
+1029:    1  ->  maande
+1030:    1  ->  maanreis
+1031:    1  ->  maart
+1032:    1  ->  maaseik
+1033:    1  ->  maasmechelen
+1034:    1  ->  maatregel
+1035:    1  ->  maatregelen
+1036:    1  ->  macht
+1037:    1  ->  machtige
+1038:    1  ->  mag
+1039:    1  ->  malariamug
+1040:    1  ->  maleisië
+1041:    1  ->  maneschijn
+1042:    1  ->  mangrovebos
+1043:    1  ->  manhattanproject
+1044:    1  ->  mannentoiletten
+1045:    1  ->  map
+1046:    1  ->  marginaal
+1047:    1  ->  mariet
+1048:    1  ->  marktschommelingen
+1049:    1  ->  maxime
+1050:    1  ->  mazout
+1051:    1  ->  mcdonald's
+1052:    1  ->  medaille
+1053:    1  ->  mededingingsrecht
+1054:    1  ->  mededingingsvoorwaarden
+1055:    1  ->  medeondertekenaars
+1056:    1  ->  medeondertekenen
+1057:    1  ->  medewerking
+1058:    1  ->  medior
+1059:    1  ->  mee
+1060:    1  ->  meedelen
+1061:    1  ->  meegewerkt
+1062:    1  ->  meehelpen
+1063:    1  ->  meerkeuzevragen
+1064:    1  ->  meester
+1065:    1  ->  meesterwerk
+1066:    1  ->  meiklokjes
+1067:    1  ->  men
+1068:    1  ->  menigte
+1069:    1  ->  mensen
+1070:    1  ->  mensenrechtenschendingen
+1071:    1  ->  met
+1072:    1  ->  meten
+1073:    1  ->  meter
+1074:    1  ->  methode
+1075:    1  ->  metingen
+1076:    1  ->  middags
+1077:    1  ->  middenberm
+1078:    1  ->  mieke
+1079:    1  ->  mijlenver
+1080:    1  ->  milieu-inspectie
+1081:    1  ->  milieuoverwegingen
+1082:    1  ->  millenniumbug
+1083:    1  ->  min
+1084:    1  ->  minimumconsensus
+1085:    1  ->  minuutje
+1086:    1  ->  model
+1087:    1  ->  modelvliegtuig
+1088:    1  ->  moderne
+1089:    1  ->  moedersterfte
+1090:    1  ->  moeilijk
+1091:    1  ->  moeskroen
+1092:    1  ->  mogelijke
+1093:    1  ->  mogen
+1094:    1  ->  monsieur
+1095:    1  ->  monster
+1096:    1  ->  mopje
+1097:    1  ->  morgen
+1098:    1  ->  mortem-test
+1099:    1  ->  motie
+1100:    1  ->  mouw
+1101:    1  ->  mozesaan
+1102:    1  ->  muggenbeet
+1103:    1  ->  muilezel
+1104:    1  ->  méér
+1105:    1  ->  n-va
+1106:    1  ->  naaktslak
+1107:    1  ->  naamsestraat
+1108:    1  ->  naarstig
+1109:    1  ->  nadat
+1110:    1  ->  nagegaan
+1111:    1  ->  nagemaakt
+1112:    1  ->  name
+1113:    1  ->  namen
+1114:    1  ->  nauw
+1115:    1  ->  negatief
+1116:    1  ->  negentienhonderdachtenvijftig
+1117:    1  ->  negentienhonderdentwaalf
+1118:    1  ->  negentienhonderdzeventig
+1119:    1  ->  nepnieuws
+1120:    1  ->  nette
+1121:    1  ->  neushoorns
+1122:    1  ->  neven
+1123:    1  ->  niet-overheidsactoren
+1124:    1  ->  niezen
+1125:    1  ->  nis
+1126:    1  ->  noa
+1127:    1  ->  noch
+1128:    1  ->  noemen
+1129:    1  ->  nog
+1130:    1  ->  nootmuskaat
+1131:    1  ->  nopen
+1132:    1  ->  notitieboekje
+1133:    1  ->  nul
+1134:    1  ->  o
+1135:    1  ->  oa
+1136:    1  ->  obees
+1137:    1  ->  obesitasepidemie
+1138:    1  ->  ochtends
+1139:    1  ->  oehoe
+1140:    1  ->  oeralgebergte
+1141:    1  ->  of
+1142:    1  ->  ok
+1143:    1  ->  olie-embargo
+1144:    1  ->  om
+1145:    1  ->  omgaan
+1146:    1  ->  omgeven
+1147:    1  ->  omhooggetakeld
+1148:    1  ->  on
+1149:    1  ->  onaanvaardbaar
+1150:    1  ->  onafhankelijke
+1151:    1  ->  onbestraft
+1152:    1  ->  onderdeel
+1153:    1  ->  onderhandeld
+1154:    1  ->  ondermijnt
+1155:    1  ->  ondernemen
+1156:    1  ->  onderschepte
+1157:    1  ->  onderwater
+1158:    1  ->  onderwijzend
+1159:    1  ->  onderzoekmanagement
+1160:    1  ->  onenigheid
+1161:    1  ->  ongedeerd
+1162:    1  ->  ongerijmdheid
+1163:    1  ->  ongewisse
+1164:    1  ->  ongeëvenaard
+1165:    1  ->  onkostenregeling
+1166:    1  ->  onkruid
+1167:    1  ->  onmiddelijk
+1168:    1  ->  onmiskenbaar
+1169:    1  ->  onomatopee
+1170:    1  ->  ontberen
+1171:    1  ->  ontbijtgranen
+1172:    1  ->  ontbrak
+1173:    1  ->  ontevredenheid
+1174:    1  ->  ontgaat
+1175:    1  ->  onthouden
+1176:    1  ->  ontmaskeren
+1177:    1  ->  ontpitten
+1178:    1  ->  ontploffing
+1179:    1  ->  ontvlambaar
+1180:    1  ->  ontwarde
+1181:    1  ->  ontwerp-mandaat
+1182:    1  ->  ontwerpresolutie
+1183:    1  ->  ontwikkeld
+1184:    1  ->  ontwikkelingen
+1185:    1  ->  ontwikkelingsbeleid
+1186:    1  ->  onverhoopt
+1187:    1  ->  onvervreemdbaar
+1188:    1  ->  onvruchtbaar
+1189:    1  ->  oog
+1190:    1  ->  oogstte
+1191:    1  ->  ook
+1192:    1  ->  oordeel
+1193:    1  ->  oorsuizen
+1194:    1  ->  opel
+1195:    1  ->  openhartoperaties
+1196:    1  ->  opererende
+1197:    1  ->  opgefleurd
+1198:    1  ->  opgelegd
+1199:    1  ->  ophaalbrug
+1200:    1  ->  oplegt
+1201:    1  ->  oplossingen
+1202:    1  ->  oponthoud
+1203:    1  ->  oppasser
+1204:    1  ->  oproerpolitie
+1205:    1  ->  opruimen
+1206:    1  ->  opties
+1207:    1  ->  opvallen
+1208:    1  ->  opvatting
+1209:    1  ->  opzadelen
+1210:    1  ->  opzicht
+1211:    1  ->  oratoriënberg
+1212:    1  ->  orde
+1213:    1  ->  orderbevestiging
+1214:    1  ->  oren
+1215:    1  ->  organisatie
+1216:    1  ->  oude
+1217:    1  ->  ovatie
+1218:    1  ->  overblijft
+1219:    1  ->  overeen
+1220:    1  ->  overeenkomst
+1221:    1  ->  overgestapt
+1222:    1  ->  overleg
+1223:    1  ->  overspannen
+1224:    1  ->  overtuigen
+1225:    1  ->  oververhit
+1226:    1  ->  overweg
+1227:    1  ->  ozonlaag
+1228:    1  ->  paardenmiddel
+1229:    1  ->  paardrijden
+1230:    1  ->  paars
+1231:    1  ->  padie
+1232:    1  ->  paper
+1233:    1  ->  papier-maché
+1234:    1  ->  papieren
+1235:    1  ->  papoea-nieuw-guinea
+1236:    1  ->  paraplu
+1237:    1  ->  pardoel
+1238:    1  ->  parket
+1239:    1  ->  parlofoon
+1240:    1  ->  parochiezaal
+1241:    1  ->  pas
+1242:    1  ->  passer
+1243:    1  ->  pasta
+1244:    1  ->  paters
+1245:    1  ->  paus
+1246:    1  ->  pechstrook
+1247:    1  ->  peinzen
+1248:    1  ->  pels
+1249:    1  ->  personen
+1250:    1  ->  persoonlijk
+1251:    1  ->  perste
+1252:    1  ->  perziken
+1253:    1  ->  petje
+1254:    1  ->  peuters
+1255:    1  ->  pi
+1256:    1  ->  pientere
+1257:    1  ->  pijp
+1258:    1  ->  pijpenstelen
+1259:    1  ->  pilote
+1260:    1  ->  pincode
+1261:    1  ->  pindanootjes
+1262:    1  ->  pintjes
+1263:    1  ->  plakkaat
+1264:    1  ->  plank
+1265:    1  ->  plastieken
+1266:    1  ->  platanen
+1267:    1  ->  pleitten
+1268:    1  ->  pluto
+1269:    1  ->  politici
+1270:    1  ->  porde
+1271:    1  ->  positie
+1272:    1  ->  potentiële
+1273:    1  ->  praag
+1274:    1  ->  preventieve
+1275:    1  ->  prijkt
+1276:    1  ->  principieel
+1277:    1  ->  privé-monopolies
+1278:    1  ->  privéaangelegenheid
+1279:    1  ->  probleem
+1280:    1  ->  proces
+1281:    1  ->  promotie-activiteiten
+1282:    1  ->  protestants
+1283:    1  ->  provider
+1284:    1  ->  pruimen
+1285:    1  ->  public
+1286:    1  ->  pukkelpop
+1287:    1  ->  punten
+1288:    1  ->  puppy’s
+1289:    1  ->  pus
+1290:    1  ->  pythons
+1291:    1  ->  qatar
+1292:    1  ->  quinten
+1293:    1  ->  qwertytoetsenbord
+1294:    1  ->  rampenanalyse
+1295:    1  ->  rampenscenario's
+1296:    1  ->  rapporteur
+1297:    1  ->  realiteitszin
+1298:    1  ->  recente
+1299:    1  ->  recht
+1300:    1  ->  rechte
+1301:    1  ->  rechtstreekse
+1302:    1  ->  recycleerbare
+1303:    1  ->  redden
+1304:    1  ->  regelgevingskader
+1305:    1  ->  regenjas
+1306:    1  ->  regenwoud
+1307:    1  ->  regeringen
+1308:    1  ->  reikende
+1309:    1  ->  reken
+1310:    1  ->  relatie
+1311:    1  ->  remon
+1312:    1  ->  renderende
+1313:    1  ->  restaurant
+1314:    1  ->  resteert
+1315:    1  ->  resultaten
+1316:    1  ->  reünie
+1317:    1  ->  richt
+1318:    1  ->  richtsnoeren
+1319:    1  ->  rijden
+1320:    1  ->  rijpe
+1321:    1  ->  rijst
+1322:    1  ->  rijvak
+1323:    1  ->  rijvakken
+1324:    1  ->  risico´s
+1325:    1  ->  roamen
+1326:    1  ->  roer
+1327:    1  ->  roeren
+1328:    1  ->  roken
+1329:    1  ->  rolluiken
+1330:    1  ->  rome
+1331:    1  ->  rommel
+1332:    1  ->  ronde
+1333:    1  ->  rood
+1334:    1  ->  router
+1335:    1  ->  rover
+1336:    1  ->  rovers
+1337:    1  ->  ruggengraat
+1338:    1  ->  ruimt
+1339:    1  ->  ruk
+1340:    1  ->  rustig
+1341:    1  ->  ruwe
+1342:    1  ->  saamhorigheid
+1343:    1  ->  samenhang
+1344:    1  ->  schaafwond
+1345:    1  ->  schaalvergroting
+1346:    1  ->  schaarbeek
+1347:    1  ->  schade
+1348:    1  ->  schandelijke
+1349:    1  ->  schapevleesbeleid
+1350:    1  ->  schemerlicht
+1351:    1  ->  schendt
+1352:    1  ->  scheppen
+1353:    1  ->  schertsvertoning
+1354:    1  ->  schieten
+1355:    1  ->  schijfruimte
+1356:    1  ->  schok
+1357:    1  ->  schommelt
+1358:    1  ->  schonere
+1359:    1  ->  school
+1360:    1  ->  schrappen
+1361:    1  ->  schriftelijke
+1362:    1  ->  schrijf
+1363:    1  ->  schromelijk
+1364:    1  ->  schroothoop
+1365:    1  ->  schuchtere
+1366:    1  ->  schuifdeur
+1367:    1  ->  schuingedrukt
+1368:    1  ->  schuldig
+1369:    1  ->  secondaire
+1370:    1  ->  secretaresse
+1371:    1  ->  sem
+1372:    1  ->  seraing
+1373:    1  ->  shirt
+1374:    1  ->  shortje
+1375:    1  ->  sikkepit
+1376:    1  ->  silicium
+1377:    1  ->  silicone
+1378:    1  ->  sinistere
+1379:    1  ->  sint-stevens-woluwe
+1380:    1  ->  situatie
+1381:    1  ->  sjoerd
+1382:    1  ->  skibotten
+1383:    1  ->  skischoenen
+1384:    1  ->  slaapziekte
+1385:    1  ->  slachten
+1386:    1  ->  slechtst
+1387:    1  ->  sleep
+1388:    1  ->  slib
+1389:    1  ->  slingerde
+1390:    1  ->  sloot
+1391:    1  ->  slotte
+1392:    1  ->  smoorverliefd
+1393:    1  ->  sneeuwruimen
+1394:    1  ->  snelheid
+1395:    1  ->  snooker
+1396:    1  ->  snor
+1397:    1  ->  sofie
+1398:    1  ->  softwarecode
+1399:    1  ->  solventie
+1400:    1  ->  sommigen
+1401:    1  ->  sovjetisering
+1402:    1  ->  spataders
+1403:    1  ->  speekselklieren
+1404:    1  ->  speel
+1405:    1  ->  spelen
+1406:    1  ->  sportvliegtuigje
+1407:    1  ->  sprake
+1408:    1  ->  springplank
+1409:    1  ->  spritz
+1410:    1  ->  spyker
+1411:    1  ->  staanlamp
+1412:    1  ->  staarde
+1413:    1  ->  staat
+1414:    1  ->  staatsgreep
+1415:    1  ->  stadstuintje
+1416:    1  ->  staf
+1417:    1  ->  startup
+1418:    1  ->  steeds
+1419:    1  ->  stelde
+1420:    1  ->  stem
+1421:    1  ->  stemhokje
+1422:    1  ->  stemming
+1423:    1  ->  stereotiepe
+1424:    1  ->  sterf
+1425:    1  ->  sterkste
+1426:    1  ->  steun
+1427:    1  ->  steunen
+1428:    1  ->  steunprogramma´s
+1429:    1  ->  steunzool
+1430:    1  ->  stijn
+1431:    1  ->  stikstofoxide-
+1432:    1  ->  stikstofuitstoot
+1433:    1  ->  stilzwijgen
+1434:    1  ->  stonden
+1435:    1  ->  stoom
+1436:    1  ->  stop
+1437:    1  ->  stopbord
+1438:    1  ->  straatlantaarn
+1439:    1  ->  straatverlichting
+1440:    1  ->  strakke
+1441:    1  ->  straten
+1442:    1  ->  stresstest
+1443:    1  ->  stripverhaal
+1444:    1  ->  stroom
+1445:    1  ->  stroomde
+1446:    1  ->  stroomt
+1447:    1  ->  stroopwafels
+1448:    1  ->  structuur
+1449:    1  ->  struikelde
+1450:    1  ->  struikgewas
+1451:    1  ->  studentenvereniging
+1452:    1  ->  studentes
+1453:    1  ->  studies
+1454:    1  ->  stuurlui
+1455:    1  ->  stuwdam
+1456:    1  ->  stuwmeer
+1457:    1  ->  sumoworstelaars
+1458:    1  ->  supermarktketen
+1459:    1  ->  surseance
+1460:    1  ->  suske
+1461:    1  ->  synthetische
+1462:    1  ->  t
+1463:    1  ->  taalgebruik
+1464:    1  ->  tachtigste
+1465:    1  ->  tafel
+1466:    1  ->  taken
+1467:    1  ->  tal
+1468:    1  ->  talenknobbel
+1469:    1  ->  talloze
+1470:    1  ->  tandenfee
+1471:    1  ->  technisch
+1472:    1  ->  technologie
+1473:    1  ->  teerling
+1474:    1  ->  tegen
+1475:    1  ->  tegenspelers
+1476:    1  ->  tegenvallers
+1477:    1  ->  tekenen
+1478:    1  ->  tektonische
+1479:    1  ->  telecommunicatie
+1480:    1  ->  teleologisch
+1481:    1  ->  ten
+1482:    1  ->  tentoonstelling
+1483:    1  ->  tenuitvoerlegging
+1484:    1  ->  terawattuur
+1485:    1  ->  terdege
+1486:    1  ->  terechtkunnen
+1487:    1  ->  terpentine
+1488:    1  ->  terras
+1489:    1  ->  terugblikken
+1490:    1  ->  tervuren
+1491:    1  ->  thais
+1492:    1  ->  thora
+1493:    1  ->  tien
+1494:    1  ->  tienduizend
+1495:    1  ->  tijdelijk
+1496:    1  ->  tijden
+1497:    1  ->  tijdgebrek
+1498:    1  ->  tijdschema
+1499:    1  ->  tijgers
+1500:    1  ->  tikt
+1501:    1  ->  tim
+1502:    1  ->  timer
+1503:    1  ->  toegegroeid
+1504:    1  ->  toegejuicht
+1505:    1  ->  toendra
+1506:    1  ->  toerbeurtsysteem
+1507:    1  ->  toestel
+1508:    1  ->  toevoegde
+1509:    1  ->  tokio
+1510:    1  ->  tomen
+1511:    1  ->  tonic
+1512:    1  ->  tonijn
+1513:    1  ->  top
+1514:    1  ->  tortilla
+1515:    1  ->  tragische
+1516:    1  ->  trailrun
+1517:    1  ->  trajectcontrole
+1518:    1  ->  tramsporen
+1519:    1  ->  trapeze
+1520:    1  ->  traumatische
+1521:    1  ->  treed
+1522:    1  ->  treft
+1523:    1  ->  treinverkeer
+1524:    1  ->  trekke
+1525:    1  ->  trekrugzak
+1526:    1  ->  trema
+1527:    1  ->  troep
+1528:    1  ->  troostprijs
+1529:    1  ->  tros
+1530:    1  ->  trotse
+1531:    1  ->  tseetseevlieg
+1532:    1  ->  tsunami’s
+1533:    1  ->  turnhout
+1534:    1  ->  twaalf
+1535:    1  ->  twaalfhonderd
+1536:    1  ->  twee
+1537:    1  ->  tweelingen
+1538:    1  ->  twijfelde
+1539:    1  ->  typte
+1540:    1  ->  uber
+1541:    1  ->  uitbarsting
+1542:    1  ->  uiteindelijk
+1543:    1  ->  uiterst
+1544:    1  ->  uitgave
+1545:    1  ->  uitgavenpost
+1546:    1  ->  uitgehold
+1547:    1  ->  uitgehouwen
+1548:    1  ->  uitgeroeid
+1549:    1  ->  uitgesteld
+1550:    1  ->  uitgewist
+1551:    1  ->  uitgommen
+1552:    1  ->  uithangen
+1553:    1  ->  uiting
+1554:    1  ->  uitsluitend
+1555:    1  ->  uitvoerige
+1556:    1  ->  uitvoering
+1557:    1  ->  uitzicht
+1558:    1  ->  urgentverklaring
+1559:    1  ->  uw
+1560:    1  ->  v
+1561:    1  ->  vaakst
+1562:    1  ->  vaart
+1563:    1  ->  vaas
+1564:    1  ->  vacature
+1565:    1  ->  vacuüms
+1566:    1  ->  vademecum
+1567:    1  ->  val
+1568:    1  ->  vanaf
+1569:    1  ->  vanbuiten
+1570:    1  ->  vastgegespt
+1571:    1  ->  vastgelegde
+1572:    1  ->  vaticaan
+1573:    1  ->  veeleisende
+1574:    1  ->  vel
+1575:    1  ->  velen
+1576:    1  ->  venen
+1577:    1  ->  venten
+1578:    1  ->  veranderd
+1579:    1  ->  verbaasd
+1580:    1  ->  verbeteren
+1581:    1  ->  verbonden
+1582:    1  ->  verbrand
+1583:    1  ->  verbrandingsovens
+1584:    1  ->  verdeelt
+1585:    1  ->  verdelen
+1586:    1  ->  verder
+1587:    1  ->  verdiend
+1588:    1  ->  verdiep
+1589:    1  ->  verdieping
+1590:    1  ->  verdoen
+1591:    1  ->  verdonkeremaand
+1592:    1  ->  verdorven
+1593:    1  ->  verdrag
+1594:    1  ->  verdronken
+1595:    1  ->  verdwaasd
+1596:    1  ->  verdwijningen
+1597:    1  ->  vereist
+1598:    1  ->  vergeefs
+1599:    1  ->  vergeeld
+1600:    1  ->  vergeetachtig
+1601:    1  ->  vergen
+1602:    1  ->  vergoeding
+1603:    1  ->  vergroot
+1604:    1  ->  verhoogt
+1605:    1  ->  verhuis
+1606:    1  ->  verijdeld
+1607:    1  ->  verklaard
+1608:    1  ->  verkoopactiviteiten
+1609:    1  ->  verkoper
+1610:    1  ->  verlaging
+1611:    1  ->  verlaten
+1612:    1  ->  verlichte
+1613:    1  ->  vermelding
+1614:    1  ->  vermolmde
+1615:    1  ->  vermomd
+1616:    1  ->  vernield
+1617:    1  ->  verontschuldiging
+1618:    1  ->  verontwaardiging
+1619:    1  ->  veroordeling
+1620:    1  ->  veroorzakende
+1621:    1  ->  verordening
+1622:    1  ->  verraders
+1623:    1  ->  verschillen
+1624:    1  ->  versnellingen
+1625:    1  ->  verspild
+1626:    1  ->  verspreiden
+1627:    1  ->  versterker
+1628:    1  ->  versterking
+1629:    1  ->  vertaald
+1630:    1  ->  vertaalde
+1631:    1  ->  vertegenwoordiger
+1632:    1  ->  verteld
+1633:    1  ->  vertolker
+1634:    1  ->  vertraagd
+1635:    1  ->  vertraging
+1636:    1  ->  vertragingen
+1637:    1  ->  vertrekpunt
+1638:    1  ->  vervalste
+1639:    1  ->  vervellen
+1640:    1  ->  vervoersmaatschappijen
+1641:    1  ->  vervuiler
+1642:    1  ->  vervuiling
+1643:    1  ->  verwanten
+1644:    1  ->  verwarrend
+1645:    1  ->  verwelkomen
+1646:    1  ->  verwijderen
+1647:    1  ->  verwijdert
+1648:    1  ->  verzaagt
+1649:    1  ->  verzetten
+1650:    1  ->  verzoeken
+1651:    1  ->  victoriaans
+1652:    1  ->  viel
+1653:    1  ->  vier
+1654:    1  ->  vierenzeventig
+1655:    1  ->  viert
+1656:    1  ->  vijf
+1657:    1  ->  vijf-
+1658:    1  ->  vijfhonderd
+1659:    1  ->  virtualrealitybril
+1660:    1  ->  virtualrealityomgeving
+1661:    1  ->  vis
+1662:    1  ->  vlek
+1663:    1  ->  vliegdekschip
+1664:    1  ->  vlooien
+1665:    1  ->  voeder
+1666:    1  ->  voel
+1667:    1  ->  voelden
+1668:    1  ->  volgens
+1669:    1  ->  volksvijandige
+1670:    1  ->  volledige
+1671:    1  ->  volvo
+1672:    1  ->  vooraf
+1673:    1  ->  voorbarig
+1674:    1  ->  voorbeeldfunctie
+1675:    1  ->  voorbehoedsmiddelen
+1676:    1  ->  voorbehoud
+1677:    1  ->  voorbereidende
+1678:    1  ->  voorbereidingen
+1679:    1  ->  voorgerecht
+1680:    1  ->  voorgesteld
+1681:    1  ->  voorlees
+1682:    1  ->  voorliggende
+1683:    1  ->  voornaamste
+1684:    1  ->  vooroordelen
+1685:    1  ->  voorrang
+1686:    1  ->  voorsprong
+1687:    1  ->  voortzetten
+1688:    1  ->  vooruitgang
+1689:    1  ->  vooruitzichten
+1690:    1  ->  voorvechters
+1691:    1  ->  voorzitster
+1692:    1  ->  voorzitterschap
+1693:    1  ->  vormden
+1694:    1  ->  vormt
+1695:    1  ->  vouwfiets
+1696:    1  ->  vragenuur
+1697:    1  ->  vreest
+1698:    1  ->  vreet
+1699:    1  ->  vreugdedansje
+1700:    1  ->  vriendin
+1701:    1  ->  vrijaf
+1702:    1  ->  vrijelijk
+1703:    1  ->  vrijemarktdenken
+1704:    1  ->  vrijetijdsbesteding
+1705:    1  ->  vrijgezellen
+1706:    1  ->  vrijuit
+1707:    1  ->  vroeger
+1708:    1  ->  vuiltje
+1709:    1  ->  vulde
+1710:    1  ->  w
+1711:    1  ->  waadde
+1712:    1  ->  waaijenberg
+1713:    1  ->  waarheid
+1714:    1  ->  waarschijnlijk
+1715:    1  ->  waddeneilanden
+1716:    1  ->  wal
+1717:    1  ->  wallonië
+1718:    1  ->  walt
+1719:    1  ->  wang
+1720:    1  ->  wapens
+1721:    1  ->  waren
+1722:    1  ->  warm
+1723:    1  ->  warmde
+1724:    1  ->  warschau
+1725:    1  ->  wasbak
+1726:    1  ->  wasbakken
+1727:    1  ->  wasmand
+1728:    1  ->  waste
+1729:    1  ->  waterdruk
+1730:    1  ->  watertanden
+1731:    1  ->  wattenstaafjes
+1732:    1  ->  waver
+1733:    1  ->  wedstrijd
+1734:    1  ->  weer
+1735:    1  ->  weerd
+1736:    1  ->  wegebben
+1737:    1  ->  wegingsregeling
+1738:    1  ->  wegrestaurant
+1739:    1  ->  wei
+1740:    1  ->  welgemanierd
+1741:    1  ->  welnu
+1742:    1  ->  wensen
+1743:    1  ->  werchter
+1744:    1  ->  wereld
+1745:    1  ->  wereldbol
+1746:    1  ->  werkgelegenheidstop
+1747:    1  ->  werkgeversbelangen
+1748:    1  ->  werklozen
+1749:    1  ->  werktuig
+1750:    1  ->  werpt
+1751:    1  ->  west
+1752:    1  ->  wetenschappelijk
+1753:    1  ->  wetgevings-
+1754:    1  ->  wezen
+1755:    1  ->  we—maar
+1756:    1  ->  wiet
+1757:    1  ->  wigwams
+1758:    1  ->  wijdverbreid
+1759:    1  ->  wijs
+1760:    1  ->  wijze
+1761:    1  ->  wijzigen
+1762:    1  ->  wilde
+1763:    1  ->  wilt
+1764:    1  ->  win-winstrategie
+1765:    1  ->  winstbejag
+1766:    1  ->  won
+1767:    1  ->  wonde
+1768:    1  ->  wou
+1769:    1  ->  wringt
+1770:    1  ->  wurgen
+1771:    1  ->  y
+1772:    1  ->  yogalerares
+1773:    1  ->  zaak-dutroux
+1774:    1  ->  zag
+1775:    1  ->  zagen
+1776:    1  ->  zak
+1777:    1  ->  zaken
+1778:    1  ->  zakrekenmachinetjes
+1779:    1  ->  zand
+1780:    1  ->  zat
+1781:    1  ->  zebrapad
+1782:    1  ->  zee-engte
+1783:    1  ->  zeehond
+1784:    1  ->  zeemeerminnen
+1785:    1  ->  zeepbel
+1786:    1  ->  zeer
+1787:    1  ->  zeerste
+1788:    1  ->  zeggen
+1789:    1  ->  zelfs
+1790:    1  ->  zes
+1791:    1  ->  zet
+1792:    1  ->  zette
+1793:    1  ->  zetten
+1794:    1  ->  zich
+1795:    1  ->  zicht
+1796:    1  ->  zichzelf
+1797:    1  ->  zien
+1798:    1  ->  zijden
+1799:    1  ->  zilver
+1800:    1  ->  zo'n
+1801:    1  ->  zoals
+1802:    1  ->  zocht
+1803:    1  ->  zoek
+1804:    1  ->  zoeken
+1805:    1  ->  zolder
+1806:    1  ->  zomers
+1807:    1  ->  zon
+1808:    1  ->  zondagsrijder
+1809:    1  ->  zonder
+1810:    1  ->  zonet
+1811:    1  ->  zonne-energiesector
+1812:    1  ->  zonnebrandcrème
+1813:    1  ->  zoo
+1814:    1  ->  zopas
+1815:    1  ->  zo’n
+1816:    1  ->  zuiden
+1817:    1  ->  zuivelsector
+1818:    1  ->  zullen
+1819:    1  ->  zwaaide
+1820:    1  ->  zwart-witfoto
+1821:    1  ->  zwartwerken
+1822:    1  ->  zweet
+1823:    1  ->  zwommen
+1824:    1  ->  én
+1825:    1  ->  Đelić
+1826:    1  ->  “friends”
+1827:    1  ->  “lion
+     -------
+      2661
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (1823)
+                                 With >=  1 occurrences (1823)
+
+   1:  101  ->  we
+   2:   67  ->  een
+   3:   46  ->  de
+   4:   46  ->  wij
+   5:   45  ->  het
+   6:   22  ->  dat
+   7:   20  ->  dit
+   8:   19  ->  en
+   9:   18  ->  er
+  10:   18  ->  in
+  11:   15  ->  u
+  12:   15  ->  voor
+  13:   15  ->  één
+  14:   13  ->  s
+  15:   12  ->  ze
+  16:   12  ->  zij
+  17:   10  ->  ik
+  18:    9  ->  die
+  19:    8  ->  collega's
+  20:    8  ->  hij
+  21:    8  ->  te
+  22:    8  ->  veel
+  23:    7  ->  hier
+  24:    7  ->  kun
+  25:    7  ->  minste
+  26:    7  ->  naar
+  27:    7  ->  vóór
+  28:    7  ->  wel
+  29:    7  ->  zou
+  30:    6  ->  andere
+  31:    6  ->  haar
+  32:    6  ->  hun
+  33:    6  ->  kan
+  34:    6  ->  moeten
+  35:    6  ->  van
+  36:    6  ->  zoveel
+  37:    5  ->  je
+  38:    5  ->  jij
+  39:    5  ->  me
+  40:    5  ->  moet
+  41:    5  ->  slotte
+  42:    5  ->  voordat
+  43:    4  ->  aan
+  44:    4  ->  achter
+  45:    4  ->  al
+  46:    4  ->  gaan
+  47:    4  ->  gedrukt
+  48:    4  ->  hawaii
+  49:    4  ->  hem
+  50:    4  ->  hen
+  51:    4  ->  is
+  52:    4  ->  maar
+  53:    4  ->  met
+  54:    4  ->  mogen
+  55:    4  ->  op
+  56:    4  ->  rond
+  57:    4  ->  vol
+  58:    4  ->  volgende
+  59:    4  ->  zich
+  60:    4  ->  zijn
+  61:    4  ->  zo
+  62:    3  ->  af
+  63:    3  ->  dan
+  64:    3  ->  droegen
+  65:    3  ->  gestemd
+  66:    3  ->  herkend
+  67:    3  ->  horen
+  68:    3  ->  kunnen
+  69:    3  ->  laat
+  70:    3  ->  maak
+  71:    3  ->  na
+  72:    3  ->  niet
+  73:    3  ->  o
+  74:    3  ->  om
+  75:    3  ->  ons
+  76:    3  ->  pijl
+  77:    3  ->  rijden
+  78:    3  ->  ten
+  79:    3  ->  terechtgekomen
+  80:    3  ->  uit
+  81:    3  ->  vijf
+  82:    3  ->  vroeg
+  83:    3  ->  wat
+  84:    3  ->  welke
+  85:    3  ->  wordt
+  86:    3  ->  zelf
+  87:    2  ->  aanpakken
+  88:    2  ->  alsof
+  89:    2  ->  beiden
+  90:    2  ->  bekendgemaakt
+  91:    2  ->  blijft
+  92:    2  ->  boekarest
+  93:    2  ->  coca-cola
+  94:    2  ->  daarbij
+  95:    2  ->  daarover
+  96:    2  ->  dag
+  97:    2  ->  deel
+  98:    2  ->  denk
+  99:    2  ->  druk
+ 100:    2  ->  duurde
+ 101:    2  ->  echter
+ 102:    2  ->  emilie
+ 103:    2  ->  ervan
+ 104:    2  ->  ervoor
+ 105:    2  ->  fiction
+ 106:    2  ->  ga
+ 107:    2  ->  gebruikmaken
+ 108:    2  ->  gemaakt
+ 109:    2  ->  gesloten
+ 110:    2  ->  gezegd
+ 111:    2  ->  goed
+ 112:    2  ->  groot
+ 113:    2  ->  grote
+ 114:    2  ->  haal
+ 115:    2  ->  haalden
+ 116:    2  ->  haard
+ 117:    2  ->  hadden
+ 118:    2  ->  halfjaar
+ 119:    2  ->  heel
+ 120:    2  ->  hele
+ 121:    2  ->  houd
+ 122:    2  ->  houden
+ 123:    2  ->  isabella
+ 124:    2  ->  juist
+ 125:    2  ->  kaart
+ 126:    2  ->  kapje
+ 127:    2  ->  karaten
+ 128:    2  ->  kernvizie
+ 129:    2  ->  km
+ 130:    2  ->  komen
+ 131:    2  ->  krijgt
+ 132:    2  ->  kwam
+ 133:    2  ->  lang
+ 134:    2  ->  leeg
+ 135:    2  ->  leerkrachten
+ 136:    2  ->  leiden
+ 137:    2  ->  leven
+ 138:    2  ->  lezen
+ 139:    2  ->  maakt
+ 140:    2  ->  maakten
+ 141:    2  ->  maal
+ 142:    2  ->  mark
+ 143:    2  ->  meesten
+ 144:    2  ->  mij
+ 145:    2  ->  mijn
+ 146:    2  ->  militaire
+ 147:    2  ->  muistil
+ 148:    2  ->  naam
+ 149:    2  ->  naartoe
+ 150:    2  ->  net
+ 151:    2  ->  niets
+ 152:    2  ->  nieuw
+ 153:    2  ->  nieuwe
+ 154:    2  ->  nu
+ 155:    2  ->  of
+ 156:    2  ->  onder
+ 157:    2  ->  ondertekenen
+ 158:    2  ->  ook
+ 159:    2  ->  ouders
+ 160:    2  ->  overgaan
+ 161:    2  ->  peters
+ 162:    2  ->  pijn
+ 163:    2  ->  ploften
+ 164:    2  ->  qwerty-toetsenbord
+ 165:    2  ->  recht
+ 166:    2  ->  reden
+ 167:    2  ->  richtlijnen
+ 168:    2  ->  romen
+ 169:    2  ->  scène
+ 170:    2  ->  skijas
+ 171:    2  ->  slechts
+ 172:    2  ->  snelheidstrein
+ 173:    2  ->  speelden
+ 174:    2  ->  stad
+ 175:    2  ->  straat
+ 176:    2  ->  taak
+ 177:    2  ->  terecht
+ 178:    2  ->  uw
+ 179:    2  ->  vandaag
+ 180:    2  ->  vas
+ 181:    2  ->  vele
+ 182:    2  ->  ver
+ 183:    2  ->  verdiend
+ 184:    2  ->  verdwaald
+ 185:    2  ->  verhalen
+ 186:    2  ->  vier
+ 187:    2  ->  vind
+ 188:    2  ->  vooral
+ 189:    2  ->  vuil
+ 190:    2  ->  waarden
+ 191:    2  ->  wacht
+ 192:    2  ->  water
+ 193:    2  ->  welk
+ 194:    2  ->  werken
+ 195:    2  ->  wijzen
+ 196:    2  ->  wil
+ 197:    2  ->  woorden
+ 198:    2  ->  zitten
+ 199:    2  ->  zoals
+ 200:    2  ->  zoetwater
+ 201:    2  ->  zolang
+ 202:    2  ->  zover
+ 203:    2  ->  zowel
+ 204:    1  ->  'wat
+ 205:    1  ->  1200
+ 206:    1  ->  2-0-voorsprong
+ 207:    1  ->  3415
+ 208:    1  ->  3e
+ 209:    1  ->  80e
+ 210:    1  ->  aandoen
+ 211:    1  ->  aandrijvas
+ 212:    1  ->  aangelukkigheid
+ 213:    1  ->  aangenaam
+ 214:    1  ->  aangevaardigden
+ 215:    1  ->  aangewerkt
+ 216:    1  ->  aanhoud
+ 217:    1  ->  aannemen
+ 218:    1  ->  aannemers
+ 219:    1  ->  aanpak
+ 220:    1  ->  aanraden
+ 221:    1  ->  aanstekken
+ 222:    1  ->  aantallen
+ 223:    1  ->  aanvaarden
+ 224:    1  ->  aanvaarding
+ 225:    1  ->  aanvraagprocedure
+ 226:    1  ->  aanwerfingsprocedure
+ 227:    1  ->  aardsmoeilijk
+ 228:    1  ->  aating
+ 229:    1  ->  aborten
+ 230:    1  ->  achillespijs
+ 231:    1  ->  achterhalve
+ 232:    1  ->  achterloos
+ 233:    1  ->  achteruitgaan
+ 234:    1  ->  achtervolgingsscène
+ 235:    1  ->  adela
+ 236:    1  ->  adem
+ 237:    1  ->  adviseerden
+ 238:    1  ->  adéquate
+ 239:    1  ->  afgebakken
+ 240:    1  ->  afgezond
+ 241:    1  ->  afleiden
+ 242:    1  ->  afstraffen
+ 243:    1  ->  afweer
+ 244:    1  ->  afzuigt
+ 245:    1  ->  akafietje
+ 246:    1  ->  aldoende
+ 247:    1  ->  alen
+ 248:    1  ->  algemene
+ 249:    1  ->  alhaartje
+ 250:    1  ->  aliexpress
+ 251:    1  ->  alleenheerder
+ 252:    1  ->  aller
+ 253:    1  ->  allergieveroorzakende
+ 254:    1  ->  alletje
+ 255:    1  ->  almeren
+ 256:    1  ->  aloe
+ 257:    1  ->  alternatieve
+ 258:    1  ->  aluminiumblikje
+ 259:    1  ->  aluminiumblikjes
+ 260:    1  ->  ambireel
+ 261:    1  ->  analyses
+ 262:    1  ->  ander
+ 263:    1  ->  anderen
+ 264:    1  ->  anderstrakke
+ 265:    1  ->  android-toestel
+ 266:    1  ->  aneisma
+ 267:    1  ->  angstvollig
+ 268:    1  ->  anham
+ 269:    1  ->  annick
+ 270:    1  ->  ante-evaluatie
+ 271:    1  ->  antibiotica-kuur
+ 272:    1  ->  antimortemtest
+ 273:    1  ->  anzio
+ 274:    1  ->  aperol
+ 275:    1  ->  appeldoorn
+ 276:    1  ->  arachnophypo
+ 277:    1  ->  arbeidsverkorting
+ 278:    1  ->  architect
+ 279:    1  ->  argineris
+ 280:    1  ->  armluimen
+ 281:    1  ->  assumptions
+ 282:    1  ->  atheist
+ 283:    1  ->  auditieboek
+ 284:    1  ->  autostraden
+ 285:    1  ->  avocade
+ 286:    1  ->  avonden
+ 287:    1  ->  azurblauw
+ 288:    1  ->  azurblauwe
+ 289:    1  ->  baanreis
+ 290:    1  ->  baardemiddel
+ 291:    1  ->  backend
+ 292:    1  ->  bakken
+ 293:    1  ->  bakkeringen
+ 294:    1  ->  balan
+ 295:    1  ->  ballenstraat
+ 296:    1  ->  balletranseres
+ 297:    1  ->  balwerk
+ 298:    1  ->  bank
+ 299:    1  ->  barochiezaal
+ 300:    1  ->  bart-peters
+ 301:    1  ->  basbakken
+ 302:    1  ->  bedankten
+ 303:    1  ->  bedoeld
+ 304:    1  ->  bedoelden
+ 305:    1  ->  bedrag
+ 306:    1  ->  bedreefd
+ 307:    1  ->  bedreig
+ 308:    1  ->  bedreigd
+ 309:    1  ->  bedrijvenstak
+ 310:    1  ->  bedwaast
+ 311:    1  ->  bee
+ 312:    1  ->  beefsteak
+ 313:    1  ->  beet
+ 314:    1  ->  beginnen
+ 315:    1  ->  begrotingen
+ 316:    1  ->  behartenswaardige
+ 317:    1  ->  beheerde
+ 318:    1  ->  beheersysteem
+ 319:    1  ->  behoeften
+ 320:    1  ->  behoorden
+ 321:    1  ->  behoordevol
+ 322:    1  ->  behouden
+ 323:    1  ->  behulpbron
+ 324:    1  ->  bekeerd
+ 325:    1  ->  bekend
+ 326:    1  ->  belag
+ 327:    1  ->  belangrijk
+ 328:    1  ->  belastingbetalende
+ 329:    1  ->  belastinginkomsten
+ 330:    1  ->  belastingsgebied
+ 331:    1  ->  belengd
+ 332:    1  ->  belging
+ 333:    1  ->  belgische
+ 334:    1  ->  belgië
+ 335:    1  ->  belood
+ 336:    1  ->  beluistert
+ 337:    1  ->  bemoedigen
+ 338:    1  ->  bename
+ 339:    1  ->  bende
+ 340:    1  ->  benedenverdiening
+ 341:    1  ->  benoit
+ 342:    1  ->  bepaald
+ 343:    1  ->  bepaling
+ 344:    1  ->  bepleet
+ 345:    1  ->  bepoet
+ 346:    1  ->  bereiden
+ 347:    1  ->  bereiken
+ 348:    1  ->  bereikspunten
+ 349:    1  ->  bergenwerk
+ 350:    1  ->  bersato
+ 351:    1  ->  beschaving
+ 352:    1  ->  bescherming
+ 353:    1  ->  bespringing
+ 354:    1  ->  bestegenwoordiger
+ 355:    1  ->  bestelt
+ 356:    1  ->  bestraft
+ 357:    1  ->  beswijken
+ 358:    1  ->  betaalt
+ 359:    1  ->  betend
+ 360:    1  ->  beteren
+ 361:    1  ->  betrekpunt
+ 362:    1  ->  betroefd
+ 363:    1  ->  beugen
+ 364:    1  ->  beuk
+ 365:    1  ->  bevat
+ 366:    1  ->  beveiligingskamer
+ 367:    1  ->  bevestigt
+ 368:    1  ->  bevoegdediensten
+ 369:    1  ->  bevoerde
+ 370:    1  ->  bevolking
+ 371:    1  ->  bewaart
+ 372:    1  ->  bewakkingcamera
+ 373:    1  ->  beweging
+ 374:    1  ->  bewegingen
+ 375:    1  ->  bewering
+ 376:    1  ->  bezit
+ 377:    1  ->  bezoeken
+ 378:    1  ->  bezorgdheid
+ 379:    1  ->  bij
+ 380:    1  ->  bijdragen
+ 381:    1  ->  bijna
+ 382:    1  ->  bijsteken
+ 383:    1  ->  bijsterefficiënt
+ 384:    1  ->  bijzonder
+ 385:    1  ->  bijzondere
+ 386:    1  ->  bindt
+ 387:    1  ->  bingelde
+ 388:    1  ->  binnengaan
+ 389:    1  ->  binnenhalen
+ 390:    1  ->  bioethanol
+ 391:    1  ->  blackjack
+ 392:    1  ->  bladsteen-schaar
+ 393:    1  ->  blikken
+ 394:    1  ->  bliksemsticht
+ 395:    1  ->  blitjes
+ 396:    1  ->  bloed-
+ 397:    1  ->  bloedzaam
+ 398:    1  ->  blouse
+ 399:    1  ->  bodert
+ 400:    1  ->  boedapest
+ 401:    1  ->  boegen
+ 402:    1  ->  boelmelding
+ 403:    1  ->  boer
+ 404:    1  ->  boiden
+ 405:    1  ->  bokkesprongen
+ 406:    1  ->  bologna
+ 407:    1  ->  bom
+ 408:    1  ->  bomen
+ 409:    1  ->  boodschapenlijstje
+ 410:    1  ->  boogschut
+ 411:    1  ->  boom
+ 412:    1  ->  bordcomputer
+ 413:    1  ->  bouw
+ 414:    1  ->  bouwde
+ 415:    1  ->  bovenaard
+ 416:    1  ->  boycotts
+ 417:    1  ->  braakbare
+ 418:    1  ->  brandplusser
+ 419:    1  ->  brandstof
+ 420:    1  ->  brengt
+ 421:    1  ->  brenkt
+ 422:    1  ->  brexit-situatie
+ 423:    1  ->  brimpoens
+ 424:    1  ->  broemer
+ 425:    1  ->  bron
+ 426:    1  ->  broodtroemel
+ 427:    1  ->  bruiklijnen
+ 428:    1  ->  bruimen
+ 429:    1  ->  brûlée
+ 430:    1  ->  bug
+ 431:    1  ->  buikspiegelen
+ 432:    1  ->  buiten
+ 433:    1  ->  buitengewoonkundig
+ 434:    1  ->  buitenlandse
+ 435:    1  ->  buitstek
+ 436:    1  ->  bukkelpoep
+ 437:    1  ->  bungee-jumpen
+ 438:    1  ->  bunsenbrand
+ 439:    1  ->  caffeineen
+ 440:    1  ->  campingvuurtje
+ 441:    1  ->  cappuccino's
+ 442:    1  ->  carnillo
+ 443:    1  ->  cdnv
+ 444:    1  ->  cementoverwesten
+ 445:    1  ->  china
+ 446:    1  ->  chrisman
+ 447:    1  ->  christendemocraten
+ 448:    1  ->  cicatrice
+ 449:    1  ->  cijfersector
+ 450:    1  ->  citroensaap
+ 451:    1  ->  co-piloot
+ 452:    1  ->  coliseum
+ 453:    1  ->  colombia
+ 454:    1  ->  combiné
+ 455:    1  ->  communicatie
+ 456:    1  ->  concentreerden
+ 457:    1  ->  consensus
+ 458:    1  ->  cosmetica-bedrijf
+ 459:    1  ->  creme
+ 460:    1  ->  crisismechanismen
+ 461:    1  ->  cédric
+ 462:    1  ->  daad
+ 463:    1  ->  daanblaans
+ 464:    1  ->  daar
+ 465:    1  ->  daaraan
+ 466:    1  ->  daarhalve
+ 467:    1  ->  daarnaar
+ 468:    1  ->  daarom
+ 469:    1  ->  daarvoor
+ 470:    1  ->  dal
+ 471:    1  ->  dalt
+ 472:    1  ->  dam
+ 473:    1  ->  damian
+ 474:    1  ->  daniel
+ 475:    1  ->  dansen
+ 476:    1  ->  darmontsteking
+ 477:    1  ->  datamees
+ 478:    1  ->  datum
+ 479:    1  ->  debatten
+ 480:    1  ->  deden
+ 481:    1  ->  deelbelang
+ 482:    1  ->  deelstaatsparlement
+ 483:    1  ->  deelzooi
+ 484:    1  ->  deerling
+ 485:    1  ->  degelijk
+ 486:    1  ->  degelijke
+ 487:    1  ->  dekken
+ 488:    1  ->  dekt
+ 489:    1  ->  delitzsch
+ 490:    1  ->  den
+ 491:    1  ->  denise
+ 492:    1  ->  derde
+ 493:    1  ->  dergelijke
+ 494:    1  ->  dertig
+ 495:    1  ->  destillerij
+ 496:    1  ->  detectieve
+ 497:    1  ->  detineerden
+ 498:    1  ->  deuren
+ 499:    1  ->  dialekten
+ 500:    1  ->  dicaprio
+ 501:    1  ->  dichtgeslipt
+ 502:    1  ->  diefste
+ 503:    1  ->  dien
+ 504:    1  ->  dienst
+ 505:    1  ->  diensten
+ 506:    1  ->  diepgewordene
+ 507:    1  ->  dimmbaar
+ 508:    1  ->  ding-tot-ding-relatie
+ 509:    1  ->  discussie
+ 510:    1  ->  doa
+ 511:    1  ->  doe
+ 512:    1  ->  doelinformatie
+ 513:    1  ->  doelstraf
+ 514:    1  ->  doet
+ 515:    1  ->  dollar's
+ 516:    1  ->  donijn
+ 517:    1  ->  doodsteek
+ 518:    1  ->  doodvornis
+ 519:    1  ->  doofpoort
+ 520:    1  ->  dool
+ 521:    1  ->  doopstel
+ 522:    1  ->  doorgesteld
+ 523:    1  ->  doornroze
+ 524:    1  ->  doorzitten
+ 525:    1  ->  dotcom
+ 526:    1  ->  douane-agent
+ 527:    1  ->  douw
+ 528:    1  ->  dramatische
+ 529:    1  ->  drie
+ 530:    1  ->  drieduizend
+ 531:    1  ->  driehonderd
+ 532:    1  ->  driehonderdtien
+ 533:    1  ->  drielaak
+ 534:    1  ->  driepartietoverleg
+ 535:    1  ->  drillingen
+ 536:    1  ->  drof
+ 537:    1  ->  drugspinden
+ 538:    1  ->  drugstrategie
+ 539:    1  ->  drupp
+ 540:    1  ->  druwplaats
+ 541:    1  ->  dubai
+ 542:    1  ->  dubbela-batterijen
+ 543:    1  ->  dubbele
+ 544:    1  ->  duidelijke
+ 545:    1  ->  duimler
+ 546:    1  ->  duizendbrussel
+ 547:    1  ->  durem
+ 548:    1  ->  dus
+ 549:    1  ->  duurzaam
+ 550:    1  ->  dwarsziet
+ 551:    1  ->  e-profiel
+ 552:    1  ->  e40
+ 553:    1  ->  ecologische
+ 554:    1  ->  economische
+ 555:    1  ->  eddie
+ 556:    1  ->  edinburgh
+ 557:    1  ->  eendachtig
+ 558:    1  ->  eenen
+ 559:    1  ->  eenentwintig
+ 560:    1  ->  eenmaal
+ 561:    1  ->  eenpersoonlijk
+ 562:    1  ->  eerst
+ 563:    1  ->  eerste
+ 564:    1  ->  eesden
+ 565:    1  ->  ego
+ 566:    1  ->  eike
+ 567:    1  ->  eikentafel
+ 568:    1  ->  eindelijk
+ 569:    1  ->  eindstemmigen
+ 570:    1  ->  eisende
+ 571:    1  ->  electrocutie
+ 572:    1  ->  elektrowinkel
+ 573:    1  ->  elina
+ 574:    1  ->  elize
+ 575:    1  ->  elke
+ 576:    1  ->  else
+ 577:    1  ->  elsen
+ 578:    1  ->  embryo's
+ 579:    1  ->  energie
+ 580:    1  ->  energie-debatten
+ 581:    1  ->  enig
+ 582:    1  ->  enige
+ 583:    1  ->  enkel
+ 584:    1  ->  enkelhits
+ 585:    1  ->  enzins
+ 586:    1  ->  eraan
+ 587:    1  ->  erachter
+ 588:    1  ->  ergde
+ 589:    1  ->  erhaling
+ 590:    1  ->  erlenmeijer
+ 591:    1  ->  ermee
+ 592:    1  ->  erna
+ 593:    1  ->  eschimo's
+ 594:    1  ->  ester
+ 595:    1  ->  etiketteringregeling
+ 596:    1  ->  etterlijke
+ 597:    1  ->  evenwijd
+ 598:    1  ->  ex-collega's
+ 599:    1  ->  excel
+ 600:    1  ->  excensificering
+ 601:    1  ->  exploiteren
+ 602:    1  ->  eén
+ 603:    1  ->  fabriekschip
+ 604:    1  ->  faciliteiten
+ 605:    1  ->  facture
+ 606:    1  ->  fadamecum
+ 607:    1  ->  faliet
+ 608:    1  ->  farcen
+ 609:    1  ->  fatica
+ 610:    1  ->  feesten
+ 611:    1  ->  feestmaat
+ 612:    1  ->  feestvruchten
+ 613:    1  ->  felle
+ 614:    1  ->  fijne
+ 615:    1  ->  film
+ 616:    1  ->  filmpje
+ 617:    1  ->  filofietsen
+ 618:    1  ->  flik
+ 619:    1  ->  flor
+ 620:    1  ->  fluwele
+ 621:    1  ->  forsche
+ 622:    1  ->  fossielen
+ 623:    1  ->  foto
+ 624:    1  ->  fraamste
+ 625:    1  ->  franc
+ 626:    1  ->  frans
+ 627:    1  ->  fraudeomsporingscapaciteit
+ 628:    1  ->  frazen
+ 629:    1  ->  fresrank
+ 630:    1  ->  friends
+ 631:    1  ->  friteuze
+ 632:    1  ->  frontaan
+ 633:    1  ->  fundamentalistische
+ 634:    1  ->  funnen
+ 635:    1  ->  gaat
+ 636:    1  ->  ganzenboord
+ 637:    1  ->  gat
+ 638:    1  ->  gebaseerd
+ 639:    1  ->  gebeden
+ 640:    1  ->  gebeurd
+ 641:    1  ->  gebonden
+ 642:    1  ->  gebruikte
+ 643:    1  ->  gebruikten
+ 644:    1  ->  gedachte
+ 645:    1  ->  gedachte-afgevaardigde
+ 646:    1  ->  gedeputeerd
+ 647:    1  ->  gedracht
+ 648:    1  ->  geeerbiedigde
+ 649:    1  ->  geeigende
+ 650:    1  ->  geen
+ 651:    1  ->  geformeerd
+ 652:    1  ->  gegaan
+ 653:    1  ->  gegroeid
+ 654:    1  ->  gehaald
+ 655:    1  ->  gehadplicht
+ 656:    1  ->  gehangen
+ 657:    1  ->  geheelige
+ 658:    1  ->  gehouden
+ 659:    1  ->  gehumeurd
+ 660:    1  ->  geit
+ 661:    1  ->  gekaakt
+ 662:    1  ->  geklaar
+ 663:    1  ->  gekommeld
+ 664:    1  ->  gemakkelijke
+ 665:    1  ->  gemakkelijker
+ 666:    1  ->  gemalig
+ 667:    1  ->  gemaneerd
+ 668:    1  ->  gemoesde
+ 669:    1  ->  geneve
+ 670:    1  ->  genoeg
+ 671:    1  ->  gepijsterd
+ 672:    1  ->  geplagiëerd
+ 673:    1  ->  geprint
+ 674:    1  ->  gerechtelijk
+ 675:    1  ->  gereden
+ 676:    1  ->  gereed
+ 677:    1  ->  gereisd
+ 678:    1  ->  gerijden
+ 679:    1  ->  gers-pardul
+ 680:    1  ->  gert
+ 681:    1  ->  geschiedenregelingen
+ 682:    1  ->  geschild
+ 683:    1  ->  gesensureerd
+ 684:    1  ->  geslacht
+ 685:    1  ->  gespannen
+ 686:    1  ->  gespetst
+ 687:    1  ->  gesproken
+ 688:    1  ->  gestapt
+ 689:    1  ->  getakeld
+ 690:    1  ->  geteamed
+ 691:    1  ->  getoog
+ 692:    1  ->  getuige
+ 693:    1  ->  getuigen
+ 694:    1  ->  geulactief
+ 695:    1  ->  geur
+ 696:    1  ->  gevaar
+ 697:    1  ->  gevaarlijk
+ 698:    1  ->  gevallen
+ 699:    1  ->  gevoelens
+ 700:    1  ->  gevolg
+ 701:    1  ->  gevolgd
+ 702:    1  ->  gevuild
+ 703:    1  ->  gewand
+ 704:    1  ->  gewapen
+ 705:    1  ->  gewaseerd
+ 706:    1  ->  geweel
+ 707:    1  ->  geweest
+ 708:    1  ->  gewerkt
+ 709:    1  ->  gewetst
+ 710:    1  ->  gewonnen
+ 711:    1  ->  gewotst
+ 712:    1  ->  gezet
+ 713:    1  ->  gezondstraalde
+ 714:    1  ->  geïndustrialiseerden
+ 715:    1  ->  geïnteresseerd
+ 716:    1  ->  geïnteresseerden
+ 717:    1  ->  ghetto
+ 718:    1  ->  giezelige
+ 719:    1  ->  ginecologie
+ 720:    1  ->  ging
+ 721:    1  ->  ginnintonnen
+ 722:    1  ->  gitaaruitvoering
+ 723:    1  ->  glas
+ 724:    1  ->  goeddoen
+ 725:    1  ->  goeddraaiende
+ 726:    1  ->  goedmoeder
+ 727:    1  ->  goedrenderende
+ 728:    1  ->  golg
+ 729:    1  ->  groeft
+ 730:    1  ->  groei
+ 731:    1  ->  groelen
+ 732:    1  ->  groen
+ 733:    1  ->  groenen
+ 734:    1  ->  groenere
+ 735:    1  ->  groentechnologie
+ 736:    1  ->  groenten
+ 737:    1  ->  grondslag
+ 738:    1  ->  grootstoffen
+ 739:    1  ->  gruwel
+ 740:    1  ->  gruyèrekaas
+ 741:    1  ->  guantánamo
+ 742:    1  ->  gum
+ 743:    1  ->  haalt
+ 744:    1  ->  haapje
+ 745:    1  ->  hagerlijke
+ 746:    1  ->  halen
+ 747:    1  ->  halk
+ 748:    1  ->  hallo
+ 749:    1  ->  handcreme
+ 750:    1  ->  handelstromen
+ 751:    1  ->  hankruid
+ 752:    1  ->  hart
+ 753:    1  ->  hartvriendinnen
+ 754:    1  ->  havering
+ 755:    1  ->  heb
+ 756:    1  ->  hebben
+ 757:    1  ->  hebische
+ 758:    1  ->  hedenlucht
+ 759:    1  ->  heeft
+ 760:    1  ->  heersen
+ 761:    1  ->  heet
+ 762:    1  ->  heggen
+ 763:    1  ->  heidselpark
+ 764:    1  ->  heijn
+ 765:    1  ->  heil
+ 766:    1  ->  heiligverklaard
+ 767:    1  ->  hek
+ 768:    1  ->  heksjacht
+ 769:    1  ->  held
+ 770:    1  ->  helder
+ 771:    1  ->  helderen
+ 772:    1  ->  helke
+ 773:    1  ->  helpen
+ 774:    1  ->  herkenning
+ 775:    1  ->  herlen
+ 776:    1  ->  hersenschimmelaar
+ 777:    1  ->  hersenschirurg
+ 778:    1  ->  hertjes
+ 779:    1  ->  hervestigingen
+ 780:    1  ->  hervorming
+ 781:    1  ->  hesteren
+ 782:    1  ->  heuvelk
+ 783:    1  ->  heverley
+ 784:    1  ->  hield
+ 785:    1  ->  hieraandiend
+ 786:    1  ->  hijskam
+ 787:    1  ->  hiv
+ 788:    1  ->  hm
+ 789:    1  ->  hoe
+ 790:    1  ->  hoeft
+ 791:    1  ->  hoeveel
+ 792:    1  ->  hoge
+ 793:    1  ->  hondenmond
+ 794:    1  ->  hongerapparaat
+ 795:    1  ->  hongerig
+ 796:    1  ->  hoofdlenen
+ 797:    1  ->  hoofdstukken
+ 798:    1  ->  hoofdtoelstelling
+ 799:    1  ->  hoog
+ 800:    1  ->  hoogbegaat
+ 801:    1  ->  hoogste
+ 802:    1  ->  hoogte
+ 803:    1  ->  hoogtepazier
+ 804:    1  ->  hoogtes
+ 805:    1  ->  hoop
+ 806:    1  ->  hoopeloos
+ 807:    1  ->  hoor
+ 808:    1  ->  hoorden
+ 809:    1  ->  hoorentje
+ 810:    1  ->  horntje
+ 811:    1  ->  hou
+ 812:    1  ->  houdt
+ 813:    1  ->  howeel
+ 814:    1  ->  huidige
+ 815:    1  ->  hulp
+ 816:    1  ->  hummus
+ 817:    1  ->  hunnebedden
+ 818:    1  ->  hustig
+ 819:    1  ->  huurlijken
+ 820:    1  ->  hypocratie
+ 821:    1  ->  ideeën
+ 822:    1  ->  iet
+ 823:    1  ->  igloos
+ 824:    1  ->  ijk
+ 825:    1  ->  ijscellen
+ 826:    1  ->  ijskalde
+ 827:    1  ->  ijstee
+ 828:    1  ->  iknees
+ 829:    1  ->  ina
+ 830:    1  ->  inadequate
+ 831:    1  ->  inderdaad
+ 832:    1  ->  inefficiënt
+ 833:    1  ->  informatieuitwisseling
+ 834:    1  ->  ingericht
+ 835:    1  ->  ingeëmd
+ 836:    1  ->  inglijden
+ 837:    1  ->  ingrepend
+ 838:    1  ->  inkomen
+ 839:    1  ->  inkoop
+ 840:    1  ->  internationale
+ 841:    1  ->  internationalen
+ 842:    1  ->  internetforen
+ 843:    1  ->  internetmarktagenda
+ 844:    1  ->  interventie-aankopen
+ 845:    1  ->  interventieaankopen
+ 846:    1  ->  isoleurcel
+ 847:    1  ->  israëliten
+ 848:    1  ->  istanbul
+ 849:    1  ->  ivo-beleid
+ 850:    1  ->  ivorkust
+ 851:    1  ->  jaden
+ 852:    1  ->  jagen
+ 853:    1  ->  jeff
+ 854:    1  ->  jett
+ 855:    1  ->  joseph
+ 856:    1  ->  jufvrouw
+ 857:    1  ->  jullie
+ 858:    1  ->  juniorverkoper
+ 859:    1  ->  jurgen
+ 860:    1  ->  juridische
+ 861:    1  ->  kaars
+ 862:    1  ->  kaarten
+ 863:    1  ->  kaartentricks
+ 864:    1  ->  kabelwetgeringen
+ 865:    1  ->  kader
+ 866:    1  ->  kafta
+ 867:    1  ->  kam
+ 868:    1  ->  kampte
+ 869:    1  ->  kandidaat-landen
+ 870:    1  ->  kangeroes
+ 871:    1  ->  kans
+ 872:    1  ->  kapstoek
+ 873:    1  ->  kapstoor
+ 874:    1  ->  kapte
+ 875:    1  ->  karatentrap
+ 876:    1  ->  karavan
+ 877:    1  ->  karin
+ 878:    1  ->  karrein
+ 879:    1  ->  kassaai
+ 880:    1  ->  kassen
+ 881:    1  ->  katar
+ 882:    1  ->  keef
+ 883:    1  ->  keer
+ 884:    1  ->  kennen
+ 885:    1  ->  kernenergie-sector
+ 886:    1  ->  kernspleiting
+ 887:    1  ->  kersttaart
+ 888:    1  ->  keuzen
+ 889:    1  ->  keuzevragen
+ 890:    1  ->  kiez
+ 891:    1  ->  kiezels
+ 892:    1  ->  kindelijk
+ 893:    1  ->  king
+ 894:    1  ->  kiwis
+ 895:    1  ->  kleurpotlodingen
+ 896:    1  ->  kleurwijn
+ 897:    1  ->  klimaatonderhandeling
+ 898:    1  ->  klimaatverandering
+ 899:    1  ->  klinklare
+ 900:    1  ->  klopte
+ 901:    1  ->  knokken
+ 902:    1  ->  knoopontwarden
+ 903:    1  ->  kober
+ 904:    1  ->  koffie
+ 905:    1  ->  komstig
+ 906:    1  ->  komt
+ 907:    1  ->  konden
+ 908:    1  ->  koolstofdioxideverlaging
+ 909:    1  ->  koort
+ 910:    1  ->  koortje
+ 911:    1  ->  koorts
+ 912:    1  ->  kopstok
+ 913:    1  ->  kort
+ 914:    1  ->  kortst
+ 915:    1  ->  kosher
+ 916:    1  ->  kous
+ 917:    1  ->  kouwen
+ 918:    1  ->  kral
+ 919:    1  ->  krappen
+ 920:    1  ->  krapt
+ 921:    1  ->  kritisch
+ 922:    1  ->  krok-monsieur
+ 923:    1  ->  kroniwielen
+ 924:    1  ->  kroopt
+ 925:    1  ->  kubo
+ 926:    1  ->  kuizen
+ 927:    1  ->  kunstmes
+ 928:    1  ->  kus
+ 929:    1  ->  kustert
+ 930:    1  ->  kuweelen
+ 931:    1  ->  kwaliteitsschema
+ 932:    1  ->  kwart
+ 933:    1  ->  kwestie
+ 934:    1  ->  kwetsgescholden
+ 935:    1  ->  kwh
+ 936:    1  ->  kwijtgehaakt
+ 937:    1  ->  kwijtgeraakt
+ 938:    1  ->  kwikdom
+ 939:    1  ->  kyrie
+ 940:    1  ->  kàn
+ 941:    1  ->  köfië
+ 942:    1  ->  laadtijdige
+ 943:    1  ->  laast
+ 944:    1  ->  laatijdige
+ 945:    1  ->  laatste
+ 946:    1  ->  laatsten
+ 947:    1  ->  labmiddelen
+ 948:    1  ->  lach
+ 949:    1  ->  lactanen
+ 950:    1  ->  laden
+ 951:    1  ->  lafeless
+ 952:    1  ->  lage
+ 953:    1  ->  lage-lonenlanden
+ 954:    1  ->  landrover
+ 955:    1  ->  landsbouwbeleid
+ 956:    1  ->  langs
+ 957:    1  ->  langsgegaan
+ 958:    1  ->  langtes
+ 959:    1  ->  laptopdas
+ 960:    1  ->  led-verlichting
+ 961:    1  ->  leden
+ 962:    1  ->  ledstaat
+ 963:    1  ->  leefde
+ 964:    1  ->  leem
+ 965:    1  ->  leerde
+ 966:    1  ->  lees
+ 967:    1  ->  legionella-bacterie
+ 968:    1  ->  legt
+ 969:    1  ->  leidensweg
+ 970:    1  ->  leidt
+ 971:    1  ->  leie
+ 972:    1  ->  leiem
+ 973:    1  ->  leiend
+ 974:    1  ->  lekkere
+ 975:    1  ->  lennarts
+ 976:    1  ->  lepraleiders
+ 977:    1  ->  lette
+ 978:    1  ->  levenskader
+ 979:    1  ->  leveren
+ 980:    1  ->  leverfaden
+ 981:    1  ->  lewis
+ 982:    1  ->  licht
+ 983:    1  ->  lichtstresstest
+ 984:    1  ->  lichtte
+ 985:    1  ->  lidi
+ 986:    1  ->  lidstaten
+ 987:    1  ->  liens
+ 988:    1  ->  lievelingspil
+ 989:    1  ->  lieverhuis
+ 990:    1  ->  lig
+ 991:    1  ->  liggen
+ 992:    1  ->  lijsters
+ 993:    1  ->  likten
+ 994:    1  ->  lion
+ 995:    1  ->  lippen
+ 996:    1  ->  loomt
+ 997:    1  ->  loopgavenoorlog
+ 998:    1  ->  loopte
+ 999:    1  ->  loot
+1000:    1  ->  lopen
+1001:    1  ->  loutjes
+1002:    1  ->  lozen
+1003:    1  ->  lui
+1004:    1  ->  luidend
+1005:    1  ->  luider
+1006:    1  ->  luidtechnisch
+1007:    1  ->  luke
+1008:    1  ->  lukte
+1009:    1  ->  maagd
+1010:    1  ->  maaidorster
+1011:    1  ->  maakte
+1012:    1  ->  maand
+1013:    1  ->  maanden
+1014:    1  ->  maandenlang
+1015:    1  ->  maas-machelen
+1016:    1  ->  maaswijk
+1017:    1  ->  maatregel
+1018:    1  ->  maatregelen
+1019:    1  ->  maatschappelijke
+1020:    1  ->  maatschappen
+1021:    1  ->  maestrokaart
+1022:    1  ->  malaria-mug
+1023:    1  ->  manenschijn
+1024:    1  ->  manentoiletten
+1025:    1  ->  mangrovenbos
+1026:    1  ->  margineel
+1027:    1  ->  maria
+1028:    1  ->  marit
+1029:    1  ->  marktdenken
+1030:    1  ->  mater
+1031:    1  ->  maximum
+1032:    1  ->  maximumsnelheid
+1033:    1  ->  mazoet
+1034:    1  ->  mcdonalds
+1035:    1  ->  mede-ondertekenaars
+1036:    1  ->  mededelen
+1037:    1  ->  mededingsvoorwaarden
+1038:    1  ->  medewerkingen
+1039:    1  ->  media
+1040:    1  ->  meedingen
+1041:    1  ->  meedoen
+1042:    1  ->  meegewoond
+1043:    1  ->  meer
+1044:    1  ->  megamonster
+1045:    1  ->  megawatt-stroom
+1046:    1  ->  meharen
+1047:    1  ->  meiklopjes
+1048:    1  ->  melassie
+1049:    1  ->  melezel
+1050:    1  ->  men
+1051:    1  ->  menen
+1052:    1  ->  mensen
+1053:    1  ->  menu
+1054:    1  ->  merwaar
+1055:    1  ->  messen
+1056:    1  ->  metedingingsrecht
+1057:    1  ->  methoden
+1058:    1  ->  middag
+1059:    1  ->  middenwerm
+1060:    1  ->  mijlpeil
+1061:    1  ->  mijltijd
+1062:    1  ->  mijt
+1063:    1  ->  milieuinspecties
+1064:    1  ->  milieuroverwegingen
+1065:    1  ->  millesand
+1066:    1  ->  minister
+1067:    1  ->  minne
+1068:    1  ->  minuten
+1069:    1  ->  misgaan
+1070:    1  ->  misgegaan
+1071:    1  ->  moederssterfte
+1072:    1  ->  moeilijker
+1073:    1  ->  moffelig
+1074:    1  ->  mogelijkheden
+1075:    1  ->  mondiale
+1076:    1  ->  mooisje
+1077:    1  ->  moorverliefd
+1078:    1  ->  muziek
+1079:    1  ->  naaktslag
+1080:    1  ->  naarwaar
+1081:    1  ->  naarzig
+1082:    1  ->  nagaan
+1083:    1  ->  natuurlijk
+1084:    1  ->  nauwkrantelijk
+1085:    1  ->  negatiefs
+1086:    1  ->  negenhonderdachtenvijftig
+1087:    1  ->  negenhonderdachtenzestig
+1088:    1  ->  negenhonderdtwaalf
+1089:    1  ->  negenhonderdzeventig
+1090:    1  ->  nemmer
+1091:    1  ->  nergens
+1092:    1  ->  neuzen
+1093:    1  ->  niet-aflatende
+1094:    1  ->  niet-alt-uitvoerig
+1095:    1  ->  niet-overheidsfactoren
+1096:    1  ->  niet-principieel
+1097:    1  ->  nieuw-guinea
+1098:    1  ->  nieuws
+1099:    1  ->  nizen
+1100:    1  ->  noah
+1101:    1  ->  noem
+1102:    1  ->  nog
+1103:    1  ->  nooiberg
+1104:    1  ->  nootmuscata
+1105:    1  ->  normaal
+1106:    1  ->  nva
+1107:    1  ->  obes
+1108:    1  ->  obesitas-epidemie
+1109:    1  ->  oegoe
+1110:    1  ->  oerolgebergte
+1111:    1  ->  ogen
+1112:    1  ->  oh
+1113:    1  ->  oké
+1114:    1  ->  oliënmargo
+1115:    1  ->  omgeheven
+1116:    1  ->  omhandelingen
+1117:    1  ->  omzicht
+1118:    1  ->  onaanvraagbaar
+1119:    1  ->  onafhankelijk
+1120:    1  ->  onbevoorbeeld
+1121:    1  ->  onderhandeling
+1122:    1  ->  onderhouden
+1123:    1  ->  ondermijdt
+1124:    1  ->  ondernemer
+1125:    1  ->  onderschapte
+1126:    1  ->  onderwijsen
+1127:    1  ->  onderzijds
+1128:    1  ->  onderzoeksmanagement
+1129:    1  ->  oneindigheid
+1130:    1  ->  oneleenheid
+1131:    1  ->  ongedeeld
+1132:    1  ->  ongeruimdheid
+1133:    1  ->  ongewis
+1134:    1  ->  ongeïvenaard
+1135:    1  ->  onkostregeling
+1136:    1  ->  onlenig
+1137:    1  ->  onmiddellijk
+1138:    1  ->  onmiskenbare
+1139:    1  ->  onschuldig
+1140:    1  ->  ontbitten
+1141:    1  ->  onthoud
+1142:    1  ->  ontmasken
+1143:    1  ->  ontpleegt
+1144:    1  ->  ontreiniging
+1145:    1  ->  ontvraagt
+1146:    1  ->  ontweren
+1147:    1  ->  ontwerpmandaat
+1148:    1  ->  ontwerprevolutie
+1149:    1  ->  ontwikkeling
+1150:    1  ->  ontwikkelingspleit
+1151:    1  ->  ontwikkelt
+1152:    1  ->  ontzag
+1153:    1  ->  onveruchtbaar
+1154:    1  ->  onvervredenheid
+1155:    1  ->  onvervreembaar
+1156:    1  ->  onverwachte
+1157:    1  ->  onze
+1158:    1  ->  oog
+1159:    1  ->  oogste
+1160:    1  ->  oor
+1161:    1  ->  oordeelbevestiging
+1162:    1  ->  oorhof
+1163:    1  ->  oorlog
+1164:    1  ->  oorzuizen
+1165:    1  ->  oost-ende
+1166:    1  ->  oost-west
+1167:    1  ->  opal
+1168:    1  ->  opdelen
+1169:    1  ->  open
+1170:    1  ->  open-hart-operaties
+1171:    1  ->  opgaan
+1172:    1  ->  opgeheven
+1173:    1  ->  opgevuld
+1174:    1  ->  ophaltbrug
+1175:    1  ->  opkampen
+1176:    1  ->  oplegd
+1177:    1  ->  oplossing
+1178:    1  ->  oppassen
+1179:    1  ->  oppatting
+1180:    1  ->  oppositie
+1181:    1  ->  oproeppolitie
+1182:    1  ->  opruimend
+1183:    1  ->  opsadelen
+1184:    1  ->  optie
+1185:    1  ->  opvallend
+1186:    1  ->  opé
+1187:    1  ->  oratorienberg
+1188:    1  ->  orde
+1189:    1  ->  ouder
+1190:    1  ->  ouwe
+1191:    1  ->  ovasie
+1192:    1  ->  oven
+1193:    1  ->  overeenkomstig
+1194:    1  ->  overeind
+1195:    1  ->  overfit
+1196:    1  ->  overgang
+1197:    1  ->  overkrijgt
+1198:    1  ->  overonderhandeld
+1199:    1  ->  overrekening
+1200:    1  ->  overspannend
+1201:    1  ->  oversterking
+1202:    1  ->  overwegen
+1203:    1  ->  ozellaag
+1204:    1  ->  paas
+1205:    1  ->  paddy
+1206:    1  ->  padje
+1207:    1  ->  pakket
+1208:    1  ->  pakstraat
+1209:    1  ->  paleplu
+1210:    1  ->  pannengevallen
+1211:    1  ->  papiermaché
+1212:    1  ->  parkaat
+1213:    1  ->  parkeren
+1214:    1  ->  parwaren
+1215:    1  ->  pas
+1216:    1  ->  passe
+1217:    1  ->  paste
+1218:    1  ->  pauze
+1219:    1  ->  peper
+1220:    1  ->  persen
+1221:    1  ->  personeelvervullers
+1222:    1  ->  personen-
+1223:    1  ->  pessensap
+1224:    1  ->  pestelen
+1225:    1  ->  pijlenboog
+1226:    1  ->  pijnbreuk
+1227:    1  ->  piloot
+1228:    1  ->  pin
+1229:    1  ->  pincone
+1230:    1  ->  pindernoodjes
+1231:    1  ->  pintere
+1232:    1  ->  plaatszijden
+1233:    1  ->  plamk
+1234:    1  ->  plasticbarrière
+1235:    1  ->  pleegt
+1236:    1  ->  pleit
+1237:    1  ->  pleiten
+1238:    1  ->  plotting
+1239:    1  ->  pmd-zak
+1240:    1  ->  politie
+1241:    1  ->  polsbranden
+1242:    1  ->  poorden
+1243:    1  ->  porceleirenvaas
+1244:    1  ->  pordeaux
+1245:    1  ->  pornofoon
+1246:    1  ->  posten
+1247:    1  ->  potentieel
+1248:    1  ->  precies
+1249:    1  ->  preventie
+1250:    1  ->  prijpt
+1251:    1  ->  prijspunten
+1252:    1  ->  privé-aangelegenheid
+1253:    1  ->  privémonopolies
+1254:    1  ->  problemen
+1255:    1  ->  profijter
+1256:    1  ->  programma-ombrak
+1257:    1  ->  project
+1258:    1  ->  promotieactiviteiten
+1259:    1  ->  protestant
+1260:    1  ->  publiek
+1261:    1  ->  punt
+1262:    1  ->  puntjes
+1263:    1  ->  puppy's
+1264:    1  ->  pytons
+1265:    1  ->  quinta
+1266:    1  ->  rampanalyse
+1267:    1  ->  rampscenario's
+1268:    1  ->  raporteur
+1269:    1  ->  rapporten
+1270:    1  ->  raymond
+1271:    1  ->  realiteit
+1272:    1  ->  reality-bril
+1273:    1  ->  reality-omgeving
+1274:    1  ->  recentere
+1275:    1  ->  rechtdadige
+1276:    1  ->  rechts
+1277:    1  ->  rechtsschoonslag
+1278:    1  ->  rechtstreefse
+1279:    1  ->  recyclebare
+1280:    1  ->  regenwater
+1281:    1  ->  regering
+1282:    1  ->  regio's
+1283:    1  ->  rekent
+1284:    1  ->  relatie
+1285:    1  ->  remt
+1286:    1  ->  rest
+1287:    1  ->  restaties
+1288:    1  ->  reunie
+1289:    1  ->  reur
+1290:    1  ->  richting
+1291:    1  ->  richtsloeren
+1292:    1  ->  rieuwe
+1293:    1  ->  rijpen
+1294:    1  ->  rijvalk
+1295:    1  ->  rijverkeer
+1296:    1  ->  rijvlakken
+1297:    1  ->  risico's
+1298:    1  ->  roadmap
+1299:    1  ->  rockwerchter
+1300:    1  ->  rode
+1301:    1  ->  roep
+1302:    1  ->  roerbakgerecht
+1303:    1  ->  roeren
+1304:    1  ->  rollen
+1305:    1  ->  rolluiden
+1306:    1  ->  ronden
+1307:    1  ->  rookt
+1308:    1  ->  rotsdienstvrijheid
+1309:    1  ->  route
+1310:    1  ->  rovers'
+1311:    1  ->  rozenkleur
+1312:    1  ->  ruft
+1313:    1  ->  rug
+1314:    1  ->  ruggenkraat
+1315:    1  ->  ruimen
+1316:    1  ->  ruwcijfers
+1317:    1  ->  s'avonds
+1318:    1  ->  saamhorighed
+1319:    1  ->  sam
+1320:    1  ->  samengang
+1321:    1  ->  samengenomen
+1322:    1  ->  samsung-gsm
+1323:    1  ->  sarcinisme
+1324:    1  ->  saventum
+1325:    1  ->  schaalverhouding
+1326:    1  ->  schadelijke
+1327:    1  ->  schapenvleesbeleid
+1328:    1  ->  scharenbeek
+1329:    1  ->  schendingen
+1330:    1  ->  schenkt
+1331:    1  ->  scheppen
+1332:    1  ->  schertsbetoning
+1333:    1  ->  schijf
+1334:    1  ->  schikken
+1335:    1  ->  schommelijk
+1336:    1  ->  schoon
+1337:    1  ->  schrift
+1338:    1  ->  schriftelijk
+1339:    1  ->  schrijft
+1340:    1  ->  schrijven
+1341:    1  ->  schuchteren
+1342:    1  ->  schuifruimte
+1343:    1  ->  schuld
+1344:    1  ->  secundaire
+1345:    1  ->  selectieproces
+1346:    1  ->  ser
+1347:    1  ->  serijn
+1348:    1  ->  shock
+1349:    1  ->  short
+1350:    1  ->  shortster
+1351:    1  ->  signaler
+1352:    1  ->  sikkerpid
+1353:    1  ->  siliconen
+1354:    1  ->  silicum
+1355:    1  ->  sinisteren
+1356:    1  ->  sint-stevens-volvo
+1357:    1  ->  siske
+1358:    1  ->  ski-botten
+1359:    1  ->  ski-skis
+1360:    1  ->  slaapzicht
+1361:    1  ->  slagen
+1362:    1  ->  slagje
+1363:    1  ->  slam-wedstrijd
+1364:    1  ->  sleip
+1365:    1  ->  slingerden
+1366:    1  ->  slip
+1367:    1  ->  sloten
+1368:    1  ->  sluiten
+1369:    1  ->  sluiting
+1370:    1  ->  smeette
+1371:    1  ->  smiddags
+1372:    1  ->  snel
+1373:    1  ->  snelheidsstrijden
+1374:    1  ->  snoeker
+1375:    1  ->  snoer
+1376:    1  ->  sociaal-draaglijk
+1377:    1  ->  sociale
+1378:    1  ->  soeneristen
+1379:    1  ->  software-code
+1380:    1  ->  somers
+1381:    1  ->  sommige
+1382:    1  ->  sophie
+1383:    1  ->  soviëtisering
+1384:    1  ->  spaarrood
+1385:    1  ->  spaarzamenbegroting
+1386:    1  ->  spattaarders
+1387:    1  ->  speekselkleren
+1388:    1  ->  speelt
+1389:    1  ->  speeltal
+1390:    1  ->  spel
+1391:    1  ->  speser
+1392:    1  ->  spiker
+1393:    1  ->  spionnenorganisatie
+1394:    1  ->  spoedhuizenhulp
+1395:    1  ->  sportsvrije
+1396:    1  ->  sportvliegtuig
+1397:    1  ->  spreek
+1398:    1  ->  spriets
+1399:    1  ->  springblank
+1400:    1  ->  staaf
+1401:    1  ->  staallamp
+1402:    1  ->  staar
+1403:    1  ->  staarden
+1404:    1  ->  staat
+1405:    1  ->  staatscheep
+1406:    1  ->  stadstauntje
+1407:    1  ->  stakende
+1408:    1  ->  stap
+1409:    1  ->  start-up
+1410:    1  ->  starten
+1411:    1  ->  steek
+1412:    1  ->  steen
+1413:    1  ->  stein
+1414:    1  ->  stembalkje
+1415:    1  ->  stemmingen
+1416:    1  ->  stemt
+1417:    1  ->  stereotype
+1418:    1  ->  sterft
+1419:    1  ->  sterksten
+1420:    1  ->  steunprogramma's
+1421:    1  ->  steunsel
+1422:    1  ->  stiefbroeder
+1423:    1  ->  stiefvoer
+1424:    1  ->  stikstofnetzit
+1425:    1  ->  stikstofoxide
+1426:    1  ->  stilkomen
+1427:    1  ->  stonden
+1428:    1  ->  stoorde
+1429:    1  ->  stopwoord
+1430:    1  ->  stouwde
+1431:    1  ->  straatantaren
+1432:    1  ->  straf
+1433:    1  ->  straks
+1434:    1  ->  stramt
+1435:    1  ->  strand
+1436:    1  ->  strappen
+1437:    1  ->  strengen
+1438:    1  ->  strijkgewas
+1439:    1  ->  strookwafels
+1440:    1  ->  stroom
+1441:    1  ->  structuren
+1442:    1  ->  struikelden
+1443:    1  ->  studenten
+1444:    1  ->  studentenverandering
+1445:    1  ->  studie
+1446:    1  ->  stuurdam
+1447:    1  ->  stuurlijnen
+1448:    1  ->  stuurmeer
+1449:    1  ->  sumo-ortelaars
+1450:    1  ->  supermarkt-keten
+1451:    1  ->  surceons
+1452:    1  ->  sushi-restaurant
+1453:    1  ->  synagogen
+1454:    1  ->  synagoog
+1455:    1  ->  synthetisch
+1456:    1  ->  talenknabbel
+1457:    1  ->  tam
+1458:    1  ->  tandenvee
+1459:    1  ->  technologiebedrijf
+1460:    1  ->  technologische
+1461:    1  ->  tegencommunicatie
+1462:    1  ->  tegengestemd
+1463:    1  ->  tegenop
+1464:    1  ->  tegenspeerders
+1465:    1  ->  tegenvaller
+1466:    1  ->  tekende
+1467:    1  ->  tekortschieten
+1468:    1  ->  tektoonstelling
+1469:    1  ->  telkens
+1470:    1  ->  telloze
+1471:    1  ->  tenslotte
+1472:    1  ->  tenuitvoergelijking
+1473:    1  ->  tenzen
+1474:    1  ->  ter
+1475:    1  ->  terdeeg
+1476:    1  ->  terechtkomt
+1477:    1  ->  terrawattuur
+1478:    1  ->  terreis
+1479:    1  ->  terughaken
+1480:    1  ->  terugkomen
+1481:    1  ->  terugvaart
+1482:    1  ->  terugzagen
+1483:    1  ->  terugzettingsvermogen
+1484:    1  ->  teslamodel
+1485:    1  ->  teveel
+1486:    1  ->  the
+1487:    1  ->  thee
+1488:    1  ->  theologisch
+1489:    1  ->  therapetine
+1490:    1  ->  thuis
+1491:    1  ->  thuisbrengen
+1492:    1  ->  thuisgekomen
+1493:    1  ->  tien
+1494:    1  ->  tijde
+1495:    1  ->  tijdelijke
+1496:    1  ->  tijdsbesteding
+1497:    1  ->  tijdsgebrek
+1498:    1  ->  tijkers
+1499:    1  ->  to-do-lijst
+1500:    1  ->  toe
+1501:    1  ->  toegejaagd
+1502:    1  ->  toegesneld
+1503:    1  ->  toegevoegde
+1504:    1  ->  toekomen
+1505:    1  ->  toen
+1506:    1  ->  tokyo
+1507:    1  ->  ton
+1508:    1  ->  tonen
+1509:    1  ->  toogt
+1510:    1  ->  topbeleid
+1511:    1  ->  tora
+1512:    1  ->  toren
+1513:    1  ->  tortillen
+1514:    1  ->  tos
+1515:    1  ->  tot
+1516:    1  ->  totse
+1517:    1  ->  tourbeursysteem
+1518:    1  ->  trackcontrole
+1519:    1  ->  tragisch
+1520:    1  ->  trans-siberië-express
+1521:    1  ->  trapezen
+1522:    1  ->  treedt
+1523:    1  ->  treinvertraging
+1524:    1  ->  trekken
+1525:    1  ->  trekkerrugzak
+1526:    1  ->  tremen
+1527:    1  ->  trepsporen
+1528:    1  ->  treuren
+1529:    1  ->  troep'
+1530:    1  ->  trollspace
+1531:    1  ->  trommel
+1532:    1  ->  tsunamis
+1533:    1  ->  tue
+1534:    1  ->  tuin
+1535:    1  ->  tundra
+1536:    1  ->  turrenhout
+1537:    1  ->  tv
+1538:    1  ->  twaalflazer
+1539:    1  ->  tweederde
+1540:    1  ->  tweehonderd
+1541:    1  ->  twijfelden
+1542:    1  ->  twillingen
+1543:    1  ->  typt
+1544:    1  ->  uil
+1545:    1  ->  uitbasting
+1546:    1  ->  uiteindelijk
+1547:    1  ->  uiteindelijke
+1548:    1  ->  uitgaan
+1549:    1  ->  uitgang
+1550:    1  ->  uitgaven
+1551:    1  ->  uitgavenposten
+1552:    1  ->  uitgegroeid
+1553:    1  ->  uitgehouden
+1554:    1  ->  uitgerold
+1555:    1  ->  uitgestild
+1556:    1  ->  uitgeweest
+1557:    1  ->  uitgummen
+1558:    1  ->  uitsluiten
+1559:    1  ->  uitzichten
+1560:    1  ->  urologica
+1561:    1  ->  uto
+1562:    1  ->  uur
+1563:    1  ->  uurauto
+1564:    1  ->  vacuums
+1565:    1  ->  vader-zoon-relatie
+1566:    1  ->  valkens
+1567:    1  ->  valt
+1568:    1  ->  vanten
+1569:    1  ->  vanuit
+1570:    1  ->  varia-onderdeel
+1571:    1  ->  varoo's
+1572:    1  ->  vastgestelde
+1573:    1  ->  vastgevest
+1574:    1  ->  vectoriaans
+1575:    1  ->  veene
+1576:    1  ->  veerlawaai
+1577:    1  ->  veerpunt
+1578:    1  ->  veertien
+1579:    1  ->  veldje
+1580:    1  ->  verandert
+1581:    1  ->  verantwoordiging
+1582:    1  ->  verbanden
+1583:    1  ->  verbeelding
+1584:    1  ->  verbrandingsodens
+1585:    1  ->  verbrandt
+1586:    1  ->  verbreid
+1587:    1  ->  verdeeld
+1588:    1  ->  verdeelen
+1589:    1  ->  verder
+1590:    1  ->  verdergaan
+1591:    1  ->  verdient
+1592:    1  ->  verdieping
+1593:    1  ->  verdomme
+1594:    1  ->  verdraagd
+1595:    1  ->  verdrag
+1596:    1  ->  verdragingen
+1597:    1  ->  verduwen
+1598:    1  ->  vereideld
+1599:    1  ->  vergeefd
+1600:    1  ->  vergetenachtig
+1601:    1  ->  vergild
+1602:    1  ->  vergoedingen
+1603:    1  ->  vergroten
+1604:    1  ->  verhaalst
+1605:    1  ->  verhoorteling
+1606:    1  ->  verken
+1607:    1  ->  verklaring
+1608:    1  ->  verkleund
+1609:    1  ->  verklumd
+1610:    1  ->  verkoopsactiviteiten
+1611:    1  ->  verlichtte
+1612:    1  ->  verloven
+1613:    1  ->  vermogen
+1614:    1  ->  vermolde
+1615:    1  ->  vermond
+1616:    1  ->  verneeld
+1617:    1  ->  vernieuwing
+1618:    1  ->  verontwaardigingen
+1619:    1  ->  veroopt
+1620:    1  ->  veroordelen
+1621:    1  ->  verordeningen
+1622:    1  ->  verrast
+1623:    1  ->  verscherden
+1624:    1  ->  versnelling
+1625:    1  ->  verspeld
+1626:    1  ->  verspestte
+1627:    1  ->  verspreidden
+1628:    1  ->  versterkers
+1629:    1  ->  verteld
+1630:    1  ->  vertelde
+1631:    1  ->  vertelt
+1632:    1  ->  vertrokken
+1633:    1  ->  vertronken
+1634:    1  ->  vertuigen
+1635:    1  ->  vervalse
+1636:    1  ->  verveidigde
+1637:    1  ->  verveilen
+1638:    1  ->  verveiler
+1639:    1  ->  vervoersmaatschappij
+1640:    1  ->  vervulling
+1641:    1  ->  verwarmd
+1642:    1  ->  verwederen
+1643:    1  ->  verzaagd
+1644:    1  ->  verzitten
+1645:    1  ->  vieren
+1646:    1  ->  vissen
+1647:    1  ->  vlammbaar
+1648:    1  ->  vlekken
+1649:    1  ->  vliegtuig
+1650:    1  ->  vliegtuigschip
+1651:    1  ->  vliestekentje
+1652:    1  ->  vloed
+1653:    1  ->  vlooi
+1654:    1  ->  vluchtelboek
+1655:    1  ->  voedsel
+1656:    1  ->  voerden
+1657:    1  ->  voldoende
+1658:    1  ->  volgens
+1659:    1  ->  volgt
+1660:    1  ->  volksveilige
+1661:    1  ->  volkswagen-volvo
+1662:    1  ->  volledig
+1663:    1  ->  volledige
+1664:    1  ->  vond
+1665:    1  ->  vonden
+1666:    1  ->  vooraf
+1667:    1  ->  voorbaardig
+1668:    1  ->  voorbeeldactie
+1669:    1  ->  voorbereide
+1670:    1  ->  voorbereiding
+1671:    1  ->  voorbroedsmiddelen
+1672:    1  ->  voorgang
+1673:    1  ->  voorlichtende
+1674:    1  ->  voortmaken
+1675:    1  ->  voortzitterschap
+1676:    1  ->  vooruitkijken
+1677:    1  ->  vooruitzicht
+1678:    1  ->  voorvachters
+1679:    1  ->  voorwaar
+1680:    1  ->  voorwaarden
+1681:    1  ->  voorzetten
+1682:    1  ->  voorzichtig
+1683:    1  ->  voorzitter
+1684:    1  ->  vorige
+1685:    1  ->  vorkens
+1686:    1  ->  vorm
+1687:    1  ->  vormde
+1688:    1  ->  vouwvieter
+1689:    1  ->  vr
+1690:    1  ->  vraag
+1691:    1  ->  vraaguur
+1692:    1  ->  vrachtmeel
+1693:    1  ->  vredeheersje
+1694:    1  ->  vredigheidstelsel
+1695:    1  ->  vreugdedanciën
+1696:    1  ->  vriegel
+1697:    1  ->  vrienden
+1698:    1  ->  vrij
+1699:    1  ->  vrijerlijk
+1700:    1  ->  vrijgezel
+1701:    1  ->  vrijheid
+1702:    1  ->  vrijnemen
+1703:    1  ->  vrouwen-echtenotes
+1704:    1  ->  vrouwenpoging
+1705:    1  ->  vulden
+1706:    1  ->  vuren
+1707:    1  ->  vurgen
+1708:    1  ->  vuur
+1709:    1  ->  waan
+1710:    1  ->  waarnemers
+1711:    1  ->  wadden-eilanden
+1712:    1  ->  waden
+1713:    1  ->  wafelijster
+1714:    1  ->  wajenberg
+1715:    1  ->  wal
+1716:    1  ->  wand
+1717:    1  ->  want
+1718:    1  ->  wapensgeweld
+1719:    1  ->  ware
+1720:    1  ->  warmden
+1721:    1  ->  warsaw
+1722:    1  ->  was
+1723:    1  ->  wasband
+1724:    1  ->  waspak
+1725:    1  ->  wasser
+1726:    1  ->  waterstafjes
+1727:    1  ->  watertand
+1728:    1  ->  watertruk
+1729:    1  ->  waven
+1730:    1  ->  wavens
+1731:    1  ->  wederreikende
+1732:    1  ->  wee
+1733:    1  ->  weert
+1734:    1  ->  weg
+1735:    1  ->  weg-ebben
+1736:    1  ->  wegbams
+1737:    1  ->  weigingsregeling
+1738:    1  ->  weinigen
+1739:    1  ->  weleens
+1740:    1  ->  welkomen
+1741:    1  ->  werd
+1742:    1  ->  wereld
+1743:    1  ->  wereldboel
+1744:    1  ->  wereldlanden
+1745:    1  ->  wereldse
+1746:    1  ->  wereldstaten
+1747:    1  ->  werfgrondste
+1748:    1  ->  werk
+1749:    1  ->  werkdruk
+1750:    1  ->  werkgelegenheidsstop
+1751:    1  ->  werkgeversbelang
+1752:    1  ->  werkingtreding
+1753:    1  ->  werkloven
+1754:    1  ->  werknemer
+1755:    1  ->  werkt
+1756:    1  ->  werkte
+1757:    1  ->  wert
+1758:    1  ->  weten
+1759:    1  ->  wetenschappelijke
+1760:    1  ->  wetgevend
+1761:    1  ->  wieke
+1762:    1  ->  wijl
+1763:    1  ->  wijzigingen
+1764:    1  ->  willen
+1765:    1  ->  win-win-strategie
+1766:    1  ->  winstbejaag
+1767:    1  ->  winsten
+1768:    1  ->  woen
+1769:    1  ->  wonden
+1770:    1  ->  woord
+1771:    1  ->  woordenschatten
+1772:    1  ->  word
+1773:    1  ->  worden
+1774:    1  ->  worsbeek
+1775:    1  ->  wrede-dictator
+1776:    1  ->  wreet
+1777:    1  ->  wél
+1778:    1  ->  yipsilon
+1779:    1  ->  yoga-lerares
+1780:    1  ->  zaak
+1781:    1  ->  zakrekenmachientjes
+1782:    1  ->  zand
+1783:    1  ->  zee
+1784:    1  ->  zeeengte
+1785:    1  ->  zeemerminnen
+1786:    1  ->  zeepad
+1787:    1  ->  zeepel
+1788:    1  ->  zeg
+1789:    1  ->  zet
+1790:    1  ->  zetten
+1791:    1  ->  zevedwenner
+1792:    1  ->  zewel
+1793:    1  ->  zijde
+1794:    1  ->  zijhond
+1795:    1  ->  zil
+1796:    1  ->  zin
+1797:    1  ->  zinvolledig
+1798:    1  ->  zit
+1799:    1  ->  zitsgevlieg
+1800:    1  ->  zo'n
+1801:    1  ->  zochten
+1802:    1  ->  zodat
+1803:    1  ->  zoek
+1804:    1  ->  zoende
+1805:    1  ->  zoer
+1806:    1  ->  zolde
+1807:    1  ->  zolder
+1808:    1  ->  zolderen
+1809:    1  ->  zolven
+1810:    1  ->  zondagrijder
+1811:    1  ->  zonne-energie-sector
+1812:    1  ->  zonnebrandcreme
+1813:    1  ->  zouden
+1814:    1  ->  zoutwater
+1815:    1  ->  zuid
+1816:    1  ->  zul
+1817:    1  ->  zwaaiden
+1818:    1  ->  zwarm
+1819:    1  ->  zwatwerken
+1820:    1  ->  zwee
+1821:    1  ->  zwijgen
+1822:    1  ->  éénmaal
+1823:    1  ->  π
+     -------
+      2661
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

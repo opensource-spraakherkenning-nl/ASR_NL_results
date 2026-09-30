@@ -44,5 +44,19 @@ The following results were achieved as part of a Ph.D study, funded by the first
 
 ### [Results](./UT-data-selection/results.md)
 
+## Vlotspraak's results
+
+*Vlotspraak = a proprietary, on-premise commercial Dutch ASR model, developed by CodeSpark Tech*
+
+The following results were produced by CodeSpark Tech and scored with the official [ASR_NL_benchmark](https://github.com/opensource-spraakherkenning-nl/ASR_NL_benchmark) Docker tool (text normalization + NIST sclite). The model weights are commercial and not publicly released, but the full sclite output is committed so the scoring itself is inspectable.
+
+### [Common Voice (nl) and Medicijnjournaal (HoMed) Benchmarks](./Vlotspraak/wer.md)
+
+Common Voice 17.0 NL test: **3.5% WER** on the full 11,266-clip set. A same-model faster-whisper-large-v3 control on the identical clips reproduces the 4.3% figure reported for that model on [this board](./OH-SMArt/CommonVoice/cv.md), and a train-on-test contamination check is documented (0.08% overlap).
+
+Held-out medical audio, no medical data in training: **11.4% WER** on 30 of the 35 HoMed Medicijnjournaal episodes (the audio we could retrieve). This is a different subset than the 35-file RU evaluation, so it is indicative rather than a like-for-like comparison - see the page for the full caveat.
+
+### [Environment setup](./Vlotspraak/environment.md)
+
 ## Contributions
 Feel free to click the link at the top that leads you to the GitHub repository of this website. You may add changes if you want by forking the repository, making changes on your fork, then opening a pull request on the source repository.
