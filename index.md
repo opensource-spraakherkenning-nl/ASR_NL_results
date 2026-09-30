@@ -38,13 +38,7 @@ The following results were achieved during the same ([OH-SMArt](https://www.uva.
 
 ### [Results for Conversational Telephone Speech](./NISV/cts_nl/intro_cts_nl.md)
 
-## Data selection for ASR adaptation
-
-The following results were achieved as part of a Ph.D study, funded by the first phase of the HOSAN project (2025) and the MediSpeech project (2025-2028), and are reported by University of Twente:
-
-### [Results](./UT-data-selection/results.md)
-
-## Vlotspraak's results
+## Vlotspraak's Benchmark
 
 *Vlotspraak = a proprietary, on-premise commercial Dutch ASR model, developed by CodeSpark Tech*
 
